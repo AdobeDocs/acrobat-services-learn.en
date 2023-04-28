@@ -12,7 +12,7 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
 
 ![Acrobat Services Banner](assets/acrobatserviceshero.jpg)
 
-Adobe Acrobat Services has five main APIs: the Adobe PDF Services API, the Adobe PDF Embed API, the Adobe Document Generation API, the Adobe PDF Extract API and Adobe PDF Accessibility Auto-Tag API. The latter two APIs and their SDKs are bundled into Adobe PDF Services API as part of a paid offering. PDF Embed API is a free offering. These APIs automate the generation, manipulation, and transformation of document content via a set of modern cloud-based web services. They help you deliver simpler, faster, and branded experiences so that you control user interaction with your documents, streamline PDF workflows and promote usage and retention. These tutorials help you get up-to-speed delivering simpler, faster, branded experiences with the Adobe Acrobat Services APIs.
+Adobe Acrobat Services has five main APIs: the Adobe PDF Services API, the Adobe PDF Embed API, the Adobe Document Generation API, the Adobe PDF Extract API and Adobe PDF Accessibility Auto-Tag API. The latter two APIs and their SDKs are bundled into Adobe PDF Services API as part of a paid offering. PDF Embed API is a free offering. These APIs automate the generation, manipulation, and transformation of document content via a set of modern cloud-based web services. They help you deliver simpler, faster, and branded experiences so that you control user interaction with your documents, streamline PDF workflows and promote usage and retention. These tutorials help you get up-to-speed delivering simpler, faster, branded experiences with the Adobe Acrobat Services APIs.
 
 <table style="table-layout:fixed">
 <tr>
