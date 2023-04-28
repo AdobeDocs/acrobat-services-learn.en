@@ -6,9 +6,8 @@ role: Developer
 skill: Beginner, Intermediate, Experienced
 thumbnail: KT-7463.jpg
 kt: 7463.jpg
-exl-id: c73feb77-4057-42fd-831c-a5004c7637c1,e3862c3b-8bb5-4f95-93f0-dd3d4e9e0afa
+exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
 ---
-
 # Adobe Acrobat Services API tutorials
 
 ![Acrobat Services Banner](assets/acrobatserviceshero.jpg)

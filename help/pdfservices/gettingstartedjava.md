@@ -6,9 +6,8 @@ role: Developer
 level: Beginner
 thumbnail: KT-6676.jpg
 kt: 6676
-exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25,5c6301ae-469a-480b-b49d-3c2dcae41bfa
+exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25
 ---
-
 # Getting started with Adobe PDF Services API and Java
 
 ![Create PDF Hero Image](assets/GettingStartedJava_hero.jpg)

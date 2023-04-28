@@ -6,9 +6,8 @@ role: Developer
 level: Beginner
 thumbnail: KT-6673.jpg
 kt: 6673
-exl-id: 1bd01bb8-ca5e-4a4a-8646-3d97113e2c51,c2942b2f-5cde-485a-b3b7-ab83000165fb
+exl-id: 1bd01bb8-ca5e-4a4a-8646-3d97113e2c51
 ---
-
 # Create a PDF from HTML or MS Office in a few minutes with PDF Services API and Node.js
 
 ![Create PDF Hero Image](assets/createpdffromhtml_hero.jpg)
