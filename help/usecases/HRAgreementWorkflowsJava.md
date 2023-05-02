@@ -1,6 +1,6 @@
 ---
 title: HR Document Workflows in Java
-description: Adobe Acrobat Services APIs easily incorporate PDF capabilities into your HR web applications
+description: "[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your HR web applications"
 type: Tutorial
 role: Developer
 level: Beginner
@@ -595,4 +595,4 @@ As you can see, by leveraging the quickstarts, you can implement a simple web fo
 
 Taking the example further, you can create forms recipients can sign remotely and securely. When you require multiple signatures, you can even automatically route forms to a series of people in a workflow. Your employee onboarding is improved and your HR department will love you.
 
-Check out [Adobe Acrobat Services](https://www.adobe.io/apis/documentcloud/dcsdk/) to add a multitude of PDF capabilities to your applications today.
+Check out [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) to add a multitude of PDF capabilities to your applications today.

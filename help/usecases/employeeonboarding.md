@@ -1,6 +1,6 @@
 ---
 title: Modernizing Employee Onboarding
-description: Learn how to modernize employee onboarding with Adobe Acrobat Services APIs
+description: Learn how to modernize employee onboarding with [!DNL Adobe Acrobat Services] APIs
 role: Developer
 level: Intermediate
 type: Tutorial
@@ -12,17 +12,17 @@ exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
 
 ![Use Case Hero Banner](assets/usecaseemployeeonboardinghero.jpg)
 
-In a large organization, employee onboarding can be a large, and slow, process. Typically there is a mix of customized documentation along with boilerplate material that must be presented and signed by a new employee. This mix of customized and boilerplate material requires multiple steps--taking valuable time away from people involved in the process. Adobe Acrobat Services and Acrobat Sign can modernize and automate this approach, freeing up your HR personal for more important tasks. Let's look at how this is achieved.
+In a large organization, employee onboarding can be a large, and slow, process. Typically there is a mix of customized documentation along with boilerplate material that must be presented and signed by a new employee. This mix of customized and boilerplate material requires multiple steps--taking valuable time away from people involved in the process. [!DNL Adobe Acrobat Services] and Acrobat Sign can modernize and automate this approach, freeing up your HR personal for more important tasks. Let's look at how this is achieved.
 
-## What are Adobe Acrobat Services?
+## What are [!DNL Adobe Acrobat Services]?
 
-[Adobe Acrobat Services](https://developer.adobe.com/document-services/homepage) are a set of APIs related to working with documents (and not just PDFs). Broadly speaking, this suite of services falls into three main categories:
+[[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage) are a set of APIs related to working with documents (and not just PDFs). Broadly speaking, this suite of services falls into three main categories:
 
 * First are the [PDF Services](https://developer.adobe.com/document-services/apis/pdf-services/) set of tools. These are "utility" methods for working with PDFs and other documents. The services include things like converting to and from PDF, performing OCR and optimization, merging and splitting PDFs, and so forth. It's the toolbox of document processing features.
 * [PDF Extract API](https://developer.adobe.com/document-services/apis/pdf-extract/) uses powerful AI/ML techniques to analyze a PDF and return an incredible amount of detail about the contents. This includes the text, styling and positional information, and can also return tabular data in CSV/XLS format as well as retrieve images. 
 * Lastly, [Document Generation API](https://developer.adobe.com/document-services/apis/doc-generation/) lets developers use Microsoft Word as a "template", mix with their data (from any source), and generate dynamic personalized documents (PDF and Word). 
 
-Developers can [sign up](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) and try all of these services with a free trial. The Acrobat Services platform uses a REST-based API but also supports SDKs for Node, Java, .NET, and Python (Extract only at this time).
+Developers can [sign up](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) and try all of these services with a free trial. The [!DNL Acrobat Services] platform uses a REST-based API but also supports SDKs for Node, Java, .NET, and Python (Extract only at this time).
 
 While not an API, developers can also use the free [PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/), which provides a consistent and flexible viewing experience of documents with your web pages.
 
@@ -30,7 +30,7 @@ While not an API, developers can also use the free [PDF Embed API](https://devel
 
 [Acrobat Sign](https://www.adobe.com/sign.html) is the world leader in electronic signature services. You can send documents for signature  using various different workflows--including multiple signatures. Acrobat Sign also supports workflows that require signatures and additional information. All of these capabilities are supported by a powerful dashboard with a flexible authoring system. 
 
-As with Acrobat Services, Acrobat Sign has a [free trial](https://www.adobe.com/sign.html#sign_free_trial) that lets developers test the signing process both via the dashboard and with an easy-to-use REST-based API. 
+As with [!DNL Acrobat Services], Acrobat Sign has a [free trial](https://www.adobe.com/sign.html#sign_free_trial) that lets developers test the signing process both via the dashboard and with an easy-to-use REST-based API. 
 
 ## An onboarding scenario
 
@@ -199,6 +199,6 @@ The template can be uploaded to the Acrobat Sign dashboard and then used for new
 
 ## Experience it yourself
 
-Everything described in this article can be tested right now. The Adobe Acrobat Services API [free trial](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) currently gives you 1,000 free requests over a six-month period. Acrobat Sign's [free trial](https://www.adobe.com/sign.html#sign_free_trial) lets you send watermarked agreements for testing purposes. 
+Everything described in this article can be tested right now. The [!DNL Adobe Acrobat Services] API [free trial](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) currently gives you 1,000 free requests over a six-month period. Acrobat Sign's [free trial](https://www.adobe.com/sign.html#sign_free_trial) lets you send watermarked agreements for testing purposes. 
 
 Have questions? The [support forum](https://community.adobe.com/t5/document-services-apis/ct-p/ct-Document-Cloud-SDK) is monitored by Adobe developers and support folks every day. FInally, for more inspiration, be sure to catch the next [Paper Clips](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) episode. There are regular live meetings with news, demos, and talks with customers.

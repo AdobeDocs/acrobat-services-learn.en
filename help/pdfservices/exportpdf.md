@@ -92,7 +92,7 @@ To another format.
 
 ## Resources and next steps
 
-* For additional help and support, visit the [Adobe Acrobat Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the [[!DNL Adobe Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
 * PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 

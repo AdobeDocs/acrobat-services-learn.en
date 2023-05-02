@@ -544,7 +544,7 @@ You can send this data to [Adobe Analytics](https://www.adobe.io/apis/documentcl
 
 ## Next steps
 
-Acrobat Services APIs help developers easily solve digital publishing challenges using a PDF-centric workflow. You've seen how to create a sample Node web app to display a collection of whitepapers. Then, acquire a [free API credential](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) and built restricted access to the whitepapers, which can be displayed in one of four [embed modes](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
+[!DNL Acrobat Services] APIs help developers easily solve digital publishing challenges using a PDF-centric workflow. You've seen how to create a sample Node web app to display a collection of whitepapers. Then, acquire a [free API credential](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) and built restricted access to the whitepapers, which can be displayed in one of four [embed modes](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
 
 Putting this workflow together helps the [hypothetical marketer](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) gather lead contact information in exchange for whitepaper downloads and view statistics on who is interacting with the PDFs. You can incorporate these features into your website to drive and monitor user engagement.
 
@@ -552,4 +552,4 @@ If you're an Angular or React developer, you might enjoy trying [additional samp
 
 Adobe enables you to build your end-to-end customer experience with innovative solutions. Check out [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk) for free. To explore what else you can do, try Adobe PDF Services API with [pay-as-you-gopr](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[icing](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
 
-[Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with Adobe Acrobat Services APIs today.
+[Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with [!DNL Adobe Acrobat Services] APIs today.

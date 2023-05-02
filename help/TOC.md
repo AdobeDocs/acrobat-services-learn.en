@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Acrobat Services
-breadcrumb-title: Acrobat Services
-user-guide-description: Learn more about Adobe Acrobat Services
-solution: Acrobat Services, Document Services
+user-guide-title: "[!DNL Adobe Acrobat Services]"
+breadcrumb-title: "[!DNL Acrobat Services]"
+user-guide-description: Learn more about [!DNL Adobe Acrobat Services]
+solution: [!DNL Acrobat Services], Document Services
 ---
 
-# Adobe Acrobat Services API {#tutorials}
+# [!DNL Adobe Acrobat Services] API {#tutorials}
 
 + [Overview](overview.md)
 + PDF Services API {#pdfservices}

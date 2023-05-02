@@ -18,7 +18,7 @@ The challenge of creating digital archives to retrieve information for editing o
 
 ## What you can learn
 
-This hands-on tutorial explores how Adobe Acrobat Services APIs' features and can easily be used to archive and digitize documents. You explore these features by building an Express NodeJS application, then integrating Acrobat Services APIs for archiving, digitization, and document transformation.
+This hands-on tutorial explores how [!DNL Adobe Acrobat Services] APIs' features and can easily be used to archive and digitize documents. You explore these features by building an Express NodeJS application, then integrating [!DNL Acrobat Services] APIs for archiving, digitization, and document transformation.
 
 To follow, you need [Node.js](https://nodejs.org/) installed and a basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp).
 
@@ -116,9 +116,9 @@ Ensure that the content of your package.json file is similar to this code snippe
  
 These code snippets install the application dependencies, including the Handlebars templating engine for the view. In the scripts tag, you configure the application's runtime parameters.
 
-## Integrating Acrobat Services APIs
+## Integrating [!DNL Acrobat Services] APIs
 
-Acrobat Services includes three APIs:
+[!DNL Acrobat Services] includes three APIs:
 
 * Adobe PDF Services API
 
@@ -138,7 +138,7 @@ Now, install [PDF Services Node.js SDK](https://www.npmjs.com/package/@adobe/doc
 
 ## Creating a PDF
 
-Acrobat Services supports the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) like .txt, .rtf, .bmp, .jpg, .gif, .tiff, and .png.
+[!DNL Acrobat Services] supports the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) like .txt, .rtf, .bmp, .jpg, .gif, .tiff, and .png.
 
 To create PDF documents from the supported file formats, use this form to upload the documents. You can access the HTML and CSS files for the form on [GitHub](https://github.com/agavitalis/AdobeDocumentServicesAPIs.git).
 
@@ -212,7 +212,7 @@ The transformed PDF documents are saved in the output directory, while the origi
 
 ## Using text recognition
 
-Optical character recognition (OCR) converts images and scanned documents to searchable files. You can convert Acrobat Services APIs, images, and scanned documents to searchable PDFs. After performing an OCR operation, the file becomes editable and searchable. You can store the contents of the file in a data store for indexing and other uses.
+Optical character recognition (OCR) converts images and scanned documents to searchable files. You can convert [!DNL Acrobat Services] APIs, images, and scanned documents to searchable PDFs. After performing an OCR operation, the file becomes editable and searchable. You can store the contents of the file in a data store for indexing and other uses.
 
 Recall that searching and indexing scanned documents is critical for many organizations where file management and information processing are essential. The OCR feature eliminates these challenges.
 
@@ -310,7 +310,7 @@ console.log('Exception encountered while executing operation', err);
 module.exports = { makeOCR, makeOCRPost };
 ```
  
-You need the Acrobat Services Node SDK and the mongoose, pdf-parse, and fs modules and your document model schema. These modules are necessary to save the content of the transformed file to a MongoDB database.
+You need the [!DNL Acrobat Services] Node SDK and the mongoose, pdf-parse, and fs modules and your document model schema. These modules are necessary to save the content of the transformed file to a MongoDB database.
 
 Now create two functions: makeOCR to display the uploaded form and then makeOCRPost for processing the uploaded document. Save the original form to a database, then save the transformed form to the output folder of your application.
 
@@ -415,13 +415,13 @@ res.download(download.link);
  
 ## Next steps
 
-In this hands-on tutorial, you integrated Acrobat Services APIs into a Node.js application and also used the API to implement a document transformation that converts files to PDF. You added an OCR feature that makes pictures and scanned files searchable. Then, you saved the files to a folder so they can be downloaded.
+In this hands-on tutorial, you integrated [!DNL Acrobat Services] APIs into a Node.js application and also used the API to implement a document transformation that converts files to PDF. You added an OCR feature that makes pictures and scanned files searchable. Then, you saved the files to a folder so they can be downloaded.
 
 Next, you added a search feature to search the documents converted to text by OCR. Finally, you implemented a download function to enable easy downloading of those files. Your completed application makes it much easier for a legal company to locate and process specific text.
 
-Using Acrobat Services for document transformation is highly recommended because of its robustness and ease of use compared to other services. You can quickly create an account to start enjoying the features of Acrobat Services APIs for document transformation and management.
+Using [!DNL Acrobat Services] for document transformation is highly recommended because of its robustness and ease of use compared to other services. You can quickly create an account to start enjoying the features of [!DNL Acrobat Services] APIs for document transformation and management.
 
-Now that you have a strong understanding of how to use Acrobat Services APIs, you can further your skills with practice. You can clone the repository used in this tutorial and experiment with some of the skills you just learned. Even better, you can attempt to rebuild this application while exploring the unlimited possibilities of Acrobat Services APIs.
+Now that you have a strong understanding of how to use [!DNL Acrobat Services] APIs, you can further your skills with practice. You can clone the repository used in this tutorial and experiment with some of the skills you just learned. Even better, you can attempt to rebuild this application while exploring the unlimited possibilities of [!DNL Acrobat Services] APIs.
 
-Ready to enable document sharing and review in your own app? Sign up for your [Adobe Acrobat Services](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+Ready to enable document sharing and review in your own app? Sign up for your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 developer account. Enjoy a six-month free trial, then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction as your business grows.

@@ -22,7 +22,7 @@ This hands-on tutorial explains how to create a specialized Microsoft Word NDA t
 
 ## Relevant APIs and resources
 
-With Adobe Acrobat Services, you can generate PDF documents on the fly using dynamic data. Acrobat Services offers a suite of PDF tools, including Adobe Document Generation API to automate [NDA creation](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html).
+With [!DNL Adobe Acrobat Services], you can generate PDF documents on the fly using dynamic data. [!DNL Acrobat Services] offers a suite of PDF tools, including Adobe Document Generation API to automate [NDA creation](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html).
 
 * [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
 
@@ -32,7 +32,7 @@ With Adobe Acrobat Services, you can generate PDF documents on the fly using dyn
 
 * [Project code](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample)
 
-* [Acrobat Services keys](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred)
+* [[!DNL Acrobat Services] keys](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred)
 
 ## Creating the JSON model
 
@@ -166,13 +166,13 @@ res.status(500).render("crash", { error: error });
 
 You can view [the complete sample code](https://github.com/afzaal-ahmad-zeeshan/adobe-docugen-sample) on GitHub.
 
-This code uses a JSON document and the Microsoft Word template in the API call to the Adobe Acrobat Services SDK. In the response, you receive the output and save it to the app's file system. You can forward the generated document to your clients via email or show them a preview inside the browser using the free [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html).
+This code uses a JSON document and the Microsoft Word template in the API call to the [!DNL Adobe Acrobat Services] SDK. In the response, you receive the output and save it to the app's file system. You can forward the generated document to your clients via email or show them a preview inside the browser using the free [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html).
 
 This call creates the following NDA document:
 
 ![Screenshot of the NDA document preview](assets/nda_6.png)
 
-Adobe Acrobat Services APIs insert content to create a PDF document. Without these tools, you might have to write the code to process Office documents and work with raw PDF file formats. With the help of Adobe PDF Services, you can do all of these steps with a single API call.
+[!DNL Adobe Acrobat Services] APIs insert content to create a PDF document. Without these tools, you might have to write the code to process Office documents and work with raw PDF file formats. With the help of Adobe PDF Services, you can do all of these steps with a single API call.
 
 Now use [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html) to request signatures on the NDAs and deliver the final, signed document to all parties. Adobe Sign notifies you [using a Webhook](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/webhooks.md). Listening to this webhook, you can fetch the status of the NDA.
 
@@ -182,5 +182,5 @@ For a deeper explanation of the Adobe Sign process, [consult the documentation](
 
 In this hands-on tutorial, the Adobe Document Generation Tagger wass used to dynamically generate PDF documents using Microsoft Word templates and JSON data files. The add-in helped to [automatically create NDAs](https://www.adobe.io/apis/documentcloud/dcsdk/nda-creation.html) customized for each party, then gather signatures using Sign API.
 
-You can use these techniques to dynamically create your own NDAs or other documents, freeing your team's time to focus on productive work. Explore [Adobe Acrobat Services](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) to find APIs and SDKs for your language and runtime of choice so you can add PDF functions directly to your applications to quickly create PDF documents. [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with a six-month free trial then
+You can use these techniques to dynamically create your own NDAs or other documents, freeing your team's time to focus on productive work. Explore [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) to find APIs and SDKs for your language and runtime of choice so you can add PDF functions directly to your applications to quickly create PDF documents. [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with a six-month free trial then
 [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for only $0.05 per document transaction.

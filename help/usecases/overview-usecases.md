@@ -1,6 +1,6 @@
 ---
-title: Adobe Acrobat Services API Use Cases
-description: Overview page for Adobe Acrobat Services API use cases
+title: "[!DNL Adobe Acrobat Services] API Use Cases"
+description: Overview page for [!DNL Adobe Acrobat Services] API use cases
 type: Tutorial
 role: Developer
 skill: Beginner, Intermediate, Experienced
@@ -8,15 +8,15 @@ thumbnail: KT-8115.jpg
 kt: 8115
 exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
 ---
-# Adobe Acrobat Services API use cases
+# [!DNL Adobe Acrobat Services] API use cases
 
-![Acrobat Services API Use Case Banner](../assets/usecaseshero.jpg)
+![[!DNL Acrobat Services] API Use Case Banner](../assets/usecaseshero.jpg)
 
-## What can the Adobe Acrobat Services APIs do for me?
+## What can the [!DNL Adobe Acrobat Services] APIs do for me?
 
-Learn how the Adobe Acrobat Services APIs can change your business with these hands-on use cases.
+Learn how the [!DNL Adobe Acrobat Services] APIs can change your business with these hands-on use cases.
 
-### Acrobat Services APIs
+### [!DNL Acrobat Services] APIs
 
 <table style="table-layout:fixed">
 <tr>
@@ -153,7 +153,7 @@ Learn how the Adobe Acrobat Services APIs can change your business with these ha
     <div>
     <a href="AgreementWorkflowsNodejs.md"><strong>Agreement workflows in Node.js</strong></a>
     </div>
-    <em>Adobe Acrobat Services APIs easily incorporate PDF capabilities into your web applications</em>
+    <em>[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your web applications</em>
     <br>
   </td>
   <td>
@@ -163,7 +163,7 @@ Learn how the Adobe Acrobat Services APIs can change your business with these ha
     <div>
     <a href="HRAgreementWorkflowsJava.md"><strong>HR document workflows in Java</strong></a>
     </div>
-    <em>Adobe Acrobat Services APIs easily incorporate PDF capabilities into your HR web applications</em>
+    <em>[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
   <td>
@@ -173,7 +173,7 @@ Learn how the Adobe Acrobat Services APIs can change your business with these ha
     <div>
     <a href="FinanceWorkflowsJava.md"><strong>Managing financial document workflows in Java</strong></a>
     </div>
-    <em>Adobe Acrobat Services provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
+    <em>[!DNL Adobe Acrobat Services] provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
     <br>
   </td>
   <td>

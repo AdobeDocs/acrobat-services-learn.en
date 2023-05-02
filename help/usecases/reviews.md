@@ -14,7 +14,7 @@ exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
 
 Remote cross-team collaboration became necessary for many companies during the COVID-19 pandemic, [sharing and reviewing digital documents](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) presents a series of challenges for teams and cross-functional resources.
 
-These challenges include sharing documents in different file formats, effectively reviewing and commenting on the content, and synchronizing with the most recent edits. Adobe Acrobat Services APIs are designed to enable application developers to solve these challenges for their users.
+These challenges include sharing documents in different file formats, effectively reviewing and commenting on the content, and synchronizing with the most recent edits. [!DNL Adobe Acrobat Services] APIs are designed to enable application developers to solve these challenges for their users.
 
 ## What you can learn
 
@@ -88,7 +88,7 @@ Your starting code should look like this:
   } );
 ```
 
-Now you are ready to work with Acrobat Services APIs.
+Now you are ready to work with [!DNL Acrobat Services] APIs.
 
 ## Converting a file to PDF
 
@@ -260,7 +260,7 @@ Create a web page called "draft.html" and add a div element on the page for the 
   <div id="adobe-dc-view"></div>
 ```
 
-Include the Acrobat Services library:
+Include the [!DNL Acrobat Services] library:
 
 ```
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -439,8 +439,8 @@ Finally, add a link in the main index.html web page to this /finalize endpoint. 
 
 ## Next steps
 
-This hands-on tutorial showed how Acrobat Services APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
+This hands-on tutorial showed how [!DNL Acrobat Services] APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
 
 You can use these techniques to enable collaboration in your app or explore [PDF Services Node SDK Samples](https://github.com/adobe/pdftools-node-sdk-samples) and [PDF Embed API Samples](https://github.com/adobe/pdf-embed-api-samples) on GitHub for inspiration on how else to use Adobe's APIs.
 
-Ready to enable document sharing and review in your own app? Sign up your [Adobe Acrobat Services](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) developer account. Access Adobe PDF Embed for free, and enjoy a six-month free trial of the other APIs. After your trial, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction as your business grows.
+Ready to enable document sharing and review in your own app? Sign up your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) developer account. Access Adobe PDF Embed for free, and enjoy a six-month free trial of the other APIs. After your trial, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction as your business grows.

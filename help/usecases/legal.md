@@ -18,7 +18,7 @@ Many solutions offer some document generation, but cannot customize data inputs 
 
 ## What you can learn
 
-In this hands-on tutorial, explore the features of [Adobe Acrobat Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) in the generation of custom input fields in documents. Also, explore how to easily convert these generated documents to a protected portable document format (PDF) to prevent data manipulation.
+In this hands-on tutorial, explore the features of [[!DNL Adobe Acrobat Services] APIs](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) in the generation of custom input fields in documents. Also, explore how to easily convert these generated documents to a protected portable document format (PDF) to prevent data manipulation.
 
 This tutorial involves a bit of programming when exploring the conversion of contracts to PDFs. To follow along effectively, [Microsoft Word](https://www.microsoft.com/en-us/download/office.aspx) and [Node.js](https://nodejs.org/) should be installed on your PC. A basic understanding of Node.js and [ES6 syntax](https://www.w3schools.com/js/js_es6.asp) is also recommended.
 
@@ -88,7 +88,7 @@ For calculations, select either Arithmetic or Aggregation, then include the rele
 
 Also, legal contracts often require signatures of the involved parties. You can insert an e-signature using Adobe Sign Text tags found right below the "Numerical calculations" section. To include the e-signature, you must specify the number of recipients, select **Signer**, and the field type from the drop-down lists, accordingly. Once done, click **Insert Adobe Sign Text Tag** to finalize the process.
 
-To ensure data integrity, save legal documents in a protected format. With Acrobat Services APIs, you can quickly transform documents into PDF format. You can build a simple express Node.js application, integrate Document Generation API into it, and using this simple application to convert your tagged document from Word to PDF format.
+To ensure data integrity, save legal documents in a protected format. With [!DNL Acrobat Services] APIs, you can quickly transform documents into PDF format. You can build a simple express Node.js application, integrate Document Generation API into it, and using this simple application to convert your tagged document from Word to PDF format.
 
 ## Project setup
 
@@ -168,11 +168,11 @@ After installing the packages, ensure that the content of your package.json file
 
 In these code snippets, you installed the application dependencies, including the Handlebars templating engine for the view.
 
-THe primary focus in this tutorial is on using [Acrobat Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/) to convert documents to PDF. Hence, there is not a step-by-step process of how to build this Node.js application. However, you can retrieve the complete working Node.js application code on [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git).
+THe primary focus in this tutorial is on using [[!DNL Acrobat Services] APIs](https://www.adobe.io/apis/documentcloud/dcsdk/) to convert documents to PDF. Hence, there is not a step-by-step process of how to build this Node.js application. However, you can retrieve the complete working Node.js application code on [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git).
 
-## Integrating Adobe Acrobat Services APIs into a Node.js application
+## Integrating [!DNL Adobe Acrobat Services] APIs into a Node.js application
 
-Adobe Acrobat Services APIs are cloud-based reliable services designed for the seamless manipulation of documents. It offers three APIs:
+[!DNL Adobe Acrobat Services] APIs are cloud-based reliable services designed for the seamless manipulation of documents. It offers three APIs:
 
 * Adobe PDF Services API
 
@@ -180,27 +180,27 @@ Adobe Acrobat Services APIs are cloud-based reliable services designed for the s
 
 * Adobe Document Generation API
 
-You require credentials to use Acrobat Services APIs (different from your PDF Embed API credentials). If you don't have valid credentials, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow as illustrated in the screen capture below. Enjoy a [free six-month trial then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), just $0.05 per document transaction.
+You require credentials to use [!DNL Acrobat Services] APIs (different from your PDF Embed API credentials). If you don't have valid credentials, [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow as illustrated in the screen capture below. Enjoy a [free six-month trial then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), just $0.05 per document transaction.
 
 ![Screenshot of creating new credentials](assets/legal_6.png)
 
-Once the signup process is completed, a code sample automatically downloads to your PC to help you start. You can extract this code sample and follow along. Don't forget to copy the pdftools-api-credentials.json and private.key files from the extracted code sample to the Node.js project's root directory. The credentials are required before you can access Acrobat Services API endpoints. You can also download SDK samples with your personalized credentials so you don't have to update the key in the sample code.
+Once the signup process is completed, a code sample automatically downloads to your PC to help you start. You can extract this code sample and follow along. Don't forget to copy the pdftools-api-credentials.json and private.key files from the extracted code sample to the Node.js project's root directory. The credentials are required before you can access [!DNL Acrobat Services] API endpoints. You can also download SDK samples with your personalized credentials so you don't have to update the key in the sample code.
 
-Now, install Adobe PDF Services Node SDK by running the ```npm install \--save @adobe/documentservices-pdftools-node-sdk``` command using the terminal in the root directory of your application. When successfully installed, you can use Acrobat Services APIs to manipulate documents in your application.
+Now, install Adobe PDF Services Node SDK by running the ```npm install \--save @adobe/documentservices-pdftools-node-sdk``` command using the terminal in the root directory of your application. When successfully installed, you can use [!DNL Acrobat Services] APIs to manipulate documents in your application.
 
 ## Creating a PDF document
 
-Acrobat Services APIs support the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) like .txt, .rtf, .bmp, .jpeg,  gif, .tiff, and .png. You can easily convert legal contracts from any other file format to PDF using Acrobat Service APIs.
+[!DNL Acrobat Services] APIs support the creation of PDFs from Microsoft Office documents (Word, Excel, and PowerPoint) and other [supported file formats](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#create-a-pdf) like .txt, .rtf, .bmp, .jpeg,  gif, .tiff, and .png. You can easily convert legal contracts from any other file format to PDF using Acrobat Service APIs.
 
 Adobe Document Generation API enables conversion to a Word file or PDF. For example, you can use a Word template to generate a contract, including redlining to mark edited text. Then, convert it to a PDF and use PDF Services API to protect the document with a password, send it for signature, and more.
 
-To implement the creation of PDF documents from the available supported file formats, there is a form to upload a document for transformation using Acrobat Services.
+To implement the creation of PDF documents from the available supported file formats, there is a form to upload a document for transformation using [!DNL Acrobat Services].
 
 The designed upload form appears in the screen capture below, and you can access the HTML and CSS files on [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git).
 
 ![Screenshot of form upload](assets/legal_7.png)
 
-Now, add the following code snippets to the controllers /createPDFController.js file. This code retrieves the uploaded document and transforms it into PDF. Acrobat Services saves the original uploaded file and the transformed file in different folders.
+Now, add the following code snippets to the controllers /createPDFController.js file. This code retrieves the uploaded document and transforms it into PDF. [!DNL Acrobat Services] saves the original uploaded file and the transformed file in different folders.
 
 ```
 ###controllers/createPDFController.js
@@ -269,7 +269,7 @@ console.log('Exception encountered while executing operation', err);
 module.exports = { createPDF, createPDFPost };
 ```
  
-The above code snippet required the document model and Acrobat Services Node SDK that you earlier installed. There are two functions:
+The above code snippet required the document model and [!DNL Acrobat Services] Node SDK that you earlier installed. There are two functions:
 
 * createPDF displays the upload document form.
 
@@ -277,7 +277,7 @@ The above code snippet required the document model and Acrobat Services Node SDK
 
 The functions save the transformed PDF documents in the views/output directory, where you can download them to your PC.
 
-You can also preview the transformed PDF file using the free PDF Embed API. Using PDF Embed API, you can generate Adobe credentials [here](https://www.adobe.com/go/dcsdks_credentials) (different from your Acrobat Services credentials) and register allowed domains to access the API. Follow the process and generate PDF Embed API credentials for your application. You can also check out the demonstration [here](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf), from which you can easily generate codes to get you started quickly.
+You can also preview the transformed PDF file using the free PDF Embed API. Using PDF Embed API, you can generate Adobe credentials [here](https://www.adobe.com/go/dcsdks_credentials) (different from your [!DNL Acrobat Services] credentials) and register allowed domains to access the API. Follow the process and generate PDF Embed API credentials for your application. You can also check out the demonstration [here](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf), from which you can easily generate codes to get you started quickly.
 
 Back to the application, create list.hbs and preview.hbs files in the view folder of your application and paste the code snippet below into the list.hbs and preview.hbs files, respectively.
  
@@ -343,7 +343,7 @@ aria-hidden="true"></i> Preview</a>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Adobe Acrobat Services PDF Embed API</title>
+<title>[!DNL Adobe Acrobat Services] PDF Embed API</title>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta id="viewport" name="viewport" content="width=device-width,
@@ -408,17 +408,17 @@ res.download(document.url);
 module.exports = {listFiles, previewPDF, downloadPDF };
 ```
  
-In the controller file above, there are three functions, listFiles, previewPDF, and downloadPDF. The listFiles function lists all the PDF files generated so far using Acrobat Services APIs. The previewPDF function allows you to preview PDF files using PDF Embed API, while the downloadPDF function enables you to download the generated PDF file to your PC. The screen capture below shows a sample of the PDF preview using PDF Embed API.
+In the controller file above, there are three functions, listFiles, previewPDF, and downloadPDF. The listFiles function lists all the PDF files generated so far using [!DNL Acrobat Services] APIs. The previewPDF function allows you to preview PDF files using PDF Embed API, while the downloadPDF function enables you to download the generated PDF file to your PC. The screen capture below shows a sample of the PDF preview using PDF Embed API.
 
 ![Screenshot of PDF preview](assets/legal_8.png)
 
 ## Summary
 
-In this hands-on tutorial, you tagged a document using Document Generation Tagger Microsoft Word add-in. Then, integrated Acrobat Services APIs into a Node.js application and
+In this hands-on tutorial, you tagged a document using Document Generation Tagger Microsoft Word add-in. Then, integrated [!DNL Acrobat Services] APIs into a Node.js application and
 converted a tagged document to a downloadable PDF format, although you could have also created the legal contract directly to PDF. Finally, you used Adobe PDF Embed API to preview the generated PDF for verification and signing.
 
-The completed application makes it much easier to tag [legal contract templates](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html) with dynamic fields, convert them to PDF, preview them, and sign them using Acrobat Services APIs. Instead of spending time creating a unique contract, your team can automatically send the correct contract to each client then spend more time growing your business.
+The completed application makes it much easier to tag [legal contract templates](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html) with dynamic fields, convert them to PDF, preview them, and sign them using [!DNL Acrobat Services] APIs. Instead of spending time creating a unique contract, your team can automatically send the correct contract to each client then spend more time growing your business.
 
-Organizations use Adobe Acrobat Services APIs for their completeness and ease of use. Best of all, you can enjoy a [six-month free trial then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html). You only pay for what you use. Plus, PDF Embed API is always free.
+Organizations use [!DNL Adobe Acrobat Services] APIs for their completeness and ease of use. Best of all, you can enjoy a [six-month free trial then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html). You only pay for what you use. Plus, PDF Embed API is always free.
 
 Ready to boost productivity by improving your document flow? [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) today.
