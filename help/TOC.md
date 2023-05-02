@@ -2,7 +2,7 @@
 user-guide-title: "[!DNL Adobe Acrobat Services]"
 breadcrumb-title: "[!DNL Acrobat Services]"
 user-guide-description: Learn more about [!DNL Adobe Acrobat Services]
-solution: [!DNL Acrobat Services], Document Services
+solution: "[!DNL Acrobat Services], Document Services"
 ---
 
 # [!DNL Adobe Acrobat Services] API {#tutorials}
