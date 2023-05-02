@@ -38,8 +38,8 @@ You'll receive a .zip file to download called PDFToolsSDK-.NetSamples.zip which 
 ## Step 2: Setup your .Net environment and Run the sample code
 
 1. Download and install the [.Net SDK](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
-1. Extract the downloaded **PDFToolsSDK-.NetSamples.zip** and unzip the contents
-1. cd to the samples root directory **adobe-DC.PDFTools.SDK.NET.Samples**
+1. Extract the downloaded **[!UICONTROL PDFToolsSDK-.NetSamples.zip]** and unzip the contents
+1. cd to the samples root directory **[!UICONTROL adobe-DC.PDFTools.SDK.NET.Samples]**
 1. From the samples root directory, run `dotnet build`
 
     C:\Temp\PDFToolsAPI\ PDFToolsSDK-.NetSamples\adobe-DC.PDFTools.SDK.NET.Samples>dotnet build
@@ -64,7 +64,7 @@ The PDF Services API can help you eliminate manual processes by automating commo
 
 ## Resources and next steps
 
-* For additional help and support, visit the [Adobe Acrobat Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the [[!DNL Adobe Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
 * PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
@@ -76,4 +76,4 @@ The PDF Services API can help you eliminate manual processes by automating commo
 
     [New PDF Services API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 
-    [July Release of Adobe Acrobat Services: PDF Embed and PDF Services](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
+    [July Release of [!DNL Adobe Acrobat Services]: PDF Embed and PDF Services](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)

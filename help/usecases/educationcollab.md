@@ -35,7 +35,7 @@ The learning portal has the following features:
 
 * Enables students to leave comments and download them to their computers
 
-Learn how Adobe Acrobat Services provide a rich experience for your students with PDFs. Acrobat Services APIs seamlessly integrate into your existing applications, so students can upload, convert, and view files, then make and save comments — all within your current setup.
+Learn how [!DNL Adobe Acrobat Services] provide a rich experience for your students with PDFs. [!DNL Acrobat Services] APIs seamlessly integrate into your existing applications, so students can upload, convert, and view files, then make and save comments — all within your current setup.
 
 ## Relevant APIs and resources
 
@@ -208,4 +208,4 @@ This hands-on tutorial reviewed how to use PDF Services API and PDF Embed API to
 
 Now that you know how to annotate PDF reports, archive the annotations, and track the use of PDF reports, you can start implementing these solutions in your own projects.
 
-You can use Adobe Acrobat Services APIs to create user-friendly, interactive PDF experiences on your website. Enjoy using Adobe PDF Services API free for six months then just [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) (through AWS or a direct agreement) for only \$0.05 per document transaction. Use Adobe PDF Embed free with no time limit. Create a free account to [get started](https://www.adobe.com/go/dcsdks_credentials) today.
+You can use [!DNL Adobe Acrobat Services] APIs to create user-friendly, interactive PDF experiences on your website. Enjoy using Adobe PDF Services API free for six months then just [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) (through AWS or a direct agreement) for only \$0.05 per document transaction. Use Adobe PDF Embed free with no time limit. Create a free account to [get started](https://www.adobe.com/go/dcsdks_credentials) today.

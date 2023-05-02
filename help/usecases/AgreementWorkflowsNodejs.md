@@ -1,6 +1,6 @@
 ---
 title: Agreement Workflows in Node.js
-description: Adobe Acrobat Services APIs easily incorporate PDF capabilities into your web applications
+description: "[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your web applications"
 type: Tutorial
 role: Developer
 level: Beginner
@@ -13,7 +13,7 @@ exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 
 ![Use Case Hero Banner](assets/UseCaseAgreementHero.jpg)
 
-Many business applications and processes require documentation like proposals and agreements. PDF documents ensure that files are more secure and less modifiable. They also provide digital signature support so your clients can quickly and easily complete their documents. Adobe Acrobat Services APIs easily incorporate PDF capabilities into your web applications.
+Many business applications and processes require documentation like proposals and agreements. PDF documents ensure that files are more secure and less modifiable. They also provide digital signature support so your clients can quickly and easily complete their documents. [!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your web applications.
 
 ## What you can learn
 
@@ -29,9 +29,9 @@ In this hands-on tutorial, learn how to add PDF services to a Node.js applicatio
 
 * [Project code](https://github.com/adobe/pdftools-node-sdk-samples)
 
-## Setting up Adobe Acrobat Services
+## Setting up [!DNL Adobe Acrobat Services]
 
-To get started, set up credentials to use Adobe Acrobat Services. Register an account and use the [Node.js Quickstart](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#node-js) to verify your credentials work before integrating the functionality into a larger application.
+To get started, set up credentials to use [!DNL Adobe Acrobat Services]. Register an account and use the [Node.js Quickstart](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#node-js) to verify your credentials work before integrating the functionality into a larger application.
 
 First, get an Adobe developer account. Then, on the [Get Started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) page, select the *Get Started* option under Create New Credentials. You can sign up for their free trial which provides 1,000 Document Transactions that can be used over six months.
 
@@ -45,7 +45,7 @@ Enter a name for the application and check the box labeled *Create personalized 
 
 Select *Node.js* for the application type and click *Create Credentials*.
 
-A few moments later, a .zip file begins to download with a sample project including your credentials. The Node.js package for Acrobat Services is already included as part of the sample project code.
+A few moments later, a .zip file begins to download with a sample project including your credentials. The Node.js package for [!DNL Acrobat Services] is already included as part of the sample project code.
 
 ![Image of Selecting PDF Services API Credentials](assets/AWNjs_2.png)
 
@@ -71,7 +71,7 @@ Download the code (without your credentials embedded) from [GitHub](https://gith
 
 For your own application, you need to copy the private key file and credentials files to your application source.
 
-You must install the Node.js package for Acrobat Services. To install the package, use the following command:
+You must install the Node.js package for [!DNL Acrobat Services]. To install the package, use the following command:
 
 ```
 npm install --save @adobe/documentservices-pdftools-node-sdk
@@ -508,8 +508,8 @@ You can now embed or link to your document.
 
 ## Next steps
 
-As you can see from the quick starts and the provided code, it is easy to implement PDF and digital document approval processes using Node with the Adobe Acrobat Services APIs. Adobe's APIs integrate into your existing client applications seamlessly.
+As you can see from the quick starts and the provided code, it is easy to implement PDF and digital document approval processes using Node with the [!DNL Adobe Acrobat Services] APIs. Adobe's APIs integrate into your existing client applications seamlessly.
 
-To discover the required scopes for a call, or to see how the call is built, you can build sample calls from the [Rest API documentation](https://secure.na4.adobesign.com/public/docs/restapi/v6). The [Quickstarts](https://github.com/adobe/pdftools-node-sdk-samples) also demonstrate other functionality and file formats the Adobe Acrobat Services APIs processes.
+To discover the required scopes for a call, or to see how the call is built, you can build sample calls from the [Rest API documentation](https://secure.na4.adobesign.com/public/docs/restapi/v6). The [Quickstarts](https://github.com/adobe/pdftools-node-sdk-samples) also demonstrate other functionality and file formats the [!DNL Adobe Acrobat Services] APIs processes.
 
-You can add a multitude of PDF capabilities to your applications, enabling your users to quickly and easily view and sign their documents and much more. To start, check out [Adobe Acrobat Services](https://www.adobe.io/apis/documentcloud/dcsdk/) today.
+You can add a multitude of PDF capabilities to your applications, enabling your users to quickly and easily view and sign their documents and much more. To start, check out [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) today.

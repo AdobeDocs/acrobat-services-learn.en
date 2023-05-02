@@ -95,7 +95,7 @@ Your PDF will be created in the location designated in the output, which by defa
 
 ## Resources and next steps
 
-* For additional help and support, visit the Adobe [Acrobat Services APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
+* For additional help and support, visit the Adobe [[!DNL Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) community forum
 
 PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 
@@ -106,4 +106,4 @@ PDF Services API [Documentation](https://www.adobe.com/go/pdftoolsapi_doc)
 * Related articles:
   [New PDF Services API offers even more features for document workflows](https://community.adobe.com/t5/document-services-apis/new-pdf-tools-api-brings-more-capabilities-for-document-services/m-p/11294170)
 
-  [July Release of Adobe Acrobat Services: PDF Embed and PDF Services](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)
+  [July Release of [!DNL Adobe Acrobat Services]: PDF Embed and PDF Services](https://medium.com/adobetech/july-release-of-adobe-document-services-pdf-embed-and-pdf-tools-17211bf7776d)

@@ -48,14 +48,14 @@ To complete this tutorial, you need your credentials already configured in Micro
 In this part, you create a new flow in [Microsoft Power Automate](https://flow.microsoft.com) using an instant flow, add parameters, get your files from OneDrive, and convert them to PDF.
 
 1. Navigate to [Microsoft Power Automate](https://flow.microsoft.com) and log in with your credentials.
-1. In the sidebar, select **Create**.
+1. In the sidebar, select **[!UICONTROL Create]**.
 
     ![Create button](assets/createButtonPowerAutomate.png)
 
-1. Select **Instant Flow**.  
+1. Select **[!UICONTROL Instant Flow]**.  
 1. Give your flow a name.
-1. Under *Choose how to trigger this flow*, select **Manually trigger a flow**.
-1. Select **Create**.
+1. Under *Choose how to trigger this flow*, select **[!UICONTROL Manually trigger a flow]**.
+1. Select **[!UICONTROL Create]**.
 
 ### Get file contents of files
 
@@ -66,11 +66,11 @@ Next, get the file contents of the sample files.
 >If you haven't uploaded the [sample files](assets/sample-assets.zip) into OneDrive, unzip them and upload them.
 
 
-1. In [Power Automate](https://flow.microsoft.com), select **+ New step**.
+1. In [Power Automate](https://flow.microsoft.com), select **[!UICONTROL + New step]**.
 1. Search for *OneDrive* in the search bar.
-1. Choose either your work or personal OneDrive account by selecting **OneDrive for Business** or **OneDrive**.
+1. Choose either your work or personal OneDrive account by selecting **[!UICONTROL OneDrive for Business]** or **[!UICONTROL OneDrive]**.
 1. Search for *Get file content* in the search bar.
-1. In the **File** field, select the Folder icon to navigate to the *WordDocument01.docx* file in OneDrive.
+1. In the **[!UICONTROL File]** field, select the Folder icon to navigate to the *WordDocument01.docx* file in OneDrive.
 
     ![Get file content OneDrive action in Microsoft Power Automate](assets/getFileContentOneDrive.png)
 
@@ -78,13 +78,13 @@ Next, get the file contents of the sample files.
 
 Now that you have the file content, you can convert the document to PDF.
 
-1. In [Power Automate](https://flow.microsoft.com), select **+ New step**.
+1. In [Power Automate](https://flow.microsoft.com), select **[!UICONTROL + New step]**.
 1. Search for *Adobe PDF Services* in the search bar.
-1. Select **Adobe PDF Services**.
+1. Select **[!UICONTROL Adobe PDF Services]**.
 1. Search for *Convert Word to PDF* in the search bar.
-1. In **File Name**, name your file as desired but it must end with *.docx*. This extension is necessary for converting documents from Word to PDF.
-1. Place your cursor in the **File Content** field.
-1. Using the **Dynamic content** panel, select **File content**.
+1. In **[!UICONTROL File Name]**, name your file as desired but it must end with *.docx*. This extension is necessary for converting documents from Word to PDF.
+1. Place your cursor in the **[!UICONTROL File Content]** field.
+1. Using the **[!UICONTROL Dynamic content]** panel, select **[!UICONTROL File content]**.
 
     ![Convert Word to PDF Action in Microsoft Power Automate](assets/convertWordToPDFActionPowerAutomate.png)
 
@@ -92,24 +92,24 @@ Now that you have the file content, you can convert the document to PDF.
 
 Once the document generates, save the file back in OneDrive.
 
-1. In [Microsoft Power Automate](https://flow.microsoft.com), select **+ New step**.
+1. In [Microsoft Power Automate](https://flow.microsoft.com), select **[!UICONTROL + New step]**.
 1. Search for *OneDrive* in the search bar.
-1. Choose either your work or personal OneDrive account by selecting **OneDrive for Business** or **OneDrive**.
+1. Choose either your work or personal OneDrive account by selecting **[!UICONTROL OneDrive for Business]** or **[!UICONTROL OneDrive]**.
 1. Search for *Get file content* in the search bar.
 1. Search for *Create file* in the search bar.
-1. Select **Create file**.
-1. In the **Folder Path** field, select the folder icon to specify where to save the file in OneDrive.
-1. In **File Name**, name your file as desired but it must end with *.docx*. This extension is necessary for converting documents from Word to PDF.
-1. In the **File Content** field, use **Dynamic content** panel to insert the PDF File Content variable.
+1. Select **[!UICONTROL Create file]**.
+1. In the **[!UICONTROL Folder Path]** field, select the folder icon to specify where to save the file in OneDrive.
+1. In **[!UICONTROL File Name]**, name your file as desired but it must end with *.docx*. This extension is necessary for converting documents from Word to PDF.
+1. In the **[!UICONTROL File Content]** field, use **[!UICONTROL Dynamic content]** panel to insert the PDF File Content variable.
 
 ### Try flow
 
-1. In the top-left, select **Untitled** to rename the flow.
-1. Select **Save**.
-1. Select **Test**.
-1. Select **Manually** and then **Save & Test**.
-1. Select **Continue**.
-1. Select **Run Flow**.
+1. In the top-left, select **[!UICONTROL Untitled]** to rename the flow.
+1. Select **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Test]**.
+1. Select **[!UICONTROL Manually]** and then **[!UICONTROL Save & Test]**.
+1. Select **[!UICONTROL Continue]**.
+1. Select **[!UICONTROL Run Flow]**.
 
 In the OneDrive folder, you should now see the converted PDF.
 
@@ -127,9 +127,9 @@ Open *WordDocument02_.docx* from your sample files in OneDrive. The Word documen
 
 To have dynamic data pushed into the document, you need to create a few parameters for the trigger to prompt for values.
 
-1. When editing your flow, select **Manually trigger a flow** to expand the action.
-1. Select **Add an input**.
-1. Select **Text**.
+1. When editing your flow, select **[!UICONTROL Manually trigger a flow]** to expand the action.
+1. Select **[!UICONTROL Add an input]**.
+1. Select **[!UICONTROL Text]**.
 1. Name the field *First Name*.
 
 Repeat steps 2-4 to add the following fields:
@@ -143,21 +143,21 @@ Repeat steps 2-4 to add the following fields:
 
 To generate a document, you first need to get the file content of the Word template.
 
-1. In Power Automate, select **+ New step**.
+1. In Power Automate, select + **[!UICONTROL New step]**.
 1. Search for *OneDrive* in the search bar.
-1. Choose either your work or personal OneDrive account by selecting **OneDrive for Business** or **OneDrive**.
+1. Choose either your work or personal OneDrive account by selecting **[!UICONTROL OneDrive for Business]** or **[!UICONTROL OneDrive]**.
 1. Search for *Get file content* in the search bar.
-1. In the **File** field, select the Folder icon to navigate to the *WordDocument02.docx* file in OneDrive.
+1. In the **[!UICONTROL File]** field, select the Folder icon to navigate to the *WordDocument02.docx* file in OneDrive.
 
 ![Get file content action from OneDrive in Microsoft Power Automate](assets/getFileContentAction02.png)
 
 ### Generate document from template
 
-1. In Power Automate, select **+ New step**.
+1. In Power Automate, select **[!UICONTROL + New step]**.
 1. Search for *Adobe PDF Services* in the search bar.
-1. Select **Adobe PDF Services**.
-1. Select the **Generate document from Word template** action .
-1. In the **Template File Name** field, name your file as desired but it must end with *.docx*.
+1. Select **[!UICONTROL Adobe PDF Services]**.
+1. Select the **[!UICONTROL Generate document from Word template]** action .
+1. In the **[!UICONTROL Template File Name]** field, name your file as desired but it must end with *.docx*.
 
 #### Merge data
 
@@ -174,12 +174,12 @@ Copy the JSON data below into the **Merge Data** field:
 ```
 
 1. Place your cursor in the field between the two quotation marks for the *FirstName* value.
-1. Using the **Dynamic Content** panel, insert the *First Name* value from the Manually trigger a flow action.
+1. Using the **[!UICONTROL Dynamic Content]** panel, insert the *First Name* value from the Manually trigger a flow action.
 
     ![Generate document with data tags in JSON](assets/generateDocumentJSONAction.png)
 
-1. Repeat steps 7-8 for the **LastName** and **Salary** fields.
-1. In the **Template File Content** field, use the **Dynamic content** panel to insert the **File content** value from the *Get file content* step.
+1. Repeat steps 7-8 for the **[!UICONTROL LastName]** and **[!UICONTROL Salary]** fields.
+1. In the **[!UICONTROL Template File Content]** field, use the **[!UICONTROL Dynamic content]** panel to insert the **[!UICONTROL File content]** value from the *Get file content* step.
 
 ![Generate document from Word template action in Power Automate with all values completed](assets/generateDocumentJSONActionCompleted.png)
 
@@ -195,25 +195,25 @@ Copy the JSON data below into the **Merge Data** field:
 
 Once the document is generated, you can save the file back in OneDrive.
 
-1. In Power Automate, select **+ New step**.
+1. In Power Automate, select **+ [!UICONTROL New step]**.
 1. Search for *OneDrive* in the search bar.
-1. Choose either your work or personal OneDrive account by selecting **OneDrive for Business** or **OneDrive**.
+1. Choose either your work or personal OneDrive account by selecting **[!UICONTROL OneDrive for Business]** or **[!UICONTROL OneDrive]**.
 1. Search for *Create file* in the search bar.
-1. Select **Create file**.
-1. In the **Folder Path** field, select the folder icon to specify where to save the file in OneDrive.
-1. In the **File Name** field, set the name of the file. Because the output is a PDF, your file name must end with .pdf extension.
-1. Use the **Dynamic content** panel to insert the PDF File Content variable into the **File Content** field.
+1. Select **[!UICONTROL Create file]**.
+1. In the **[!UICONTROL Folder Path]** field, select the folder icon to specify where to save the file in OneDrive.
+1. In the **[!UICONTROL File Name]** field, set the name of the file. Because the output is a PDF, your file name must end with .pdf extension.
+1. Use the **[!UICONTROL Dynamic content]** panel to insert the PDF File Content variable into the **[!UICONTROL File Content]** field.
 
 ### Try flow
 
 ![Run flow screen in Microsoft Power Automate prompting for inputs](assets/runFlowParameters.png)
 
-1. Select **Save**.
-1. Select **Test**.
-1. Select **Manually** and then **Save & Test**.
-1. Select **Continue**.
+1. Select **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Test]**.
+1. Select **[!UICONTROL Manually]** and then **[!UICONTROL Save & Test]**.
+1. Select **[!UICONTROL Continue]**.
 1. Enter values for *First Name*, *Last Name*, and *Salary*.
-1. Select **Run Flow**.
+1. Select **[!UICONTROL Run Flow]**.
 
 In the OneDrive folder, you now see a PDF generated from the Word document. When you open the PDF document in OneDrive, you see that the data is merged into the text tag locations.  
 
@@ -228,14 +228,14 @@ Now that you have generated and converted a Word document into a PDF, the next p
 
 ### Add Merge PDF step
 
-1. When editing your flow, select **+ Next step** to add an action at the end of your flow. 
+1. When editing your flow, select **[!UICONTROL + Next step]** to add an action at the end of your flow. 
 1. Search for *Adobe PDF Services* in the search bar.
-1. Select **Adobe PDF Services**.
-1. Select the **Merge PDFs** action.
-1. In the **Merge PDF File Name** field, enter your desired file name (i.e.,*CombinedDocument.pdf*).
-1. In the **File Content -1** field, use the **Dynamic content** panel to insert the *PDF File Content* value from the **Convert Word to PDF** step.
-1. To add the next document, select **+ add new item**.
-1. In the **File Content - 2** field, use the **Dynamic content** panel to insert the **Output File Content** value from the *Generate document from Word template* step. 
+1. Select **[!UICONTROL Adobe PDF Services]**.
+1. Select the **[!UICONTROL Merge PDFs]** action.
+1. In the **[!UICONTROL Merge PDF File Name]** field, enter your desired file name (i.e.,*CombinedDocument.pdf*).
+1. In the **[!UICONTROL File Content -1]** field, use the **[!UICONTROL Dynamic content]** panel to insert the *PDF File Content* value from the **[!UICONTROL Convert Word to PDF]** step.
+1. To add the next document, select **+ [!UICONTROL add new item]**.
+1. In the **[!UICONTROL File Content - 2]** field, use the **[!UICONTROL Dynamic content]** panel to insert the **[!UICONTROL Output File Content]** value from the *Generate document from Word template* step. 
 
 ![Merge PDF action in Microsoft Power Automate](assets/mergePDFAction.png)
 
@@ -243,25 +243,25 @@ Now that you have generated and converted a Word document into a PDF, the next p
 
 Once the document is combined, you can save the document back into OneDrive.
 
-1. In Power Automate, select **+ New step**.
+1. In Power Automate, select **+ [!UICONTROL New step]**.
 1. Search for *OneDrive* in the search bar.
-1. Choose either your work or personal OneDrive account by selecting **OneDrive for Business** or **OneDrive**.
+1. Choose either your work or personal OneDrive account by selecting **[!UICONTROL OneDrive for Business]** or **[!UICONTROL OneDrive]**.
 1. Search for *Create file* in the search bar.
-1. Select **Create file**.
-1. In the **Folder Path** field, select the folder icon to specify where to save the file in OneDrive.
-1. In the **File Name** field, set the name of the file. Because the output is a PDF, your file name must end with .pdf.
-1. In the **File Content** field, use **Dynamic content** panel to insert the *PDF File Content* value from the **Merge PDFs** step.
+1. Select **[!UICONTROL Create file]**.
+1. In the **[!UICONTROL Folder Path]** field, select the folder icon to specify where to save the file in OneDrive.
+1. In the **[!UICONTROL File Name]** field, set the name of the file. Because the output is a PDF, your file name must end with .pdf.
+1. In the **[!UICONTROL File Content]** field, use **[!UICONTROL Dynamic content]** panel to insert the *PDF File Content* value from the **[!UICONTROL Merge PDFs]** step.
 
     ![Flow in Microsoft Power Automate overview](assets/flowOverviewSavedMergedDocument.png)
 
 ### Try flow
 
-1. Select **Save**.
-1. Select **Test**.
-1. Select **Manually** and then **Save & Test**.
-1. Select **Continue**.
+1. Select **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Test]**.
+1. Select **[!UICONTROL Manually]** and then **[!UICONTROL Save & Test]**.
+1. Select **[!UICONTROL Continue]**.
 1. Enter values for *First Name*, *Last Name*, and *Salary*.
-1. Select **Run Flow**.
+1. Select **[!UICONTROL Run Flow]**.
 
 In the OneDrive folder, you see the combined PDF with pages from the first and second document.
 
@@ -271,33 +271,33 @@ After generating your document, you can protect it from editing by including an 
 
 ### Protect PDF
 
-1. While editing your flow in Power Automate, select **+** in between the **Merge PDFs** action and the **Create file 3** action.
+1. While editing your flow in Power Automate, select **+** in between the **[!UICONTROL Merge PDFs]** action and the **[!UICONTROL Create file 3]** action.
 
     ![Plus symbol between two actions to add a new action](assets/addActionToProtect.png)
 
-1. Select **Add an action**.
+1. Select **[!UICONTROL Add an action]**.
 1. Search for *Adobe PDF Services* in the search bar.
-1. Select **Adobe PDF Services**.
-1. Select the **Protect PDF from Viewing** action.
-1. In the **File Name** field, set the name to your desired name, as long as it ends with a .pdf extension.
-1. Set the **Password** field to your specified password to open the document.
-1. In the **File Content** field, use the **Dynamic Content** panel to insert the *PDF File Content* value from the **Merge PDFs** step.
+1. Select **[!UICONTROL Adobe PDF Services]**.
+1. Select the **[!UICONTROL Protect PDF from Viewing]** action.
+1. In the **[!UICONTROL File Name]** field, set the name to your desired name, as long as it ends with a .pdf extension.
+1. Set the **[!UICONTROL Password]** field to your specified password to open the document.
+1. In the **[!UICONTROL File Content]** field, use the **[!UICONTROL Dynamic Content]** panel to insert the *PDF File Content* value from the **[!UICONTROL Merge PDFs]** step.
 
 ### Update save to OneDrive
 
 Once the document is protected, you can save the file back in OneDrive. In this example, you are updating the pre-existing **Create file 3** action with a new *File Content* value.
 
-1. Select your cursor in the **File Content** field in the **Create file 3** action.
-1. Use the **Dynamic Content** panel to insert the *PDF File Content* value from the **Protect PDF from Viewing** step.
+1. Select your cursor in the **[!UICONTROL File Content]** field in the **[!UICONTROL Create file 3]** action.
+1. Use the **[!UICONTROL Dynamic Content]** panel to insert the *PDF File Content* value from the **Protect PDF from Viewing** step.
 
 ### Try flow
 
-1. Select **Save**.
-2. Select **Test**.
-3. Select **Manually** and then **Save & Test**.
-4. Select **Continue**.
-5. Enter values for *First Name*, *Last Name*, and *Salary*.
-6. Select **Run Flow**.
+1. Select **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Test]**.
+1. Select **[!UICONTROL Manually]** and then **[!UICONTROL Save & Test]**.
+1. Select **[!UICONTROL Continue]**.
+1. Enter values for *First Name*, *Last Name*, and *Salary*.
+1. Select **[!UICONTROL Run Flow]**.
 
 In the OneDrive folder, you see the combined PDF that now prompts you to enter a password to view the document.
 

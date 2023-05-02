@@ -18,7 +18,7 @@ Contracts and proposals contain different types of data within their document st
 
 ## What you can learn
 
-In this hands-on tutorial, learn how to implement dynamic data and workflows using several tools, the most important of which are Adobe Acrobat Services APIs. These APIs are used to make sales proposals and contracts more convenient for you and your business. This tutorial demonstrates hands-on techniques to show how to create, merge, and display PDF documents automatically. Performing these tasks manually is time-consuming and tedious. By taking advantage of Acrobat Services APIs, you can shorten the time spent on these tasks.
+In this hands-on tutorial, learn how to implement dynamic data and workflows using several tools, the most important of which are [!DNL Adobe Acrobat Services] APIs. These APIs are used to make sales proposals and contracts more convenient for you and your business. This tutorial demonstrates hands-on techniques to show how to create, merge, and display PDF documents automatically. Performing these tasks manually is time-consuming and tedious. By taking advantage of [!DNL Acrobat Services] APIs, you can shorten the time spent on these tasks.
 
 ## Relevant APIs and resources
 
@@ -28,7 +28,7 @@ In this hands-on tutorial, learn how to implement dynamic data and workflows usi
 
 * [npm](https://www.npmjs.com/get-npm)
 
-* [Acrobat Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk/)
+* [[!DNL Acrobat Services] APIs](https://www.adobe.io/apis/documentcloud/dcsdk/)
 
 * [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
 
@@ -46,7 +46,7 @@ Some form builders only let you export data as CSV files. So, you might find it 
 
 The static data is reused in every sales proposal. So, you can use a sales proposal template in Microsoft Word to provide the static text. You can use this [template](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2), but you can create your own or use an [Adobe template](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-Now, you need something that takes both the dynamic data from clients in the JSON format and the static text in the Microsoft Word template to make a unique sales proposal for a client. The Acrobat Services APIs are used to merge the two and generate a PDF that can be signed.
+Now, you need something that takes both the dynamic data from clients in the JSON format and the static text in the Microsoft Word template to make a unique sales proposal for a client. The [!DNL Acrobat Services] APIs are used to merge the two and generate a PDF that can be signed.
 
 To make this work, you use tags. Tags are easy-to-use strings that can represent numbers, words, arrays, or even complex objects. Tags act as a placeholder for dynamic data, which in this case, is client data entered in the form. Once you insert tags into the template, you can map form fields from the JSON file to the Word template.
 
@@ -72,7 +72,7 @@ After generating the tags, you can insert them into the document. Tags are added
 
 ## Using the APIs
 
-Go to the Acrobat Services APIs [homepage](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html). To start using Acrobat Services APIs, you need credentials for your application. Scroll down all the way and select **Start free trial** to create credentials. You can use these services [free for six months, then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just $0.05 per document transaction, so you only pay for what you need.
+Go to the [!DNL Acrobat Services] APIs [homepage](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html). To start using [!DNL Acrobat Services] APIs, you need credentials for your application. Scroll down all the way and select **Start free trial** to create credentials. You can use these services [free for six months, then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just $0.05 per document transaction, so you only pay for what you need.
 
 Select **PDF Services API** as your service of choice and fill in the other details as shown below.
 
@@ -84,7 +84,7 @@ To start, create an empty folder called auto-doc\*\*.\*\* In the folder, run the
 
 In the folder ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, there is a file called pdftools-api-credentials.json. Move it and private.key to the auto-doc folder. It contains your API credentials. Also, in the auto-doc folder, create a subfolder called "resources." It holds the JSON formatted data received from clients whenever you generate a sales proposal. In the same folder, save the sales proposal template from Microsoft Word.
 
-Now you are ready to make some magic! Because you're using Node.js in this tutorial, you must install the Node.js Acrobat Services SDK. To do so, in the auto-doc folder, run yarn add @adobe/documentservices-pdftools-node-sdk.
+Now you are ready to make some magic! Because you're using Node.js in this tutorial, you must install the Node.js [!DNL Acrobat Services] SDK. To do so, in the auto-doc folder, run yarn add @adobe/documentservices-pdftools-node-sdk.
 
 Now create a file called merge.js and paste the following code into it.
  
@@ -128,7 +128,7 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
  
-This code gets your JSON file from the Microsoft Form with the help of the tags you created using Acrobat Services. It then merges the data with the sales proposal template you created in Microsoft Word to generate a brand-new PDF. The PDF is saved in the newly created ./output folder.
+This code gets your JSON file from the Microsoft Form with the help of the tags you created using [!DNL Acrobat Services]. It then merges the data with the sales proposal template you created in Microsoft Word to generate a brand-new PDF. The PDF is saved in the newly created ./output folder.
 
 Also, the code uses [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html) to have both companies sign the generated sales proposal. Check out this blog post for a detailed explanation of this API.
 
@@ -136,6 +136,6 @@ Also, the code uses [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sig
 
 You started out with an inefficient, tedious process that needed automation. You went from manually creating documents for every client to creating a streamlined workflow to automate and simplify [the sales proposal process](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
 
-Using Microsoft Forms, you got critical data from your clients that would go in their unique proposals. You created a sales proposal template in Microsoft Word to provide the static text that you didn't want to recreate each time. You then used Acrobat Services APIs to merge data from the form and the template to create a sales proposal PDF for your clients in a more efficient manner.
+Using Microsoft Forms, you got critical data from your clients that would go in their unique proposals. You created a sales proposal template in Microsoft Word to provide the static text that you didn't want to recreate each time. You then used [!DNL Acrobat Services] APIs to merge data from the form and the template to create a sales proposal PDF for your clients in a more efficient manner.
 
-This hands-on tutorial is only a glimpse of what is possible with these APIs. To discover more solutions, visit the [Adobe Acrobat Services](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) APIs page. Use all these tools are for free for six months. Then, pay just $0.05 per document transaction on the [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) plan, so you only pay as your team adds more prospects to your sales pipeline.
+This hands-on tutorial is only a glimpse of what is possible with these APIs. To discover more solutions, visit the [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) APIs page. Use all these tools are for free for six months. Then, pay just $0.05 per document transaction on the [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) plan, so you only pay as your team adds more prospects to your sales pipeline.

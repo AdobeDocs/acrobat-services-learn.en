@@ -27,13 +27,13 @@ Start by registering for free Adobe PDF Services credentials:
     ![Screenshot of setting your credential name](assets/automatelegal_1.png)
 
 1. Choose a language to download your sample code (for example Node.js).
-1. Check to agree to **developer terms**.
-1. Select **Create credentials**.
+1. Check to agree to **[!UICONTROL developer terms]**.
+1. Select **[!UICONTROL Create credentials]**.
    A file is downloaded to your computer with a ZIP file containing the sample files, pdfservices-api-credentials.json, and private.key for authentication.
 
    ![Screenshot of credentials](assets/automatelegal_2.png)
 
-1. Select **Get Microsoft Word add-in** or go to [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654) to install.
+1. Select **[!UICONTROL Get Microsoft Word add-in]** or go to [AppSource](https://appsource.microsoft.com/en-cy/product/office/WA200002654) to install.
 
     >[!NOTE]
     >
@@ -82,8 +82,8 @@ This scenario uses a Terms and Conditions document, which can be downloaded [her
 ![Screenshot of Terms and Conditions document](assets/automatelegal_3.png)
 
 1. Open the *TermsAndConditions.docx* sample document in Microsoft Word.
-1. If the [Document Generation](https://appsource.microsoft.com/en-cy/product/office/WA200002654) plugin is installed, select **Document Generation** in the Ribbon. If you do not see Document Generation in your ribbon, follow these instructions.
-1. Select **Get Started**.
+1. If the [Document Generation](https://appsource.microsoft.com/en-cy/product/office/WA200002654) plugin is installed, select **[!UICONTROL Document Generation]** in the Ribbon. If you do not see Document Generation in your ribbon, follow these instructions.
+1. Select **[!UICONTROL Get Started]**.
 1. Copy the JSON sample data written above into the JSON Data field.
 
    ![Screenshot of document and JSON data](assets/automatelegal_4.png)
@@ -98,7 +98,7 @@ Navigate to the *Document Generation Tagger* panel to place tags in the document
 
    ![Screenshot of searching for name in Document Generation Tagger](assets/automatelegal_5.png)
 
-1. Select **Insert Text**.
+1. Select **[!UICONTROL Insert Text]**.
 
 This places a tag called `{{company.name}}` because the tag is under that path in the JSON.
 
@@ -142,12 +142,12 @@ Now that your tags are placed in the document, you are ready to preview your gen
 
 Directly within Microsoft Word, you can preview your generated document based on the sample JSON data.
 
-1. In *Document Generation Tagger*, select **Generate document**.
-1. The first time you may be prompted to sign in with your Adobe ID. Select **Sign In** and complete the prompts to login with your credentials.
+1. In *Document Generation Tagger*, select **[!UICONTROL Generate document]**.
+1. The first time you may be prompted to sign in with your Adobe ID. Select **[!UICONTROL Sign In]** and complete the prompts to login with your credentials.
 
    ![Screenshot of selecting Generate document button](assets/automatelegal_10.png)
 
-1. Select **View document**.
+1. Select **[!UICONTROL View document]**.
 
    ![Screenshot of View document button](assets/automatelegal_11.png)
 
@@ -167,12 +167,12 @@ In this next section, you set only certain sections to be included based on cert
   
    ![Screenshot of the Conditional-section tag](assets/automatelegal_15.png)
 
-1. In *Document Generation Tagger*, select **Advanced**.
-1. Expand **Conditional content**.
-1. In *Select records* field, search, and select **customer.state**.
-1. In *Select operator* field, select **=**.
-1. In *Value* field, type *CA*.
-1. Select **Insert Condition**.
+1. In *[!UICONTROL Document Generation Tagger]*, select **[!UICONTROL Advanced]**.
+1. Expand **[!UICONTROL Conditional content]**.
+1. In *[!UICONTROL Select records]* field, search, and select **[!UICONTROL customer.state]**.
+1. In *[!UICONTROL Select operator]* field, select **=**.
+1. In *[!UICONTROL Value]* field, type *CA*.
+1. Select **[!UICONTROL Insert Condition]**.
 
 The section is now wrapped with some tags called conditional-section tags. When you added the tags, it may have added the conditional-section tag as a numbered line. You can remove this by backspacing before the tag, otherwise it will number items as if the tag wasn't there when the document is generated. The section that is conditional ends with the `{% end-section %}` tag.
 
@@ -196,18 +196,18 @@ One other notable change is that the numbering for the subsequent section, Use o
 
 To test whether the template behaves correctly when the customer is in the state of Washington rather than California, change the sample data for the template:
 
-1. In *Document Generation Tagger*, select **Edit input data**.
+1. In *Document Generation Tagger*, select **[!UICONTROL Edit input data]**.
 
    ![Screenshot of Document Generation Tagger](assets/automatelegal_20.png)
 
-1. Select **Edit**.
+1. Select **[!UICONTROL Edit]**.
 
 1. In the JSON data, change *CA* to *WA*.
 
    ![Screenshot of JSON data](assets/automatelegal_21.png)
 
-1. Select **Generate Tags**.
-1. Select **Generate document** to regenerate the document.
+1. Select **[!UICONTROL Generate Tags]**.
+1. Select **[!UICONTROL Generate document]** to regenerate the document.
 
 Notice that the document only includes the Washington state section.
 
@@ -218,13 +218,13 @@ Notice that the document only includes the Washington state section.
 Like conditional sections, you can also have specific sentences that are included when certain conditions are met. For this example, the return policy is different between California and Washington. 
 
 1. In section 3.1, select the first sentence "When purchasing in the state of Washington, one must be returned via MAIL within 30 days of the original transaction for a full refund.".
-1. In *Document Generation Tagger*, select **Advanced**.
-1. Expand **Conditional content**.
-1. Under *Content type*, select **Phrase**.
-1. In *Select records* field, search, and select **customer.state**.
-1. In *Select operator* field, select **=**.
-1. In *Value* field, type *CA*.
-1. Select **Insert Condition**.
+1. In *[!UICONTROL Document Generation Tagger]*, select **[!UICONTROL Advanced]**.
+1. Expand **[!UICONTROL Conditional content]**.
+1. Under *[!UICONTROL Content type]*, select **[!UICONTROL Phrase]**.
+1. In *[!UICONTROL Select records]* field, search, and select **[!UICONTROL customer.state]**.
+1. In *[!UICONTROL Select operator]* field, select **=**.
+1. In *[!UICONTROL Value]* field, type *CA*.
+1. Select **[!UICONTROL Insert Condition]**.
 
 While the name of the tag is the same, the main difference between Phrase and Section is that a phrase has the section not include new lines. The condition-section tag and the -end-section tag must be in the same paragraph.
 
@@ -239,11 +239,11 @@ Acrobat Sign allows you to send agreements for signature or embed into web exper
 
    ![Screenshot of where the signature need to go](assets/automatelegal_24.png)
 
-1. In *Document Generation Tagger*, select **Adobe Sign**.
-1. In *Specify number of recipient* field, set the number of recipients (this example uses 2).
-1. In *Recipients* field, select **Signer-1**.
-1. In *Field* type, select **Signature**.
-1. Select **Insert Adobe Sign Text Tag**.
+1. In *[!UICONTROL Document Generation Tagger]*, select **[!UICONTROL Adobe Sign]**.
+1. In *[!UICONTROL Specify number of recipient]* field, set the number of recipients (this example uses 2).
+1. In *[!UICONTROL Recipients]* field, select **[!UICONTROL Signer-1]**.
+1. In *[!UICONTROL Field]* type, select **[!UICONTROL Signature]**.
+1. Select **[!UICONTROL Insert Adobe Sign Text Tag]**.
 
    ![Screenshot of Insert Adobe Sign Text Tag in Document Generation Tagger](assets/automatelegal_25.png)
 
@@ -262,7 +262,7 @@ Next, place a data field for the signer who that auto-populates when they sign.
    ![Screenshot of where the date should be located](assets/automatelegal_27.png)
 
 1. Set Field type to Date.
-1. Select **Insert Adobe Sign Text Tag**.
+1. Select **[!UICONTROL Insert Adobe Sign Text Tag]**.
 
 The Date tag that is placed is rather long: `{{Date 3_es_:signer1:date:format(mm/dd/yyyy):font(size=Auto)}}`. The Acrobat Sign text tag must remain on the same line, which is different from the Document Generation tags. The `:format()` and `font()` parameters are optional, so for this scenario we can shorten the tag to `{{Date 3_es_:signer1:date}}`.
 
@@ -274,7 +274,7 @@ You have now tagged your document and are ready to go. In this next section, lea
 
 Open the pdfservices-node-sdk-samples-master file that you downloaded when registering your credentials. These files include the pdfservices-api-credentials.json and private.key files.
 
-1. Open your **Terminal** to install dependencies using `npm install`.
+1. Open your **[!UICONTROL Terminal]** to install dependencies using `npm install`.
 1. Copy your sample *data.json* into the *resources* folder.
 1. Copy the Word template that you created into the *resources* folder.
 1. Create a new file in the root directory of the samples folder called *generate-salesOrder.js*.
@@ -328,7 +328,7 @@ Open the pdfservices-node-sdk-samples-master file that you downloaded when regis
 
 1. Replace `<JSON FILE>` with the name of the JSON file in /resources.
 1. Replace `<INSERT DOCX>` with the name of the DOCX file.
-1. To run, use **Terminal** to execute node `generate-salesOrder.js`.
+1. To run, use **[!UICONTROL Terminal]** to execute node `generate-salesOrder.js`.
 
 The output file is in the /output folder with the document generated correctly. 
 
@@ -365,7 +365,7 @@ If you do not have an Acrobat Sign account, sign up for a developer account and 
 
 ## Send an agreement from web interface
 
-1. Select **Send** from the navigation bar.
+1. Select **[!UICONTROL Send]** from the navigation bar.
 
    ![Screenshot of Send tab in Acrobat Sign](assets/automatelegal_28.png)
 
@@ -373,26 +373,26 @@ If you do not have an Acrobat Sign account, sign up for a developer account and 
 
    ![Screenshot of Recipients fields](assets/automatelegal_29.png)
 
-1. Set an **Agreement Name** and **Message**.
-1. Select **Add Files** and upload the generated file from your computer.
-1. Select **Preview & Add Signature Fields**.
-1. Select **Next**.
+1. Set an **[!UICONTROL Agreement Name]** and **[!UICONTROL Message]**.
+1. Select **[!UICONTROL Add Files]** and upload the generated file from your computer.
+1. Select **[!UICONTROL Preview & Add Signature Fields]**.
+1. Select **[!UICONTROL Next]**.
 1. When scrolling down to the signature page, you can see the placed signature fields based on the tags.
 
    ![Screenshot of signature fields](assets/automatelegal_30.png)
 
-1. Select **Send**.
+1. Select **[!UICONTROL Send]**.
 1. In your email, a message with a link to view and sign appears.
 
    ![Screenshot of email message](assets/automatelegal_31.png)
 
-1. Select **Review and sign**.
-1. Select **Continue** to accept terms of use.
-1. Select **Start** to jump to where you need to sign.
+1. Select **[!UICONTROL Review and sign]**.
+1. Select **[!UICONTROL Continue]** to accept terms of use.
+1. Select **[!UICONTROL Start]** to jump to where you need to sign.
 
    ![Screenshot of start tag](assets/automatelegal_32.png)
 
-1. Select **Click here to sign**.
+1. Select **[!UICONTROL Click here to sign]**.
 
    ![Screenshot of Click here to sign](assets/automatelegal_33.png)
 
@@ -400,8 +400,8 @@ If you do not have an Acrobat Sign account, sign up for a developer account and 
 
    ![Screenshot of typing signature](assets/automatelegal_34.png)
 
-1. Select **Apply**.
-1. Select **Click to Sign**.
+1. Select **[!UICONTROL Apply]**.
+1. Select **[!UICONTROL Click to Sign]**.
 
 An email is sent to the next signer. Repeat steps 9-16 to view and sign for the second signer.
 
@@ -415,14 +415,14 @@ Next, learn how to do the same scenario via REST API documentation.
 
 1. Navigate to [Acrobat Sign REST Documentation](https://secure.na1.adobesign.com/public/docs/restapi/v6).
 1. Expand *transientDocuments* and the [POST /transientDocuments](https://benprojecteddemo.na1.adobesign.com/public/docs/restapi/v6#!/transientDocuments/createTransientDocument).
-1. Select **OAUTH ACCESS-TOKEN**.
+1. Select **[!UICONTROL OAUTH ACCESS-TOKEN]**.
    
    ![Screenshot of where to select OAUTH ACCESS-TOKEN](assets/automatelegal_36.png)
 
 1. Check the OAUTH permissions for *agreement_write*, *agreement_sign*, *widget_write*, and *library_write*. 
-1. Select **Authorize**.
+1. Select **[!UICONTROL Authorize]**.
 1. You are prompted via a pop-up to login with your Acrobat Sign account. Login user your administrator's username and password.
-1. You are prompted to allow access to the REST Documentation. Select **Allow Access**.
+1. You are prompted to allow access to the REST Documentation. Select **[!UICONTROL Allow Access]**.
 
 A bearer token is then added to the **Authorization** field.
 
@@ -436,8 +436,8 @@ Since the Authorization token is added from the previous steps, you need to uplo
 
    ![Screenshot of where to upload PDF](assets/automatelegal_37.png)
 
-1. Select **Try it out!**.
-1. In **Response Body**, copy the *transientDocumentId* value.
+1. Select **[!UICONTROL Try it out!]**.
+1. In **[!UICONTROL Response Body]**, copy the *transientDocumentId* value.
 
 The *transientDocumentId* is used to reference a document that is temporarily stored in Acrobat Sign so that it can be referenced in subsequent API calls.
 
@@ -481,7 +481,7 @@ Once a document is uploaded, you need to send the agreement for signature.
    }
    ```
 
-1. Select **Try it out!**.
+1. Select **[!UICONTROL Try it out!]**.
 
 **POST agreements API** returns an ID for the agreement. To get a template for the JSON model schema, select **Minimal Model Schema**. A full list of parameters is available in the **Complete Model Schema** section.
 
@@ -489,10 +489,10 @@ Once a document is uploaded, you need to send the agreement for signature.
 
 Once you have an agreement ID, you can send an agreement status.
 
-1. Expand **GET /agreements/{agreementId}**.
-1. Because you may need additional OAUTH scope, select **OAUTH-ACCESS-TOKEN** again.
+1. Expand **[!UICONTROL GET /agreements/{agreementId}]**.
+1. Because you may need additional OAUTH scope, select **[!UICONTROL OAUTH-ACCESS-TOKEN]** again.
 1. Copy the agreementId from the previous API call response into the agreementId field.
-1. Select **Try it Out!**.
+1. Select **[!UICONTROL Try it Out!]**.
 
 Now you have information about that agreement.
 
@@ -551,9 +551,9 @@ The more efficient method for getting notifications when updates are changed is 
 
 Once the document is signed, it can be retrieved using the GET /agreements/combinedDocument file.
 
-1. Expand **GET /agreements/{agreementId}/combinedDocument**.
-1. Set **agreementId** to the *agreementId* provided from the previous API call.
-1. Select **Try it Out!**.
+1. Expand **[!UICONTROL GET /agreements/{agreementId}/combinedDocument]**.
+1. Set **[!UICONTROL agreementId]** to the *agreementId* provided from the previous API call.
+1. Select **[!UICONTROL Try it Out!]**.
 
 Additional parameters to attach an audit report or supporting documents can be set using the attachSupportingDocuments and attachAuditReport parameters.
 
@@ -578,10 +578,10 @@ In addition, Acrobat Sign offers several additional functions such as:
 
 ## Further learning
 
-Interested in learning more? Have a look at some additional ways to use Adobe Acrobat Services:
+Interested in learning more? Have a look at some additional ways to use [!DNL Adobe Acrobat Services]:
 
 * Learn more from [documentation](https://developer.adobe.com/document-services/docs/overview/)
 * See more tutorials on Adobe Experience League
 * Use the sample scripts in the /src folder to see how you can use PDF 
 * Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
-* Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using Adobe Acrobat Services.
+* Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using [!DNL Adobe Acrobat Services].

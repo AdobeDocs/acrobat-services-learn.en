@@ -12,11 +12,11 @@ exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
 
 ![Use Case Hero Banner](assets/UseCaseOfferHero.jpg)
 
-Employee offer letters are one of the first experiences employees have with your organization. As a result, you want to make sure that your offer letters are on-brand, but you don't want to have to build a letter in your word processor from scratch every time. Adobe Acrobat Services APIs offer a fast, easy, and effective way to handle key parts of [generating and delivering offer letters to new employees](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html).
+Employee offer letters are one of the first experiences employees have with your organization. As a result, you want to make sure that your offer letters are on-brand, but you don't want to have to build a letter in your word processor from scratch every time. [!DNL Adobe Acrobat Services] APIs offer a fast, easy, and effective way to handle key parts of [generating and delivering offer letters to new employees](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html).
 
 ## What you can learn
 
-This hands-on tutorial walks through setting up a Node Express project that displays a web form for a user to populate with employee details. These details use Acrobat Services over the web to generate an offer letter as a PDF that can be delivered to a customer for their signature using Adobe Sign API.
+This hands-on tutorial walks through setting up a Node Express project that displays a web form for a user to populate with employee details. These details use [!DNL Acrobat Services] over the web to generate an offer letter as a PDF that can be delivered to a customer for their signature using Adobe Sign API.
 
 ## Relevant APIs and resources
 
@@ -36,21 +36,21 @@ This hands-on tutorial walks through setting up a Node Express project that disp
 
 To use Adobe Document Generation API in Node.js, go to the [Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) site to access your account or sign up for a new one. Your account is [free for six months then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just $0.05 per document transaction, so you can try it out risk-free then only pay as your company grows.
 
-After signing into the [Adobe Developer Console](https://console.adobe.io/), click **Create New Project**. The project is named "Project 1" by default. Click the **Edit Project** button and change the name to "Offer Letter Generator." In the center of the screen is a **Get Started With Your New Project** section. To enable security on your project, take the following steps:
+After signing into the [Adobe Developer Console](https://console.adobe.io/), click **[!UICONTROL Create New Project]**. The project is named "Project 1" by default. Click the **[!UICONTROL Edit Project]** button and change the name to "Offer Letter Generator." In the center of the screen is a **[!UICONTROL Get Started With Your New Project]** section. To enable security on your project, take the following steps:
 
-Click **Add API**. You see a number of APIs to choose from. In the **Filter by Product** section, select **Document Cloud**, then click **Next**.
+Click **Add API**. You see a number of APIs to choose from. In the **[!UICONTROL Filter by Product]** section, select **[!UICONTROL Document Cloud]**, then click **[!UICONTROL Next]**.
 
 Now, generate credentials to access the API. The credentials are in the form of a JSON Web Token ([JWT](https://jwt.io/)): an open standard for secure communication. If you are familiar with JWT and have already generated keys, you can upload your public key here. Alternatively, proceed by selecting **Option 1** to have Adobe generate the keys for you.
 
 ![Screenshot of generating credentials](assets/offer_1.png)
 
-Click the **Generate keypair** button. You get a config.zip file to download. Unzip the archive file. It contains two files: certificate_pub.crt and private.key. Make sure that the latter is kept secure, as it contains your private credentials and may be used to generate spurious documents if out of your control.
+Click the **[!UICONTROL Generate keypair]** button. You get a config.zip file to download. Unzip the archive file. It contains two files: certificate_pub.crt and private.key. Make sure that the latter is kept secure, as it contains your private credentials and may be used to generate spurious documents if out of your control.
 
-Click **Next**. No, enables access to the PDF Generation API. On the **Select product profiles** screen, check **Enterprise PDF Services Developer**, and click on the **Save configured API** button. Now you are ready to start using the API.
+Click **[!UICONTROL Next]**. No, enables access to the PDF Generation API. On the **[!UICONTROL Select product profiles]** screen, check **[!UICONTROL Enterprise PDF Services Developer]**, and click on the **[!UICONTROL Save configured API]** button. Now you are ready to start using the API.
 
 ## Setting up the project
 
-Set up a Node project to run your code. This example uses [Visual Studio Code](https://code.visualstudio.com/) (VS Code) as the editor. Make a folder called "letter-generator" and open it in VS Code. From the **File** menu, select **Terminal** \> **New Terminal** to open a shell in this folder. Check that Node is installed and on your path by entering the following:
+Set up a Node project to run your code. This example uses [Visual Studio Code](https://code.visualstudio.com/) (VS Code) as the editor. Make a folder called "letter-generator" and open it in VS Code. From the **[!UICONTROL File]** menu, select **[!UICONTROL Terminal]** \> **[!UICONTROL New Terminal]** to open a shell in this folder. Check that Node is installed and on your path by entering the following:
  
 ```
 node -v
@@ -166,7 +166,7 @@ salary: '887888',
 startdate: '2021-04-01' }
 ```
  
-You replace this console logging with a web service call to Acrobat Services. First, you must make a JSON-based model of the information. The format of this model looks like this:
+You replace this console logging with a web service call to [!DNL Acrobat Services]. First, you must make a JSON-based model of the information. The format of this model looks like this:
  
 ```
 {
@@ -246,7 +246,7 @@ In your OfferLetter-Template, click the new **Document Generation** button. A si
 
 ![Screenshot of letter and code](assets/offer_3.png)
 
-Click the **Generate Tags** button. You get a drop-down menu of tags to insert into the appropriate points in the document. Highlight the first X in the document and select **firstname**. Click **Insert Text** and "Dear X," is changed to "Dear ```{{`offer_letter`.firstname}}```,". This tag is the correct format for `documentMergeOperation`. Go ahead and add the remaining three tags at the appropriate Xs. Don't forget to save OfferLetter-template.docx. It should look like this:
+Click the **Generate Tags** button. You get a drop-down menu of tags to insert into the appropriate points in the document. Highlight the first X in the document and select **[!UICONTROL firstname]**. Click **[!UICONTROL Insert Text]** and "Dear X," is changed to "Dear ```{{`offer_letter`.firstname}}```,". This tag is the correct format for `documentMergeOperation`. Go ahead and add the remaining three tags at the appropriate Xs. Don't forget to save OfferLetter-template.docx. It should look like this:
 
 Dear ```{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}```,
 
@@ -272,14 +272,14 @@ Back to your `generateLetter` function. To secure your REST call, make a new fil
 }
 ```
  
-* The client ID, client secret, and organization ID can be copied directly from the **Credential details** section of the console.
+* The client ID, client secret, and organization ID can be copied directly from the **[!UICONTROL Credential details]** section of the console.
 
 * The account ID is the **Technical Account ID**.
 
 * Copy the private.key file you generated earlier into the project and enter its name in the private_key_file section of the
  pdftools-api-credentials.json file. If you wish, you can put a path to the private key file here. Remember to keep it secure as it can be mis-used once out of your control.
 
-To generate a PDF with the JSON data filled in, go back to your **Enter Candidate Details** web form and post some data. It takes a little while as the document has to be downloaded from Adobe, but you should have a file titled OfferLetter.pdf in a new folder titled output.
+To generate a PDF with the JSON data filled in, go back to your **[!UICONTROL Enter Candidate Details]** web form and post some data. It takes a little while as the document has to be downloaded from Adobe, but you should have a file titled OfferLetter.pdf in a new folder titled output.
 
 ## Next steps
 
@@ -287,5 +287,5 @@ That's it! This is just the beginning. If you study the Advanced section of the 
 
 The single document example provided above can be used as the basis for an application when an organization must [ramp up seasonal hiring](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html) of employees across multiple locations. As demonstrated, the main flow is to take data from candidates through an online application. The data is used to populate the fields of an offer letter, and send it out for electronic signature.
 
-Adobe Acrobat Services is free to use for six months, then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction, so you can try it and scale your offer letter workflow as your business grows. To [get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+[!DNL Adobe Acrobat Services] is free to use for six months, then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction, so you can try it and scale your offer letter workflow as your business grows. To [get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 building your own templates, [sign up your developer account](https://www.adobe.io/).

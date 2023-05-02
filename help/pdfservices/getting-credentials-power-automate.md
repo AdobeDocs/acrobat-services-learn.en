@@ -10,7 +10,7 @@ exl-id: 68ec654f-74aa-41b7-9103-44df13402032
 ---
 # Getting credentials for Microsoft Power Automate
 
-[Microsoft Power Automate](https://powerautomate.microsoft.com/) provides a powerful way for citizen developers and developers to create powerful automated processes to improve their businesses without writing code. [Adobe PDF Services](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/) connector, as part of [Adobe Acrobat Services](https://developer.adobe.com/document-services), allows users to perform any of the actions available in Adobe PDF Services API within Microsoft Power Automate.  
+[Microsoft Power Automate](https://powerautomate.microsoft.com/) provides a powerful way for citizen developers and developers to create powerful automated processes to improve their businesses without writing code. [Adobe PDF Services](https://us.flow.microsoft.com/en-us/connectors/shared_adobepdftools/adobe-pdf-services/) connector, as part of [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services), allows users to perform any of the actions available in Adobe PDF Services API within Microsoft Power Automate.  
 
 In this tutorial, learn how to get credentials to start using or trialing Adobe PDF Services. Depending on whether you are a trial user or an existing customer, this tutorial walks through the proper steps to get credentials.   
 
@@ -27,7 +27,7 @@ Existing Microsoft Power Automate users can [get trial credentials](https://www.
 
 1. After signing in, you are prompted to select a name for your new credentials. Enter your *Credential Name*.
 1. Select the checkbox to agree to the developer terms.
-1. Select **Create Credentials**.
+1. Select **[!UICONTROL Create Credentials]**.
 
     ![Naming your credentials](assets/credentials_2.png)
 
@@ -59,18 +59,18 @@ Store this file in a secure location because it is not possible to get a copy of
 
 Now that you have your credentials, you can begin using them in Microsoft Power Automate flows. 
 
-1. In the sidebar menu, open the **Data** menu and select **Connections**:
+1. In the sidebar menu, open the **[!UICONTROL Data]** menu and select **Connections**:
 
     ![Connections menu in the Microsoft Power Automate site](assets/credentials_4.png)
 
-1. Select **+ New Connection**.
+1. Select **+ [!UICONTROL New Connection]**.
 
 1. The next screen shows a list of possible connection types. In the upper right-hand corner, enter "adobe" to filter the options:
 
     ![List of Adobe connections](assets/credentials_5.png)
 
-1. Select **Adobe PDF Services (preview)**.
-1. In the modal window, enter all five values you generated earlier. Select **Create** when done.
+1. Select **[!UICONTROL Adobe PDF Services (preview)]**.
+1. In the modal window, enter all five values you generated earlier. Select **[!UICONTROL Create]** when done.
 
     ![Form fields to enter credential information](assets/credentials_6.png)
 
@@ -91,13 +91,13 @@ Unfortunately, you cannot download the previous private key, but you can use the
 
 ## Using existing Adobe PDF Services credentials 
 
-If you have existing Adobe PDF Services API credentials generated from Adobe Acrobat Services website, you can use them with Microsoft Power Automate. If you downloaded an SDK while signing up, your existing credentials came in the form of a JSON file most likely named `pdfservices-api-credentials.json`. That JSON file contains the five keys needed when creating your connection credentials. Copy each value from the JSON file into the corresponding connection field. 
+If you have existing Adobe PDF Services API credentials generated from [!DNL Adobe Acrobat Services] website, you can use them with Microsoft Power Automate. If you downloaded an SDK while signing up, your existing credentials came in the form of a JSON file most likely named `pdfservices-api-credentials.json`. That JSON file contains the five keys needed when creating your connection credentials. Copy each value from the JSON file into the corresponding connection field. 
 
 Your private key value comes from a second file named `private.key`.
 
 You can also get the values from Adobe Developer Console as described above.
 
-## How can Adobe Acrobat Services users start working with Microsoft Power Automate?
+## How can [!DNL Adobe Acrobat Services] users start working with Microsoft Power Automate?
 
 To get started working with Power Automate, first head to <https://powerautomate.microsoft.com> and use the "Start free" button. If you do not have a Microsoft account you need to make one. After signing in, you are presented with the Power Automate dashboard.
 
@@ -109,7 +109,7 @@ As described at the beginning of this tutorial, create a new flow, add a step, a
 
 As the screenshot above shows, you can either switch to a work account or set up a new organization account. Once you have, you are then able to add the Adobe PDF Services action.
 
-For a deeper look at creating your first Microsoft Power Automate flow with Adobe Acrobat Services, see [Create your first workflow in Microsoft Power Automate](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/create-workflow-power-automate.html).
+For a deeper look at creating your first Microsoft Power Automate flow with [!DNL Adobe Acrobat Services], see [Create your first workflow in Microsoft Power Automate](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/create-workflow-power-automate.html).
 
 ## Additional resources
 
