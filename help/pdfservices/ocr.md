@@ -24,7 +24,9 @@ In this tutorial covers the basics of how to run your first PDF Services API OCR
 Use the getting started tutorials below to create your API credentials, download sample files, and setup your environment.
 
 [Getting Started with PDF Services API and Java](gettingstartedjava.md)
+
 [Getting Started with PDF Services API and .Net](gettingstartednet.md)
+
 [Getting Started with PDF Services API and Node.js](createpdffromhtml.md)
 
 ## Run the OCR example provided in the sample files
