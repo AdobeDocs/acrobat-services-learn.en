@@ -29,7 +29,9 @@ In this tutorial, learn the basics of how to run your first PDF Services API exp
 Use the getting started tutorials below to create your API credentials, download sample files, and set up your environment.
 
 [Getting Started with PDF Services API and Java](gettingstartedjava.md)
+
 [Getting Started with PDF Services API and .Net](gettingstartednet.md)
+
 [Getting Started with PDF Services API and Node.js](createpdffromhtml.md)
 
 ## Step 2: Run export pdf operation using the sample files
