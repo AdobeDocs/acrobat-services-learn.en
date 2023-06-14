@@ -11,7 +11,7 @@ exl-id: 79603883-26cd-439c-9cfd-6178c4544b93
 
 ![Acrobat Sign API Banner](../assets/acrobatsignhero.png)
 
-Acrobat Sign's APIs allow you to create apps and embed the Acrobat Sign UI and functionality into your applications.
+Acrobat Sign APIs allow you to create apps and embed the Acrobat Sign UI and functionality into your applications.
 
 ## Getting started
 
