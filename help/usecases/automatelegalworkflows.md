@@ -545,7 +545,7 @@ Now you have information about that agreement.
   }
 ```
 
-The more efficient method for getting notifications when updates are changed is via Webhooks, which you can learn more about [here](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookapis.html) and a full list of available webhook events are available [here](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookevents.html).
+The more efficient method for getting notifications when updates are changed is via Webhooks, which you can learn more about [here](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookapis.html.
 
 ## Store a signed document
 
