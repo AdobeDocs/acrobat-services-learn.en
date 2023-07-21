@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8145.jpg
-kt: 8145
+jira: KT-8145
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
 ---
 # Handling invoices

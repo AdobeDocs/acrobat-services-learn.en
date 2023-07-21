@@ -3,9 +3,9 @@ title: "[!DNL Adobe Acrobat Services] API Tutorials"
 description: Overview page for [!DNL Adobe Acrobat Services]
 type: Tutorial
 role: Developer
-skill: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate, Experienced
 thumbnail: KT-7463.jpg
-kt: 7463.jpg
+jira: KT-7463
 exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
 ---
 # [!DNL Adobe Acrobat Services] API tutorials

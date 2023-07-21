@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8091.jpg
-kt: 8091
+jira: KT-8091
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
 ---
 # Student-Teacher collaboration

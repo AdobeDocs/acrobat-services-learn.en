@@ -3,9 +3,9 @@ title: "[!DNL Adobe Acrobat Services] API Use Cases"
 description: Overview page for [!DNL Adobe Acrobat Services] API use cases
 type: Tutorial
 role: Developer
-skill: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate, Experienced
 thumbnail: KT-8115.jpg
-kt: 8115
+jira: KT-8115
 exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
 ---
 # [!DNL Adobe Acrobat Services] API use cases

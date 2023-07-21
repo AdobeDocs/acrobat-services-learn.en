@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8089.jpg
-kt: 8089
+jira: KT-8089
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
 ---
 # Getting started with Adobe Sign API

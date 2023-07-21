@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8099.jpg
-kt: 8099
+jira: KT-8099
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
 ---
 # Managing sales proposals and contracts

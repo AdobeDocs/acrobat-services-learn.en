@@ -3,9 +3,9 @@ title: Managing Financial Document Workflows in Java
 description: "[!DNL Adobe Acrobat Services] provides all the necessary tools, services, and features to process and extract data from PDF financial documents"
 type: Tutorial
 role: Developer
-level: Beginner
+level: Intermediate
 thumbnail: KT-7482.jpg
-kt: 7482
+jria: KT-7482
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960
 ---
 # Managing financial document workflows in Java

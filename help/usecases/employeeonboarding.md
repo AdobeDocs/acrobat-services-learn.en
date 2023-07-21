@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-10203.jpg
-kt: 10203
+jira: KT-10203
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
 ---
 # Modernizing employee onboarding
