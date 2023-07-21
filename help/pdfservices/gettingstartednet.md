@@ -5,7 +5,7 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-6675.jpg
-kt: 6675
+jira: KT-6675
 keywords: Featured
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a
 ---

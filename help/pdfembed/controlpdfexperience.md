@@ -5,7 +5,7 @@ type: Tutorial
 role: Developer
 level: Intermediate
 thumbnail: KT-7487.jpg
-kt: 7487
+jira: KT-7487
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
 ---
 # Control your PDF online experience and gather analytics

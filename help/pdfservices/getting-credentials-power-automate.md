@@ -5,7 +5,7 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-10382.jpg
-kt: 10382
+jira: KT-10382
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
 ---
 # Getting credentials for Microsoft Power Automate

@@ -3,7 +3,7 @@ title: Adobe PDF Embed API Tutorials
 description: Overview page for Adobe PDF Embed API
 type: Tutorial
 role: Developer
-skill: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate, Experienced
 thumbnail: KT-8117.jpg
 kt: 8117
 exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78

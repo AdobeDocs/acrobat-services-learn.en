@@ -3,9 +3,9 @@ title: HR Document Workflows in Java
 description: "[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your HR web applications"
 type: Tutorial
 role: Developer
-level: Beginner
+level: Intermediate
 thumbnail: KT-7474.jpg
-kt: 7474
+jira: KT-7474
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
 ---
 # HR document workflows in Java

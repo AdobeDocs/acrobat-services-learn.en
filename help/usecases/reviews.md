@@ -5,7 +5,7 @@ type: Tutorial
 role: Developer
 level: Intermediate
 thumbnail: KT-8094.jpg
-kt: 8094
+jira: KT-8094
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
 ---
 # Reviews and approvals

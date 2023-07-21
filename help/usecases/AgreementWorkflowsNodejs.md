@@ -5,7 +5,7 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-7473.jpg
-kt: 7473
+jira: KT-7473
 keywords: Featured
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 ---

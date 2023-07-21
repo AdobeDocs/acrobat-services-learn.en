@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8090.jpg
-kt: 8090
+jira: KT-8090
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
 ---
 # Digital document publishing

@@ -3,7 +3,7 @@ title: Acrobat Sign API Tutorials
 description: Overview page for Acrobat Sign APIs
 type: Tutorial
 role: Developer
-skill: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate, Experienced
 thumbnail: KT-11079.jpg
 exl-id: 79603883-26cd-439c-9cfd-6178c4544b93
 ---

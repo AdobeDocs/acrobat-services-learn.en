@@ -5,7 +5,7 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-10202.jpg
-kt: 10202
+jira: KT-10202
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
 ---
 # Automate legal workflows

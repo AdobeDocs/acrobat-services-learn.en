@@ -5,7 +5,7 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-6673.jpg
-kt: 6673
+jira: KT-6673
 exl-id: 1bd01bb8-ca5e-4a4a-8646-3d97113e2c51
 ---
 # Create a PDF from HTML or MS Office in a few minutes with PDF Services API and Node.js
