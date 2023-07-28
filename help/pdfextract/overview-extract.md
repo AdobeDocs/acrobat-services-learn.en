@@ -4,6 +4,7 @@ description: Overview page for Adobe PDF Extract API
 type: Tutorial
 role: Developer
 skill: Beginner, Intermediate, Experienced
+feature: PDF Extract API
 thumbnail: KT-9247.jpg
 jira: KT-9247
 exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd

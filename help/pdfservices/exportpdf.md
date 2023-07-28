@@ -4,6 +4,7 @@ description: Learn how to run the PDF Services API export operation using sample
 type: Tutorial
 role: Developer
 level: Intermediate
+feature: PDF Services API
 thumbnail: KT-6674.jpg
 kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8

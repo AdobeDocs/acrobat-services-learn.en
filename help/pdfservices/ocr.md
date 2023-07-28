@@ -4,6 +4,7 @@ description: With OCR (Optical Character Recognition) you can unlock scanned PDF
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-6677.jpg
 jira: KT-6677
 keywords: Hero

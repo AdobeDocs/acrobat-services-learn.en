@@ -4,6 +4,7 @@ description: Learn how to build a document review and approval workflow for cros
 type: Tutorial
 role: Developer
 level: Intermediate
+feature: Use Cases
 thumbnail: KT-8094.jpg
 jira: KT-8094
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a

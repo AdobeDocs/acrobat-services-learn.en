@@ -4,6 +4,7 @@ description: Learn how to use Adobe PDF Services connector in Microsoft Power Au
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-10379.jpg
 kt: 10379
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee

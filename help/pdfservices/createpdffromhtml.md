@@ -4,6 +4,7 @@ description: Within the PDF Services API, there are several available services t
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-6673.jpg
 jira: KT-6673
 exl-id: 1bd01bb8-ca5e-4a4a-8646-3d97113e2c51

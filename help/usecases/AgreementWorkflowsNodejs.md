@@ -4,6 +4,7 @@ description: "[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabili
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Use Cases
 thumbnail: KT-7473.jpg
 jira: KT-7473
 keywords: Featured

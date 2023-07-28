@@ -4,6 +4,7 @@ description: Overview of the Document Generation API tutorials
 type: Tutorial
 role: Developer
 level: Beginner, Intermediate, Experienced
+feature: Document Generation API
 thumbnail: KT-7480.jpg
 kt: 7480
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c

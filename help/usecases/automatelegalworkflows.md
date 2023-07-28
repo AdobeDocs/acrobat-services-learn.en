@@ -4,6 +4,7 @@ description: Learn how to automate legal workflows with conditional content
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-10202.jpg
 jira: KT-10202
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346

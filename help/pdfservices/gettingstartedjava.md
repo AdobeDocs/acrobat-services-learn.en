@@ -4,6 +4,7 @@ description: Developers can get started in just a few minutes with the ready to 
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-6676.jpg
 kt: 6676
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25

@@ -4,6 +4,7 @@ description: Learn how to add image tags to Microsoft Word templates using Adobe
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Document Generation API
 thumbnail: 332114.jpg
 exl-id: 5c5dae3f-815e-4039-ad57-ad3fa6e97853
 ---

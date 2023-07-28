@@ -4,6 +4,7 @@ description: Learn how to display embedded PDF documents inside web pages using 
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-8090.jpg
 jira: KT-8090
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40

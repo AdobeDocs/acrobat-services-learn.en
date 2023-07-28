@@ -4,6 +4,7 @@ description: Learn how to create an embed link for OAuth, which is the method th
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Acrobat Sign API
 thumbnail: KT-11073.jpg
 exl-id: 6fc50cc7-bb65-4d4b-9e4f-3b4a3ab8adab
 ---

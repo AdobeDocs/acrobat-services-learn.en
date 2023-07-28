@@ -4,6 +4,7 @@ description: Overview of the Adobe Document Generation Tagger that's designed fo
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Document Generation API
 thumbnail: 332120.jpg
 keywords: Featured
 exl-id: df7e84a6-4409-46dc-9a41-72df79deb179
