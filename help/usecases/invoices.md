@@ -4,6 +4,7 @@ description: Learn how to automatically generate, password-protect, and deliver 
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-8145.jpg
 jira: KT-8145
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb

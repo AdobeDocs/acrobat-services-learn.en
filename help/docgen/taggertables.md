@@ -4,6 +4,7 @@ description: Learn how to add tables and list tags to Microsoft Word templates u
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Document Generation API
 thumbnail: 332115.jpg
 exl-id: 15cb4016-6f92-401f-bda5-088ffd43588a
 ---

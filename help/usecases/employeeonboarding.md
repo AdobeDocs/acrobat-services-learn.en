@@ -4,6 +4,7 @@ description: Learn how to modernize employee onboarding with [!DNL Adobe Acrobat
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-10203.jpg
 jira: KT-10203
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239

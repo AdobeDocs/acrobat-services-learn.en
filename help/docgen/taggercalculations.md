@@ -4,6 +4,7 @@ description: Learn how to set numerical calculation tags in Microsoft Word templ
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Document Generation API
 thumbnail: 332118.jpg
 exl-id: 562cd1ad-6b43-4f4c-bb58-c63494895a14
 ---

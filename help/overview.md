@@ -4,6 +4,7 @@ description: Overview page for [!DNL Adobe Acrobat Services]
 type: Tutorial
 role: Developer
 level: Beginner, Intermediate, Experienced
+feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API
 thumbnail: KT-7463.jpg
 jira: KT-7463
 exl-id: c73feb77-4057-42fd-831c-a5004c7637c1

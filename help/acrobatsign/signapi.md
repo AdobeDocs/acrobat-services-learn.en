@@ -4,6 +4,7 @@ description: Learn how to include Acrobat Sign API in your application to gather
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Acrobat Sign API
 thumbnail: KT-8089.jpg
 jira: KT-8089
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83

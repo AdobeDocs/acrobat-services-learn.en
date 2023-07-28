@@ -4,6 +4,7 @@ description: Learn how to get credentials to start using or trialing Adobe PDF S
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-10382.jpg
 jira: KT-10382
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032

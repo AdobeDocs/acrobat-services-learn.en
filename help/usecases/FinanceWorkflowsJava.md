@@ -4,6 +4,7 @@ description: "[!DNL Adobe Acrobat Services] provides all the necessary tools, se
 type: Tutorial
 role: Developer
 level: Intermediate
+feature: Use Cases
 thumbnail: KT-7482.jpg
 jria: KT-7482
 exl-id: 3bdc2610-d497-4a54-afc0-8b8baa234960

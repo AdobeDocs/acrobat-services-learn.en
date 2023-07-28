@@ -4,6 +4,7 @@ description: Developers can get started in just a few minutes with the ready to 
 type: Tutorial
 role: Developer
 level: Beginner
+feature: PDF Services API
 thumbnail: KT-6675.jpg
 jira: KT-6675
 keywords: Featured

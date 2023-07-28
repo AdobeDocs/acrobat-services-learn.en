@@ -4,6 +4,7 @@ description: Learn how to sign up for a Developer Account for Acrobat Sign, whic
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Acrobat Sign API
 thumbnail: KT-11072.jpg
 exl-id: cf5f36bd-f96a-4f38-8da5-82a3a4d12958
 ---

@@ -4,6 +4,7 @@ description: Learn how to automatically generate and protect legal documents wit
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-8097.jpg
 jira: KT-8097
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5

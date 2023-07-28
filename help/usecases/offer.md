@@ -4,6 +4,7 @@ description: Learn how to generate an offer letter that can be delivered to a ne
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-8096.jpg
 jira: KT-8096
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2

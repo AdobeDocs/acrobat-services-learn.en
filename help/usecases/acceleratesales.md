@@ -4,6 +4,7 @@ description: Learn how to accelerate sales by integrating document experiences w
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-10222.jpg
 jira: KT-10222
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3

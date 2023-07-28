@@ -4,6 +4,7 @@ description: Learn how to add text tags to Microsoft Word templates using Adobe 
 type: Tutorial
 role: Developer
 level: Beginner
+feature: Document Generation API
 thumbnail: 332116.jpg
 exl-id: 59a0c912-9965-4bf9-8834-28d1dff91055
 ---
