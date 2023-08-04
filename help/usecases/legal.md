@@ -1,12 +1,12 @@
 ---
 title: Managing Legal Contracts
 description: Learn how to automatically generate and protect legal documents with custom data input
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8097.jpg
 jira: KT-8097
+thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
 ---
 # Managing legal contracts

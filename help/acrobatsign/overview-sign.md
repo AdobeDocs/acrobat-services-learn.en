@@ -1,10 +1,11 @@
 ---
 title: Acrobat Sign API Tutorials
 description: Overview page for Acrobat Sign APIs
-type: Tutorial
+feature: Acrobat Sign API
 role: Developer
 level: Beginner, Intermediate, Experienced
-feature: Acrobat Sign API
+type: Tutorial
+jira: KT-11079
 thumbnail: KT-11079.jpg
 exl-id: 79603883-26cd-439c-9cfd-6178c4544b93
 ---

@@ -1,12 +1,12 @@
 ---
 title: Getting credentials for Microsoft Power Automate
 description: Learn how to get credentials to start using or trialing Adobe PDF Services
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
-thumbnail: KT-10382.jpg
+type: Tutorial
 jira: KT-10382
+thumbnail: KT-10382.jpg
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
 ---
 # Getting credentials for Microsoft Power Automate

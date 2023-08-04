@@ -1,12 +1,12 @@
 ---
 title: Getting Started with Adobe PDF Services API and .Net
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
-thumbnail: KT-6675.jpg
+type: Tutorial
 jira: KT-6675
+thumbnail: KT-6675.jpg
 keywords: Featured
 exl-id: 22c59c75-fd99-4467-a6f6-917fb246469a
 ---

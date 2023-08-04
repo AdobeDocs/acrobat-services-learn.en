@@ -1,12 +1,12 @@
 ---
 title: Reviews and Approvals
 description: Learn how to build a document review and approval workflow for cross-team collaboration
-type: Tutorial
+feature: Use Cases
 role: Developer
 level: Intermediate
-feature: Use Cases
-thumbnail: KT-8094.jpg
+type: Tutorial
 jira: KT-8094
+thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
 ---
 # Reviews and approvals

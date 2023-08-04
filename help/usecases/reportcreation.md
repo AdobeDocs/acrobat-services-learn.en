@@ -1,12 +1,12 @@
 ---
 title: Report Creation and Editing
 description: Learn how to generate PDF reports on your website for customers
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8093.jpg
 jira: KT-8093
+thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
 ---
 # Report creation and editing

@@ -1,12 +1,12 @@
 ---
 title: Student-Teacher Collaboration
 description: Learn how to create an online learning platform that enables teachers and students to easily share resources in PDF
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8091.jpg
 jira: KT-8091
+thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
 ---
 # Student-Teacher collaboration

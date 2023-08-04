@@ -4,6 +4,7 @@ breadcrumb-title: "[!DNL Acrobat Services]"
 user-guide-description: Learn more about [!DNL Adobe Acrobat Services]
 solution: Acrobat Services
 feature-set: Acrobat Services
+feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API
 ---
 
 # [!DNL Adobe Acrobat Services] API {#tutorials}

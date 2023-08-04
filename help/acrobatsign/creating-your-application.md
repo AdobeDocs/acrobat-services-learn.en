@@ -1,10 +1,11 @@
 ---
 title: Creating your Application
 description: Learn how to create an application in Acrobat Sign
-type: Tutorial
+feature: Acrobat Sign API
 role: Developer
 level: Beginner
-feature: Acrobat Sign API
+type: Tutorial
+jira: KT-11074
 thumbnail: KT-11074.jpg
 exl-id: dbd33a24-e6b7-4ec6-84fb-f376a349f863
 ---

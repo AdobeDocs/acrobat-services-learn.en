@@ -1,13 +1,12 @@
 ---
 title: Using Adobe PDF Services API to OCR PDF Files
 description: With OCR (Optical Character Recognition) you can unlock scanned PDFs to extract text and create searchable files
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
-thumbnail: KT-6677.jpg
+type: Tutorial
 jira: KT-6677
-keywords: Hero
+thumbnail: KT-6677.jpg
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
 ---
 # Using Adobe PDF Services API to OCR PDF files

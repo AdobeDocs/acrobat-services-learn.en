@@ -1,12 +1,12 @@
 ---
 title: Automate Legal Workflows
 description: Learn how to automate legal workflows with conditional content
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-10202.jpg
 jira: KT-10202
+thumbnail: KT-10202.jpg
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
 ---
 # Automate legal workflows

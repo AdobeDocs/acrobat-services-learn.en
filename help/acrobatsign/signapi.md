@@ -1,12 +1,12 @@
 ---
 title: Getting Started with Acrobat Sign API
 description: Learn how to include Acrobat Sign API in your application to gather signatures and other information
+feature: Acrobat Sign API
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Acrobat Sign API
-thumbnail: KT-8089.jpg
 jira: KT-8089
+thumbnail: KT-8089.jpg
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
 ---
 # Getting started with Adobe Sign API

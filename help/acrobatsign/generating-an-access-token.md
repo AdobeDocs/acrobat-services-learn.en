@@ -1,10 +1,11 @@
 ---
 title: Generating an Access Token
 description: Learn how to generate an access token that can be used with the Acrobat Sign API
-type: Tutorial
+feature: Acrobat Sign API
 role: Developer
 level: Beginner
-feature: Acrobat Sign API
+type: Tutorial
+jira: KT-11075
 thumbnail: KT-11075.jpg
 exl-id: c68afd4b-4143-4ea5-ad44-de1fa46e3f30
 ---

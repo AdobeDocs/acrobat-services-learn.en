@@ -1,12 +1,12 @@
 ---
 title: Getting Started with Adobe PDF Services API and Java
 description: Developers can get started in just a few minutes with the ready to run sample files provided for accessing all the available web services
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
+type: Tutorial
+jira: KT-6676
 thumbnail: KT-6676.jpg
-kt: 6676
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25
 ---
 # Getting started with Adobe PDF Services API and Java
