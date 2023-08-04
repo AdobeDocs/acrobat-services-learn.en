@@ -1,12 +1,12 @@
 ---
 title: Create your first workflow in Microsoft Power Automate
 description: Learn how to use Adobe PDF Services connector in Microsoft Power Automate
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
+type: Tutorial
+jira: KT-10379
 thumbnail: KT-10379.jpg
-kt: 10379
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
 ---
 

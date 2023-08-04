@@ -1,12 +1,12 @@
 ---
 title: Adobe PDF Extract API Tutorials
 description: Overview page for Adobe PDF Extract API
-type: Tutorial
+feature: PDF Extract API
 role: Developer
 skill: Beginner, Intermediate, Experienced
-feature: PDF Extract API
-thumbnail: KT-9247.jpg
+type: Tutorial
 jira: KT-9247
+thumbnail: KT-9247.jpg
 exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
 ---
 # Adobe PDF Extract API tutorials

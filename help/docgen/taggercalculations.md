@@ -1,10 +1,9 @@
 ---
 title: Setting Numerical Calculation Tags
 description: Learn how to set numerical calculation tags in Microsoft Word templates using Adobe Document Generation Tagger to calculate aggregations or arithmetic of data values using Adobe Document Generation API
-type: Tutorial
+feature: Document Generation API
 role: Developer
 level: Beginner
-feature: Document Generation API
 thumbnail: 332118.jpg
 exl-id: 562cd1ad-6b43-4f4c-bb58-c63494895a14
 ---

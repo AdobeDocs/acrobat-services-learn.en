@@ -1,12 +1,12 @@
 ---
 title: Managing Employee Offer Letters
 description: Learn how to generate an offer letter that can be delivered to a new employee for their signature
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8096.jpg
 jira: KT-8096
+thumbnail: KT-8096.jpg
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
 ---
 # Managing employee offer letters

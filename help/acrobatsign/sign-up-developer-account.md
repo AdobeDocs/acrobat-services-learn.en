@@ -1,10 +1,11 @@
 ---
 title: Signing up for a Developer Account
 description: Learn how to sign up for a Developer Account for Acrobat Sign, which is fully enabled with Sign and API functionality
-type: Tutorial
+feature: Acrobat Sign API
 role: Developer
 level: Beginner
-feature: Acrobat Sign API
+type: Tutorial
+jira: KT-11072
 thumbnail: KT-11072.jpg
 exl-id: cf5f36bd-f96a-4f38-8da5-82a3a4d12958
 ---

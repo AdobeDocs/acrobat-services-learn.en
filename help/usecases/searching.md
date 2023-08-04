@@ -1,12 +1,12 @@
 ---
 title: Searching and Indexing
 description: Learn how to create searchable PDF files from scanned documents
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8095.jpg
 jira: KT-8095
+thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
 ---
 # Searching and indexing

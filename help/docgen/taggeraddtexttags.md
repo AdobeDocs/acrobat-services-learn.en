@@ -1,10 +1,10 @@
 ---
 title: Adding Text Tags
 description: Learn how to add text tags to Microsoft Word templates using Adobe Document Generation Tagger for use with Adobe Document Generation API
-type: Tutorial
+feature: Document Generation API
 role: Developer
 level: Beginner
-feature: Document Generation API
+type: Tutorial
 thumbnail: 332116.jpg
 exl-id: 59a0c912-9965-4bf9-8834-28d1dff91055
 ---

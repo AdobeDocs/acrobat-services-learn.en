@@ -1,10 +1,11 @@
 ---
 title: Creating an Embed Link
 description: Learn how to create an embed link for OAuth, which is the method that your application gets permissions for users
-type: Tutorial
+feature: Acrobat Sign API
 role: Developer
 level: Beginner
-feature: Acrobat Sign API
+type: Tutorial
+jira: KT-11073
 thumbnail: KT-11073.jpg
 exl-id: 6fc50cc7-bb65-4d4b-9e4f-3b4a3ab8adab
 ---

@@ -1,12 +1,12 @@
 ---
 title: Agreement Workflows in Node.js
 description: "[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your web applications"
-type: Tutorial
+feature: Use Cases
 role: Developer
 level: Beginner
-feature: Use Cases
-thumbnail: KT-7473.jpg
+type: Tutorial
 jira: KT-7473
+thumbnail: KT-7473.jpg
 keywords: Featured
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
 ---

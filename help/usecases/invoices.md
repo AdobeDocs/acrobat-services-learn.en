@@ -1,12 +1,12 @@
 ---
 title: Handling Invoices
 description: Learn how to automatically generate, password-protect, and deliver customer invoices
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8145.jpg
 jira: KT-8145
+thumbnail: KT-8145.jpg
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
 ---
 # Handling invoices

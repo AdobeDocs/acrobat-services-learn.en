@@ -1,12 +1,12 @@
 ---
 title: Managing Sales Proposals and Contracts
 description: Learn how to build an efficient workflow to automate and simplify sales proposals
+feature: Use Cases
 role: Developer
 level: Intermediate
 type: Tutorial
-feature: Use Cases
-thumbnail: KT-8099.jpg
 jira: KT-8099
+thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
 ---
 # Managing sales proposals and contracts
