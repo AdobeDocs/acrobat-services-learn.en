@@ -3,7 +3,7 @@ title: Adobe PDF Extract API Tutorials
 description: Overview page for Adobe PDF Extract API
 feature: PDF Extract API
 role: Developer
-skill: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-9247
 thumbnail: KT-9247.jpg
