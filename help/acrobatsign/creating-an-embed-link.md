@@ -17,4 +17,4 @@ Learn how to create an embed link for OAuth, which is the method that your appli
 >
 >This tutorial is specifically designed for OEM partners that are building and embedding a signature process within their application.
 
->[!VIDEO](https://video.tv.adobe.com/v/347349?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/347349?hidetitle=true){transcript=true}
