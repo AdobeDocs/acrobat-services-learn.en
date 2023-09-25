@@ -7,6 +7,7 @@ feature-set: Acrobat Services
 feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API
 role: Developer
 level: Beginner, Intermediate, Experienced
+auto-video-transcripts: true
 ---
 
 # [!DNL Adobe Acrobat Services] API {#tutorials}
