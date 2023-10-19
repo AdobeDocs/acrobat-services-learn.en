@@ -12,8 +12,6 @@ exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
 
 # Document Generation API tutorials
 
-![Document Generation API Banner](../assets/docgenhero.jpg)
-
 The Document Generation API creates PDF and Word documents from Word templates and JSON data. 
 
 >[!NOTE]

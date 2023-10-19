@@ -11,8 +11,6 @@ exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
 ---
 # [!DNL Adobe Acrobat Services] API use cases
 
-![[!DNL Acrobat Services] API Use Case Banner](../assets/usecaseshero.jpg)
-
 ## What can the [!DNL Adobe Acrobat Services] APIs do for me?
 
 Learn how the [!DNL Adobe Acrobat Services] APIs can change your business with these hands-on use cases.
