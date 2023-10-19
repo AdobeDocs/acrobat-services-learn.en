@@ -11,8 +11,6 @@ exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78
 ---
 # Adobe PDF Embed API tutorials
 
-![PDF Embed API Banner](../assets/pdfembedhero.jpg)
-
 The PDF Embed API is a free JavaScript API to embed high-fidelity PDFs, enable collaboration, and see analytics.
 
 <table style="table-layout:fixed">

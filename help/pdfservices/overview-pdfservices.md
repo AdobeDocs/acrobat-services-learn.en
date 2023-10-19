@@ -11,8 +11,6 @@ exl-id: 81410fe4-7a2c-43a9-b497-b7423f9821ec
 ---
 # Adobe PDF Services API tutorials
 
-![PDF Services API Banner](../assets/pdfserviceshero.jpg)
-
 <table style="table-layout:fixed">
 <tr>
  <td>

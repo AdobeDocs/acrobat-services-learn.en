@@ -11,8 +11,6 @@ exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
 ---
 # Getting started with Adobe Sign API
 
-![Use Case Hero Banner](assets/UseCaseStartedHero.jpg)
-
 [Acrobat Sign API](https://www.adobe.io/apis/documentcloud/sign.html) is a great way to enhance the way you manage signed agreements. Developers can easily integrate their systems with Sign API, which provides a reliable, easy way to upload documents, send them for signing, send reminders, and collect e-signatures.
 
 ## What you can learn
