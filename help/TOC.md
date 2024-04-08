@@ -24,6 +24,7 @@ auto-video-transcripts: true
   + [Using Adobe PDF Services API to OCR PDF files](pdfservices/ocr.md)
 + Document Generation API {#docgen}
   + [Overview](docgen/overview-docgen.md)
+  + [Automate Document Generation](docgen/automate-doc-gen.md)
   + Creating templates {#docgentemplates}
     + [Overview of the Adobe Document Generation Tagger](docgen/taggeroverview.md)
     + [Adding text tags](docgen/taggeraddtexttags.md)

@@ -5,7 +5,7 @@ feature: Document Generation API
 role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial
-jira: 7480
+jira: KT-7480
 thumbnail: KT-7480.jpg
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
 ---
@@ -17,6 +17,37 @@ The Document Generation API creates PDF and Word documents from Word templates a
 >[!NOTE]
 >
 >The Document Generation API is included in the PDF Services API.
+
+<table style="table-layout:fixed">
+<tr>
+ <td>
+   <a href="automate-doc-gen.md">
+      <img alt="Automate Document Generation" src="assets/automate-doc-gen.png" />
+   </a>
+    <div>
+   <a href="taggeroverview.md"><strong>Automate Document Generation</strong></a>
+    </div>
+    <em>Learn how to automatically generate documents at scale</em>
+    <br>
+  </td>
+    <td>
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+   <td>
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+  </td>
+   <td>
+    <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+</tr>
+</table>
 
 ## Creating templates
 
