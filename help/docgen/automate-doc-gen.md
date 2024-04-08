@@ -6,6 +6,7 @@ role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15030
+exl-id: fca9c193-0d0c-4775-98b4-cd048fc97969
 ---
 # Automate Document Generation
 
