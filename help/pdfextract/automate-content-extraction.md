@@ -6,6 +6,7 @@ role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15032
+exl-id: 6187a396-5039-4297-a4cc-b5d4b9545331
 ---
 # Automate content extraction
 
