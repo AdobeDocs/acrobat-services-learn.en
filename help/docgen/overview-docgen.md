@@ -25,7 +25,7 @@ The Document Generation API creates PDF and Word documents from Word templates a
       <img alt="Automate Document Generation" src="assets/automate-doc-gen.png" />
    </a>
   </td>
-    <td>
+  <td>
     <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
     <div>
     <br>
