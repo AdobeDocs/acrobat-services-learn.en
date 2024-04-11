@@ -6,6 +6,7 @@ role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15031
+exl-id: 30ea7763-ea52-4395-b514-a284ede1be7b
 ---
 # Automatically tag documents for accessibility
 

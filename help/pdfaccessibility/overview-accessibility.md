@@ -5,7 +5,8 @@ feature: PDF Services API
 role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial
-jira: KT-15327  
+jira: KT-15327
+exl-id: dfd018a7-8e1f-4c00-9e1f-6b7b8435fbfa
 ---
 # Adobe PDF Accessibility Auto-Tag API tutorials
 
