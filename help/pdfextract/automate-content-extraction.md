@@ -1,7 +1,7 @@
 ---
 title: Automate Content Extraction
 description: Learn how to automate the extraction of content from a PDF document using the PDF Extract API
-feature: Document Generation API
+feature: PDF Extract API
 role: Developer
 level: Beginner
 type: Tutorial
