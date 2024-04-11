@@ -32,6 +32,8 @@ auto-video-transcripts: true
     + [Adding tables and list tags](docgen/taggertables.md)
     + [Setting numerical calculation tags](docgen/taggercalculations.md)
     + [Setting conditional content](docgen/taggerconditional.md)
++ PDF Accessibility Auto-Tag API {#pdfaccessibility}
+    + [Automatically tag documents for accessibility](pdfaccessibility/automatically-add-tags.md)
 + PDF Extract API {#pdfextract}
   + [Overview](pdfextract/overview-extract.md)
   + [Automate content extraction](pdfextract/automate-content-extraction.md)
