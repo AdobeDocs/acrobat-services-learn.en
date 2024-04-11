@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 jira: KT-15031
 ---
-# Automatically tag Documents for accessibility
+# Automatically tag documents for accessibility
 
 Learn how to automatically tag for accessibility at scale using AI. Automatically tagging reduces the time and cost required to reach compliance.
 

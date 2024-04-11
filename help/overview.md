@@ -26,7 +26,7 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
    </a>
   </td>
   <td>
-   <a href="pdfextract/overview-accessibility.md">
+   <a href="pdfaccessibility/overview-accessibility.md">
       <img alt="PDF Accessibility Auto-Tag API" src="assets/PDFAccessibility.png" />
    </a>
   </td>
