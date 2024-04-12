@@ -16,7 +16,7 @@ This AI-powered API automatically tag tables, paragraphs, lists, headings and mo
 <tr>
  <td>
    <a href="automatically-add-tags.md">
-      <img alt="Automatically tag documents for accessibility" src="assets/automatically-add-tags.png" />
+      <img alt="Automatically tag documents for accessibility" src="assets/auto-tag-accessibility.png" />
   </td>
   <td>
     <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
