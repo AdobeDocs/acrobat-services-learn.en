@@ -1,6 +1,6 @@
 ---
-title: Adobe PDF Accessibility Auto-Tag Tutorials
-description: Overview page for Adobe Accessibility Auto-Tag
+title: Adobe PDF Accessibility Auto-Tag API Tutorials
+description: Overview page for Adobe Accessibility Auto-Tag API tutorials
 feature: PDF Services API
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -16,7 +16,7 @@ This AI-powered API automatically tag tables, paragraphs, lists, headings and mo
 <tr>
  <td>
    <a href="automatically-add-tags.md">
-      <img alt="Automatically tag documents for accessibility" src="assets/auto-tag-accessibility.png" />
+      <img alt="Automatically tag documents for accessibility" src="assets/automatically-apply-seal.png" />
   </td>
   <td>
     <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />

@@ -11,7 +11,7 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
 ---
 # [!DNL Adobe Acrobat Services] API tutorials
 
-[!DNL Adobe Acrobat Services] has six main APIs: the [!DNL Adobe PDF Services API], the [!DNL Adobe PDF Embed API], the [!DNL Adobe Document Generation API], the [!DNL Adobe PDF Accessibility Auto-Tag API],the [!DNL Adobe PDF Extract API], and [!DNL Adobe PDF Accessibility Auto-Tag API]. The latter two APIs and their SDKs are bundled into [!DNL Adobe PDF Services API] as part of a paid offering. [!DNL PDF Embed API] is a free offering. These APIs automate the generation, manipulation, and transformation of document content via a set of modern cloud-based web services. They help you deliver simpler, faster, and branded experiences so that you control user interaction with your documents, streamline PDF workflows and promote usage and retention. These tutorials help you get up-to-speed delivering simpler, faster, branded experiences with the [!DNL Adobe Acrobat Services] APIs.
+[!DNL Adobe Acrobat Services] has six main APIs: the [!DNL Adobe PDF Services API], the [!DNL Adobe PDF Embed API], the [!DNL Adobe Document Generation API], the [!DNL Adobe PDF Electronic Seal API], the [!DNL Adobe PDF Extract API], and [!DNL Adobe PDF Accessibility Auto-Tag API]. The latter two APIs and their SDKs are bundled into [!DNL Adobe PDF Services API] as part of a paid offering. [!DNL PDF Embed API] is a free offering. These APIs automate the generation, manipulation, and transformation of document content via a set of modern cloud-based web services. They help you deliver simpler, faster, and branded experiences so that you control user interaction with your documents, streamline PDF workflows and promote usage and retention. These tutorials help you get up-to-speed delivering simpler, faster, branded experiences with the [!DNL Adobe Acrobat Services] APIs.
 
 <table style="table-layout:fixed">
 <tr>
@@ -38,6 +38,11 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
 </tr>
 <tr>
   <td>
+   <a href="pdfelectronicseal/overview-electronic-seal.md">
+      <img alt="PDF Electronic Seal API" src="assets/PDFElectronicSeal.png" />
+   </a>
+  </td>
+ <td>
    <a href="pdfembed/overview-embed.md">
       <img alt="Getting started with Adobe PDF Tools API and Java" src="assets/pdfembedcard.png" />
    </a>
@@ -51,11 +56,6 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
    <a href="usecases/overview-usecases.md">
       <img alt="[!DNL Adobe Acrobat Services] API use cases" src="assets/usecasescard.png" />
    </a>
-  </td>
-  <td>
-    <img alt="Spacer" src="assets/GrayBanner_Placeholder.png" />
-    <div>
-    <br>
   </td>
 </tr>
 </table>
