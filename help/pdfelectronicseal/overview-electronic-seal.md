@@ -15,7 +15,7 @@ The Adobe PDF Electronic Seal API applies an electronic seal to documents at sca
 <tr>
  <td>
    <a href="automatically-apply-electronic-seal.md">
-      <img alt="Automatically apply an electronic seal" src="assets/auto-tag-accessibility.png" />
+      <img alt="Automatically apply an electronic seal" src="assets/automatically-apply-seal.png" />
   </td>
   <td>
     <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png" />
