@@ -6,6 +6,7 @@ role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15033
+exl-id: 178cd894-cdb1-4595-a68f-20d9a14199b8
 ---
 # Automatically apply an electronic seal
 

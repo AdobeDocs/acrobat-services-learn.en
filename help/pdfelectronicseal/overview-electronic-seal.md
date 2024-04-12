@@ -6,6 +6,7 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15330
+exl-id: 74198c86-505b-4321-923e-0079e3d767cd
 ---
 # Adobe PDF Electronic Seal API Tutorials
 
