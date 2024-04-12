@@ -40,7 +40,7 @@ auto-video-transcripts: true
   + [Automate content extraction](pdfextract/automate-content-extraction.md)
 + PDF Electronic Seal API {#eseal} 
   + [Overview](pdfelectronicseal/overview-electronic-seal.md)
-  + [Automatically apply electronic seal](pdfelectronicseal/automatically-appy-electronic-seal.md)
+  + [Automatically apply electronic seal](pdfelectronicseal/automatically-apply-electronic-seal.md)
 + PDF Embed API {#pdfembed}
   + [Overview](pdfembed/overview-embed.md)
   + [Control your PDF online experience and gather analytics](pdfembed/controlpdfexperience.md)
