@@ -1,7 +1,7 @@
 ---
 title: Adobe PDF Electronic Seal API Tutorials
 description: Overview page for Adobe PDF Electronic Seal API tutorials
-feature: PDF Services API
+feature: PDF Electronic Seal API
 role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial

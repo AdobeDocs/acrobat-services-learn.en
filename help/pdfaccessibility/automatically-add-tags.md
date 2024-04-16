@@ -1,7 +1,7 @@
 ---
 title: Automatically Tag Documents for Accessibility
 description: Learn how to automatically tag for accessibility at scale using AI
-feature: PDF Services API
+feature: PDF Accessibility Auto-Tag API
 role: Developer
 level: Beginner
 type: Tutorial
