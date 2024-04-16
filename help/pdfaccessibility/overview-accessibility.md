@@ -1,7 +1,7 @@
 ---
 title: Adobe PDF Accessibility Auto-Tag API Tutorials
 description: Overview page for Adobe Accessibility Auto-Tag API tutorials
-feature: PDF Services API
+feature: PDF Accessibility Auto-Tag API
 role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial

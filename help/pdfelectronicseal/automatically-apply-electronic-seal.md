@@ -1,7 +1,7 @@
 ---
 title: Automatically Apply an Electronic Seal
 description: Learn how to apply a tamper-evident electronic seal to PDFs at scale
-feature: PDF Services API
+feature: PDF Electronic Seal API
 role: Developer
 level: Beginner
 type: Tutorial
