@@ -67,9 +67,9 @@ auto-video-transcripts: true
   + [Report creation and editing](usecases/reportcreation.md)
   + [Job posting](usecases/jobposting.md)
   + [Student-Teacher collaboration](usecases/educationcollab.md)
-  + [Agreement workflows in Node.js](usecases/AgreementWorkflowsNodejs.md)
-  + [HR document workflows in Java](usecases/HRAgreementWorkflowsJava.md)
-  + [Managing financial document workflows in Java](usecases/FinanceWorkflowsJava.md)
+  + [Agreement workflows in Node.js](usecases/agreementworkflowsnodejs-bubba.md)
+  + [HR document workflows in Java](usecases/hragreementworkflowsjava-bubba.md)
+  + [Managing financial document workflows in Java](usecases/financeworkflowsjava-bubba.md)
   + [Handling invoices](usecases/invoices.md)
   + [Digital document publishing](usecases/ddppdfembedapi.md)
  
