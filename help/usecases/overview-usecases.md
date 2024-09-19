@@ -146,31 +146,31 @@ Learn how the [!DNL Adobe Acrobat Services] APIs can change your business with t
 </tr>
 <tr>
   <td>
-    <a href="agreementworkflowsnodejs-bubba.md">
+    <a href="agreementworkflowsnodejs.md">
       <img alt="Agreement workflows in Node.js" src="assets/AWNjs_thumb.png" />
     </a>
     <div>
-    <a href="agreementworkflowsnodejs-bubba.md"><strong>Agreement workflows in Node.js</strong></a>
+    <a href="agreementworkflowsnodejs.md"><strong>Agreement workflows in Node.js</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your web applications</em>
     <br>
   </td>
   <td>
-    <a href="hragreementworkflowsjava-bubba.md">
+    <a href="hragreementworkflowsjava.md">
       <img alt="HR document workflows in Java" src="assets/HRWJ_thumb.png" />
     </a>
     <div>
-    <a href="hragreementworkflowsjava-bubba.md"><strong>HR document workflows in Java</strong></a>
+    <a href="hragreementworkflowsjava.md"><strong>HR document workflows in Java</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services] APIs easily incorporate PDF capabilities into your HR web applications</em>
     <br>
   </td>
   <td>
-    <a href="financeworkflowsjava-bubba.md">
+    <a href="financeworkflowsjava.md">
       <img alt="Managing financial document workflows in Java" src="assets/FAWJ_thumb.png" />
     </a>
     <div>
-    <a href="financeworkflowsjava-bubba.md"><strong>Managing financial document workflows in Java</strong></a>
+    <a href="financeworkflowsjava.md"><strong>Managing financial document workflows in Java</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services] provides all the necessary tools, services, and features to process and extract data from PDF financial documents</em>
     <br>
