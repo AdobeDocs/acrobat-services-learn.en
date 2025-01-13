@@ -43,8 +43,8 @@ The PDF Embed API is a free JavaScript API to embed high-fidelity PDFs, enable c
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api
-target = _self}" title="Wrangle PDFs on the web like a pro" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api"
+target = "_self" title="Wrangle PDFs on the web like a pro" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/media_17a03bc364d9d4b68dc970c4d1680c81f187acfb0.png?width=400&format=webply&optimize=medium" alt="Wrangle PDFs on the web like a pro"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -53,13 +53,13 @@ target = _self}" title="Wrangle PDFs on the web like a pro" target="_blank" rel=
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api
-target = _self}" target="_blank" rel="referrer" title="Wrangle PDFs on the web like a pro">Wrangle PDFs on the web like a pro</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api"
+target = "_self" target="_blank" rel="referrer" title="Wrangle PDFs on the web like a pro">Wrangle PDFs on the web like a pro</a>
                     </p>
                     <p class="is-size-6">Learn how to use the free Adobe PDF Embed API to make it easier to use PDFs in your web site</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api
-target = _self}" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/pdf-embed-api"
+target = "_self" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
