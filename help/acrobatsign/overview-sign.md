@@ -45,9 +45,9 @@ Acrobat Sign APIs allow you to create apps and embed the Acrobat Sign UI and fun
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
-## Acrobat Sign Embed Quick Start Guide
+## Acrobat Sign Embed quick start guide
 
-Learn how get started embedded the OEM version of Acrobat Sign into your application. This guide is specifically designed for OEM partners that are building and embedding a signature process within their application.
+Learn how to get started embedding the OEM version of Acrobat Sign into your application. This guide is specifically designed for OEM partners that are building and embedding a signature process within their application.
 
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
