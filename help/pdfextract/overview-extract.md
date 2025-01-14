@@ -17,53 +17,37 @@ Unlock the structure and content elements of any PDF with a web service powered 
 >
 >The PDF Extract API is included in the PDF Services API.
 
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Automate content extraction">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" title="Automate content extraction" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_121a92760aa6383cfcec476e41605936fea45f0bc.png?width=400&format=webply&optimize=medium" alt="Automate content extraction"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" title="Automate content extraction">Automate content extraction</a>
-                    </p>
-                    <p class="is-size-6">Learn how to automate the extraction of content from a PDF documents using the PDF Extract API</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Parsing PDF - As easy as working with JSON data with PDF Extract API">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf" title="Parsing PDF - As easy as working with JSON data with PDF Extract API" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_1068b852d1bbbd7f6f9e82b51d7b524fed1b5ad69.png?width=400&format=webply&optimize=medium" alt="Parsing PDF - As easy as working with JSON data with PDF Extract API"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf" target="_self" rel="referrer" title="Parsing PDF - As easy as working with JSON data with PDF Extract API">Parsing PDF - As easy as working with JSON data with PDF Extract API</a>
-                    </p>
-                    <p class="is-size-6">Learn how the PDF Extract service in Adobe PDF Services API can make parsing PDF as easy as parsing JSON</p>
-                </div>
-                <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <a href="automate-content-extraction.md">
+      <img alt="Automate content extraction" src="assets/automate-content-extraction.png" />
+    </a>
+    <div>
+      <a href="automate-content-extraction.md"><strong>Automate content extraction</strong></a>
+      </div>
+      Learn how to automate the extraction of content from a PDF documents using the PDF Extract API
+      <br>
+  </td>
+ <td>
+    <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf">
+      <img alt="Parsing PDF - As easy as working with JSON data with PDF Extract API" src="assets/ParsingPDF_1280.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/en/docs/events/adobe-developers-live-recordings/2021/oct2021/parsing-pdf"><strong>Parsing PDF - As easy as working with JSON data with PDF Extract API</strong></a>
+      </div>
+      Learn how the PDF Extract service in Adobe PDF Services API can make parsing PDF as easy as parsing JSON
+      <br>
+  </td>
+ <td>
+       <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png">
+       <div>
+       <br>
+ </td>
+ <td>
+       <img alt="Spacer" src="../assets/WhiteBanner_Placeholder.png">
+       <div>
+       <br>
+ </td>
+</tr>
+</table>
