@@ -129,7 +129,7 @@ These code snippets install the application dependencies, including the Handleba
 
 These APIs automate the generation, manipulation, and transformation of PDF contents through a set of cloud-based web services.
 
-To get the credentials you need to [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
+To get the credentials you need to [register](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) and complete the workflow. PDF Embed API is free to use. PDF Services API and Document Generation API are free for six months. When your trial ends, you can [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) at just $0.05 per document transaction. You pay only as your company grows and processes more contracts.
 
 ![Screenshot of creating credentials](assets/searching_1.png)
 
@@ -425,4 +425,4 @@ Using [!DNL Acrobat Services] for document transformation is highly recommended 
 Now that you have a strong understanding of how to use [!DNL Acrobat Services] APIs, you can further your skills with practice. You can clone the repository used in this tutorial and experiment with some of the skills you just learned. Even better, you can attempt to rebuild this application while exploring the unlimited possibilities of [!DNL Acrobat Services] APIs.
 
 Ready to enable document sharing and review in your own app? Sign up for your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
-developer account. Enjoy a six-month free trial, then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction as your business grows.
+developer account. Enjoy a six-month free trial, then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just \$0.05 per document transaction as your business grows.

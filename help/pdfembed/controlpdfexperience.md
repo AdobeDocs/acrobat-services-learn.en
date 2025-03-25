@@ -57,7 +57,7 @@ In part 1, learn how to get started with everything you need for parts 1-3. You'
 **What you need**
 
 * Tutorial resources [download](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial)
-* Adobe ID [get one here](https://accounts.adobe.com/)
+* Adobe ID [get one here](https://account.adobe.com/)
 * Web server (Node JS, PHP, etc.)
 * Working knowledge of HTML / JavaScript / CSS
 
@@ -69,7 +69,7 @@ In part 1, learn how to get started with everything you need for parts 1-3. You'
 
 ### Getting credentials
 
-1. Go to the [Adobe.io website](https://www.adobe.io/).
+1. Go to the [Adobe.io website](https://developer.adobe.com/).
 1. Click **[!UICONTROL Learn more]** under Build engaging document experiences.
 
    ![Screenshot of the Learn more button](assets/ControlPDF_1.png)
@@ -108,7 +108,7 @@ In part 2, you'll learn how to easily embed PDF Embed API into a webpage. You'll
 
 We created code for you to utilize. While you can use your own code, demonstrations will be in the context of the tutorial resources. Download sample code [here](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial).
 
-1. Go to [[!DNL Adobe Acrobat Services] website](https://www.adobe.io/apis/documentcloud/dcsdk/).
+1. Go to [[!DNL Adobe Acrobat Services] website](https://developer.adobe.com/document-services/homepage/).
 
    ![Screenshot of [!DNL Adobe Acrobat Services] website](assets/ControlPDF_6.png)
 
@@ -212,7 +212,7 @@ Now that you've successfully created a web page that has PDF Embed API rendering
 
 There are a lot of different JavaScript events available as part of PDF Embed API. You can access them from [!DNL Adobe Acrobat Services] documentation.
 
-1. Navigate to the [documentation](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) site.
+1. Navigate to the [documentation](https://developer.adobe.com/document-services/docs/overview) site.
 1. Review the different event types available as part of the API. These are helpful for reference and will also be helpful for your future projects.
 
    ![Screenshot of reference guide](assets/ControlPDF_17.png)
@@ -320,4 +320,4 @@ Now you can view the demo.
 
 ## Additional resources
 
-Additional resources can be found [here](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html).
+Additional resources can be found [here](https://developer.adobe.com/document-services/docs/overview).

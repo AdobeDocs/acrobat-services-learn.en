@@ -13,7 +13,7 @@ exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
 
 ![Use Case Hero Banner](assets/UseCaseReviewsHero.jpg)
 
-Remote cross-team collaboration became necessary for many companies during the COVID-19 pandemic, [sharing and reviewing digital documents](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) presents a series of challenges for teams and cross-functional resources.
+Remote cross-team collaboration became necessary for many companies during the COVID-19 pandemic, [sharing and reviewing digital documents](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) presents a series of challenges for teams and cross-functional resources.
 
 These challenges include sharing documents in different file formats, effectively reviewing and commenting on the content, and synchronizing with the most recent edits. [!DNL Adobe Acrobat Services] APIs are designed to enable application developers to solve these challenges for their users.
 
@@ -45,7 +45,7 @@ The application has the following features:
 
 ## Creating Adobe API credentials
 
-Before starting the code, you must [create credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API and Adobe PDF Services API. PDF Embed API is free to use. PDF Services API is free to use for six months, then you can switch to a [pay-as-you-go plan](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just \$0.05 per document transaction.
+Before starting the code, you must [create credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API and Adobe PDF Services API. PDF Embed API is free to use. PDF Services API is free to use for six months, then you can switch to a [pay-as-you-go plan](https://developer.adobe.com/document-services/pricing/main) at just \$0.05 per document transaction.
 
 When creating credentials for PDF Services API, select the **Create personalized code sample** option and select Node.js for the language. Save the ZIP file and extract pdftools-api-credentials.json and private.key to the root directory of your Node.js Express project.
 
@@ -95,7 +95,7 @@ Now you are ready to work with [!DNL Acrobat Services] APIs.
 
 For the first part of the document workflow, the end user must upload documents to share. To enable this, you add an upload function and consolidate the different document file formats into PDFs to prepare them for the review process.
 
-Start by creating a function to convert documents to PDF based on the [example snippet for PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html). This example also shows snippets for many other vital features, including optical character recognition (OCR), password protection and removal, and compression.
+Start by creating a function to convert documents to PDF based on the [example snippet for PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services). This example also shows snippets for many other vital features, including optical character recognition (OCR), password protection and removal, and compression.
 
 ```
 function fileToPDF( filename, outputFilename, callback ) {
@@ -440,8 +440,8 @@ Finally, add a link in the main index.html web page to this /finalize endpoint. 
 
 ## Next steps
 
-This hands-on tutorial showed how [!DNL Acrobat Services] APIs integrate a [document-sharing and review workflow](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
+This hands-on tutorial showed how [!DNL Acrobat Services] APIs integrate a [document-sharing and review workflow](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) into a web application. The application allows remote workers to share files and collaborate with their teammates, which are especially helpful to employees and contractors who work from home.
 
 You can use these techniques to enable collaboration in your app or explore [PDF Services Node SDK Samples](https://github.com/adobe/pdftools-node-sdk-samples) and [PDF Embed API Samples](https://github.com/adobe/pdf-embed-api-samples) on GitHub for inspiration on how else to use Adobe's APIs.
 
-Ready to enable document sharing and review in your own app? Sign up your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) developer account. Access Adobe PDF Embed for free, and enjoy a six-month free trial of the other APIs. After your trial, you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction as your business grows.
+Ready to enable document sharing and review in your own app? Sign up your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) developer account. Access Adobe PDF Embed for free, and enjoy a six-month free trial of the other APIs. After your trial, you can [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just \$0.05 per document transaction as your business grows.

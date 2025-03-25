@@ -29,9 +29,9 @@ While not an API, developers can also use the free [PDF Embed API](https://devel
 
 ## What is Acrobat Sign?
 
-[Acrobat Sign](https://www.adobe.com/sign.html) is the world leader in electronic signature services. You can send documents for signature  using various different workflows--including multiple signatures. Acrobat Sign also supports workflows that require signatures and additional information. All of these capabilities are supported by a powerful dashboard with a flexible authoring system. 
+[Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html) is the world leader in electronic signature services. You can send documents for signature  using various different workflows--including multiple signatures. Acrobat Sign also supports workflows that require signatures and additional information. All of these capabilities are supported by a powerful dashboard with a flexible authoring system. 
 
-As with [!DNL Acrobat Services], Acrobat Sign has a [free trial](https://www.adobe.com/sign.html#sign_free_trial) that lets developers test the signing process both via the dashboard and with an easy-to-use REST-based API. 
+As with [!DNL Acrobat Services], Acrobat Sign has a [free trial](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) that lets developers test the signing process both via the dashboard and with an easy-to-use REST-based API. 
 
 ## An onboarding scenario
 
@@ -186,7 +186,7 @@ This code takes the two PDFs, merges them, and saves the result in a new PDF. Si
 
 ## The signing process
 
-In the final stop of the onboarding process, the employee must sign an agreement stating that they've read and agree to all policies defined within. [Acrobat Sign](https://www.adobe.com/sign.html) supports many different workflows and integrations, including a automated one via an [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html). Broadly speaking, the final portion of the scenario can be completed as follows:
+In the final stop of the onboarding process, the employee must sign an agreement stating that they've read and agree to all policies defined within. [Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html) supports many different workflows and integrations, including a automated one via an [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html). Broadly speaking, the final portion of the scenario can be completed as follows:
 
 First, design the document that includes the form that needs signing. There are multiple ways of doing this, including a visual designed in the Adobe Sign user dashboard. Another option is to use the Document Generation Word add-in to insert the tags for you. This example requests a signature and date.
 
@@ -200,6 +200,6 @@ The template can be uploaded to the Acrobat Sign dashboard and then used for new
 
 ## Experience it yourself
 
-Everything described in this article can be tested right now. The [!DNL Adobe Acrobat Services] API [free trial](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) currently gives you 1,000 free requests over a six-month period. Acrobat Sign's [free trial](https://www.adobe.com/sign.html#sign_free_trial) lets you send watermarked agreements for testing purposes. 
+Everything described in this article can be tested right now. The [!DNL Adobe Acrobat Services] API [free trial](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) currently gives you 1,000 free requests over a six-month period. Acrobat Sign's [free trial](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) lets you send watermarked agreements for testing purposes. 
 
-Have questions? The [support forum](https://community.adobe.com/t5/document-services-apis/ct-p/ct-Document-Cloud-SDK) is monitored by Adobe developers and support folks every day. FInally, for more inspiration, be sure to catch the next [Paper Clips](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) episode. There are regular live meetings with news, demos, and talks with customers.
+Have questions? The [support forum](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK) is monitored by Adobe developers and support folks every day. FInally, for more inspiration, be sure to catch the next [Paper Clips](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) episode. There are regular live meetings with news, demos, and talks with customers.

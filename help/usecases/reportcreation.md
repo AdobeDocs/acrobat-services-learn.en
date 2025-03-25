@@ -15,9 +15,9 @@ exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
 
 Finance, education, marketing, and other industries use PDFs to share data with their customers and stakeholders. PDFs make it easy to share rich documents, with tables, graphics, and interactive content, in a format everyone can view. [!DNL Adobe Acrobat Services] APIs help these companies generate shareable PDF reports from Microsoft Word, Microsoft Excel, graphics, and other diverse document formats.
 
-Say you [run a social media tracking company](https://www.adobe.io/apis/documentcloud/dcsdk/on-demand-report-creation.html). Your customers log in to a password-protected part of your site to view their campaign analytics. Often, they want to share these statistics with their executives, shareholders, donors, or other stakeholders. Downloadable PDF documents are a great way for your customers to share numbers, graphs, and more.
+Say you [run a social media tracking company](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation). Your customers log in to a password-protected part of your site to view their campaign analytics. Often, they want to share these statistics with their executives, shareholders, donors, or other stakeholders. Downloadable PDF documents are a great way for your customers to share numbers, graphs, and more.
 
-By incorporating [PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) into your website, you can generate PDF reports on the go for each customer. You can create PDFs then combine them into a single, handy report for your customers to download and pass along to their stakeholders.
+By incorporating [PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services) into your website, you can generate PDF reports on the go for each customer. You can create PDFs then combine them into a single, handy report for your customers to download and pass along to their stakeholders.
 
 ## What you can learn
 
@@ -87,7 +87,7 @@ Use the PDF Services SDK to create the PDF reports from your data inputs. The da
 $ npm install --save @adobe/documentservices-pdftools-node-sdk
 ```
 
-Before starting, you must have API credentials, [free from Adobe](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred). Use your [!DNL Acrobat Services] account [free for six months then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction.
+Before starting, you must have API credentials, [free from Adobe](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getcred). Use your [!DNL Acrobat Services] account [free for six months then pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just \$0.05 per document transaction.
 
 Download the archive file and extract the JSON file for credentials and the private key. In the sample project, you place the file in the src directory.
 
@@ -213,6 +213,6 @@ Now, your social media dashboard customers can select relevant reports from thei
 
 This hands=on tutorial walked through how to use PDF Services API to help customers download relevant reports as easy-to-share PDFs. You created a Node.js application to showcase the power of PDF Services API for PDF reporting and reading services. The application demonstrated how your customers to download a single report document or combine and merge multiple documents into a single PDF report.
 
-This Adobe-powered application helps your [social media dashboard customers](https://www.adobe.io/apis/documentcloud/dcsdk/on-demand-report-creation.html) get and share the reports they need, without worrying if the recipients all have Microsoft Office or other software installed on their device. You can use the same techniques in your own application to help your users view, combine, and download documents. Or, check out Adobe's many other APIs to add and track signatures and much more.
+This Adobe-powered application helps your [social media dashboard customers](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation) get and share the reports they need, without worrying if the recipients all have Microsoft Office or other software installed on their device. You can use the same techniques in your own application to help your users view, combine, and download documents. Or, check out Adobe's many other APIs to add and track signatures and much more.
 
-To get started, claim your free [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) account, then create engaging reporting experiences for your employees and customers. Enjoy your account free for six months then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) as your marketing efforts expand, just \$0.05 per document transaction.
+To get started, claim your free [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) account, then create engaging reporting experiences for your employees and customers. Enjoy your account free for six months then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) as your marketing efforts expand, just \$0.05 per document transaction.

@@ -26,7 +26,7 @@ In this hands-on tutorial, learn how to add PDF services to a Node.js applicatio
 
 * [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html) 
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [Project code](https://github.com/adobe/pdftools-node-sdk-samples)
 
@@ -288,7 +288,7 @@ On the page that displays the PDF, add a `<div />` element to hold the document 
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 ```
 
-The last bit of code you need is a function that displays the document once the Adobe PDF Embed API JavaScript is loaded. When you receive notification that the script is loaded through an adobe_dc_view\_sdk.ready event, create a new AdobeDC.View object. This object needs your Client ID and the ID of the element created earlier. Find your client ID in the [Adobe Developer Console](https://console.adobe.io/). When you view the settings for the application you created when generating credentials earlier, the Client ID displays there.
+The last bit of code you need is a function that displays the document once the Adobe PDF Embed API JavaScript is loaded. When you receive notification that the script is loaded through an adobe_dc_view\_sdk.ready event, create a new AdobeDC.View object. This object needs your Client ID and the ID of the element created earlier. Find your client ID in the [Adobe Developer Console](https://developer.adobe.com/console/). When you view the settings for the application you created when generating credentials earlier, the Client ID displays there.
 
 ![Image of API Client Key](assets/AWNjs_6.png)
 
@@ -306,7 +306,7 @@ You can turn various options on and off and immediately see how they render. Whe
 
 Once a document is ready, you can add in digital signatures for approval using Adobe Sign. This functionality works a bit differently than the functionality you have used so far. For digital signatures, an application must be configured to use OAuth for user authentication.
 
-The first step in setting up your application is to [register your application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) to use OAuth for Adobe Sign. Once signed in, navigate to the screen for creating applications by clicking on *Account*, then open the *Adobe Sign API* section, and click *API Applications* to open the list of registered applications.
+The first step in setting up your application is to [register your application](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) to use OAuth for Adobe Sign. Once signed in, navigate to the screen for creating applications by clicking on *Account*, then open the *Adobe Sign API* section, and click *API Applications* to open the list of registered applications.
 
 ![Image of first step in registering your application](assets/AWNjs_9.png)
 
@@ -513,4 +513,4 @@ As you can see from the quick starts and the provided code, it is easy to implem
 
 To discover the required scopes for a call, or to see how the call is built, you can build sample calls from the [Rest API documentation](https://secure.na4.adobesign.com/public/docs/restapi/v6). The [Quickstarts](https://github.com/adobe/pdftools-node-sdk-samples) also demonstrate other functionality and file formats the [!DNL Adobe Acrobat Services] APIs processes.
 
-You can add a multitude of PDF capabilities to your applications, enabling your users to quickly and easily view and sign their documents and much more. To start, check out [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) today.
+You can add a multitude of PDF capabilities to your applications, enabling your users to quickly and easily view and sign their documents and much more. To start, check out [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) today.

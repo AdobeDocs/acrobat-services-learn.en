@@ -15,7 +15,7 @@ exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
 
 When operating a website with multiple users, it's crucial to design an experience that ensures a smooth experience for everyone.
 
-Imagine the following scenario: you have a website that allows employers to [upload job postings](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html). For job seekers, it's convenient to easily view all documents related to a posting in a consistent format. However, it's convenient for employers to attach information in whatever file format they happen to have. To offer convenience to both types of users, you can automatically convert all uploaded documents to PDFs and embed them in-line in the posting.
+Imagine the following scenario: you have a website that allows employers to [upload job postings](https://developer.adobe.com/document-services/use-cases/content-publishing/job-posting). For job seekers, it's convenient to easily view all documents related to a posting in a consistent format. However, it's convenient for employers to attach information in whatever file format they happen to have. To offer convenience to both types of users, you can automatically convert all uploaded documents to PDFs and embed them in-line in the posting.
 
 ## What you can learn
 
@@ -31,9 +31,9 @@ To start, set up a simple Express-based Node.js web application. [Express](https
 
 ## Creating Adobe API credentials
 
-First, you must [create credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API (free to use) and Adobe PDF Services API (free for six months then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just \$0.05 per document transaction). When creating credentials for PDF Services API, select the "Create personalized code sample" option. Save the ZIP file and extract pdftools-api-credentials.json and private.key to the root directory of your Node.js Express project.
+First, you must [create credentials](https://www.adobe.com/go/dcsdks_credentials) for Adobe PDF Embed API (free to use) and Adobe PDF Services API (free for six months then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just \$0.05 per document transaction). When creating credentials for PDF Services API, select the "Create personalized code sample" option. Save the ZIP file and extract pdftools-api-credentials.json and private.key to the root directory of your Node.js Express project.
 
-You also need an API key for the freely available Embed API. From [Projects](https://console.adobe.io/projects), go to the project you created. Then, click **Add to Project** and select **API**. Finally, click **PDF Embed API**.
+You also need an API key for the freely available Embed API. From [Projects](https://developer.adobe.com/console/projects), go to the project you created. Then, click **Add to Project** and select **API**. Finally, click **PDF Embed API**.
 
 Specify the domain for the PDF Embed API. The API key must be public (find it in the code executed by the browser). By specifying a domain, you ensure that someone else in a different domain can't use the API key.
 
@@ -268,7 +268,7 @@ To see an in-line embed in action, check out this [live demo](https://documentcl
 
 ## Next steps
 
-This hands-on tutorial walked through how to use Node.js with [!DNL Acrobat Services] to convert an uploaded [job posting](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html) in various formats to a PDF. The resulting PDF was then embedded in a webpage. Now you can add the same function to your website, making it easier for employers to upload job descriptions, brochures, and more for job seekers to find. These capabilities help everyone get the information necessary to find their dream job.
+This hands-on tutorial walked through how to use Node.js with [!DNL Acrobat Services] to convert an uploaded [job posting](https://developer.adobe.com/document-services/use-cases/content-publishing/job-posting) in various formats to a PDF. The resulting PDF was then embedded in a webpage. Now you can add the same function to your website, making it easier for employers to upload job descriptions, brochures, and more for job seekers to find. These capabilities help everyone get the information necessary to find their dream job.
 
 [!DNL Acrobat Services] help you add key document-handling functions to your website or app. If you want to dive deeper into what these APIs can do, refer to the following quickstart documentation:
 
@@ -276,4 +276,4 @@ This hands-on tutorial walked through how to use Node.js with [!DNL Acrobat Serv
 
 * [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-To start adding user-friendly document-handling features to your website, [sign up for your free trial](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Adobe PDF Embed API is always free to use and Adobe PDF Services API is free for six months, then it's just \$0.05 per document transaction so you can [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) as your business grows.
+To start adding user-friendly document-handling features to your website, [sign up for your free trial](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Adobe PDF Embed API is always free to use and Adobe PDF Services API is free for six months, then it's just \$0.05 per document transaction so you can [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) as your business grows.

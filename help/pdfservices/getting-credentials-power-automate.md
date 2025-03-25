@@ -110,7 +110,7 @@ As described at the beginning of this tutorial, create a new flow, add a step, a
 
 As the screenshot above shows, you can either switch to a work account or set up a new organization account. Once you have, you are then able to add the Adobe PDF Services action.
 
-For a deeper look at creating your first Microsoft Power Automate flow with [!DNL Adobe Acrobat Services], see [Create your first workflow in Microsoft Power Automate](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfservices/create-workflow-power-automate.html).
+For a deeper look at creating your first Microsoft Power Automate flow with [!DNL Adobe Acrobat Services], see [Create your first workflow in Microsoft Power Automate](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate).
 
 ## Additional resources
 

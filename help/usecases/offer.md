@@ -13,7 +13,7 @@ exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
 
 ![Use Case Hero Banner](assets/UseCaseOfferHero.jpg)
 
-Employee offer letters are one of the first experiences employees have with your organization. As a result, you want to make sure that your offer letters are on-brand, but you don't want to have to build a letter in your word processor from scratch every time. [!DNL Adobe Acrobat Services] APIs offer a fast, easy, and effective way to handle key parts of [generating and delivering offer letters to new employees](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html).
+Employee offer letters are one of the first experiences employees have with your organization. As a result, you want to make sure that your offer letters are on-brand, but you don't want to have to build a letter in your word processor from scratch every time. [!DNL Adobe Acrobat Services] APIs offer a fast, easy, and effective way to handle key parts of [generating and delivering offer letters to new employees](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters).
 
 ## What you can learn
 
@@ -23,21 +23,21 @@ This hands-on tutorial walks through setting up a Node Express project that disp
 
 * [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe Document Generation API](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
-* [Document Generation Tagger Word Add-in](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin)
+* [Document Generation Tagger Word Add-in](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)
 
-* [Project sample](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html)
+* [Project sample](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters)
 
 ## Getting started
 
 [Node.js](https://nodejs.org/) is the programming platform. It comes with an enormous set of libraries, such as the Express web server. [Download Node.js](https://nodejs.org/en/download/) and follow the steps to install this great open-source development environment.
 
-To use Adobe Document Generation API in Node.js, go to the [Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) site to access your account or sign up for a new one. Your account is [free for six months then pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) for just $0.05 per document transaction, so you can try it out risk-free then only pay as your company grows.
+To use Adobe Document Generation API in Node.js, go to the [Document Generation API](https://developer.adobe.com/document-services/apis/doc-generation) site to access your account or sign up for a new one. Your account is [free for six months then pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just $0.05 per document transaction, so you can try it out risk-free then only pay as your company grows.
 
-After signing into the [Adobe Developer Console](https://console.adobe.io/), click **[!UICONTROL Create New Project]**. The project is named "Project 1" by default. Click the **[!UICONTROL Edit Project]** button and change the name to "Offer Letter Generator." In the center of the screen is a **[!UICONTROL Get Started With Your New Project]** section. To enable security on your project, take the following steps:
+After signing into the [Adobe Developer Console](https://developer.adobe.com/console/), click **[!UICONTROL Create New Project]**. The project is named "Project 1" by default. Click the **[!UICONTROL Edit Project]** button and change the name to "Offer Letter Generator." In the center of the screen is a **[!UICONTROL Get Started With Your New Project]** section. To enable security on your project, take the following steps:
 
 Click **Add API**. You see a number of APIs to choose from. In the **[!UICONTROL Filter by Product]** section, select **[!UICONTROL Document Cloud]**, then click **[!UICONTROL Next]**.
 
@@ -233,7 +233,7 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
 
-There's much code to unpack there. Let's take the main part first: the `documentMergeOperation`. This section is where you take your JSON data and merge it with a Word Document template. You can use the [example on the Adobe site](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade) as a reference, but let's make your own simple example. Open Word and create a new blank document. You can customize it as much as you like, but at least have something like this:
+There's much code to unpack there. Let's take the main part first: the `documentMergeOperation`. This section is where you take your JSON data and merge it with a Word Document template. You can use the [example on the Adobe site](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade) as a reference, but let's make your own simple example. Open Word and create a new blank document. You can customize it as much as you like, but at least have something like this:
 
 Dear X,
 
@@ -241,7 +241,7 @@ We are delighted to offer you a position for $X a year. Your starting date will 
 
 Welcome
 
-Save the document as "OfferLetter-Template.docx" in a folder called "resources" in the root of your project. Notice the three Xs in the document. Those Xs are temporary placeholders for your JSON information. Although you could use a special syntax to replace these placeholders, Adobe provides a Word Add-in that simplifies this task. To install  the Add-in, go to the Adobe [Document Generation Tagger Word Add-in](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin) site.
+Save the document as "OfferLetter-Template.docx" in a folder called "resources" in the root of your project. Notice the three Xs in the document. Those Xs are temporary placeholders for your JSON information. Although you could use a special syntax to replace these placeholders, Adobe provides a Word Add-in that simplifies this task. To install  the Add-in, go to the Adobe [Document Generation Tagger Word Add-in](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin) site.
 
 In your OfferLetter-Template, click the new **Document Generation** button. A side panel opens. Click **Get Started**. You are provided with a text area to paste in the sample JSON data. Copy the "offer-data" snippet of JSON from above into the text area. It should look like the following:
 
@@ -257,7 +257,7 @@ Welcome
 
 Now the Word template has markup that matches the JSON format. For example, ```{{`offer_letter`.`firstname`}}``` at the start of Word document is replaced by the value in the "firstname" section of the JSON data.
 
-Back to your `generateLetter` function. To secure your REST call, make a new file titled pdftools-api-credentials.json in the project root. Paste in the following JSON data and adjust it with details from the Service Account (JWT) section of your [Developer Console](https://console.adobe.io/).
+Back to your `generateLetter` function. To secure your REST call, make a new file titled pdftools-api-credentials.json in the project root. Paste in the following JSON data and adjust it with details from the Service Account (JWT) section of your [Developer Console](https://developer.adobe.com/console/).
  
 ```
 {
@@ -284,9 +284,9 @@ To generate a PDF with the JSON data filled in, go back to your **[!UICONTROL En
 
 ## Next steps
 
-That's it! This is just the beginning. If you study the Advanced section of the Document Generation tab of the Word Add-in, you notice that not all the placeholder markers are from the associated JSON data. You can also add Signature tags. These tags allow you to take the resulting document and upload it to [Adobe Sign](https://acrobat.adobe.com/ca/en/sign.html) for delivery and signing to the new employee. Read Getting Started with Adobe Sign API to learn how to do it. This process is similar because you are using REST calls secured with a JWT token.
+That's it! This is just the beginning. If you study the Advanced section of the Document Generation tab of the Word Add-in, you notice that not all the placeholder markers are from the associated JSON data. You can also add Signature tags. These tags allow you to take the resulting document and upload it to [Adobe Sign](https://www.adobe.com/ca/sign.html) for delivery and signing to the new employee. Read Getting Started with Adobe Sign API to learn how to do it. This process is similar because you are using REST calls secured with a JWT token.
 
-The single document example provided above can be used as the basis for an application when an organization must [ramp up seasonal hiring](https://www.adobe.io/apis/documentcloud/dcsdk/employee-offer-letters.html) of employees across multiple locations. As demonstrated, the main flow is to take data from candidates through an online application. The data is used to populate the fields of an offer letter, and send it out for electronic signature.
+The single document example provided above can be used as the basis for an application when an organization must [ramp up seasonal hiring](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters) of employees across multiple locations. As demonstrated, the main flow is to take data from candidates through an online application. The data is used to populate the fields of an offer letter, and send it out for electronic signature.
 
-[!DNL Adobe Acrobat Services] is free to use for six months, then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just $0.05 per document transaction, so you can try it and scale your offer letter workflow as your business grows. To [get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
-building your own templates, [sign up your developer account](https://www.adobe.io/).
+[!DNL Adobe Acrobat Services] is free to use for six months, then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) at just $0.05 per document transaction, so you can try it and scale your offer letter workflow as your business grows. To [get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
+building your own templates, [sign up your developer account](https://developer.adobe.com/).

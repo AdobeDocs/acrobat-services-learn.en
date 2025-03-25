@@ -356,7 +356,7 @@ var outputFileName = path.join('output', 'salesOrder_'+Date.now()+".docx");
 
 ## Send agreement for signature
 
-[Adobe Acrobat Sign](https://www.adobe.com/sign.html) allows you to send agreements to one or many recipients for them to view and sign documents. Along with an easy-to-use user experience to send a document for signature, REST APIs are available that allow you to take Word, PDF, HTML, and other formats and send them for signature.
+[Adobe Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html) allows you to send agreements to one or many recipients for them to view and sign documents. Along with an easy-to-use user experience to send a document for signature, REST APIs are available that allow you to take Word, PDF, HTML, and other formats and send them for signature.
 
 The example below walks through how to use REST API documentation page to take the previously generated document and send it for signature. First, learn how you can do it through the Acrobat Sign web interface and then how to do it with the REST API.
 
