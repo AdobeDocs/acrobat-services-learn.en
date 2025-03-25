@@ -15,14 +15,14 @@ exl-id: 570a635c-e539-4afc-a475-ecf576415217
 
 Educational institutes use PDF documents to share learning material with students. PDFs provide an interchangeable document format for teachers.
 
-Integrating [Adobe PDF Services API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) and [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) into an app provides teachers and students a single platform on which to teach and learn. For example, your app can enable students to ask questions on their assignments and report cards, and to collaborate on group assignments.
+Integrating [Adobe PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services) and [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed) into an app provides teachers and students a single platform on which to teach and learn. For example, your app can enable students to ask questions on their assignments and report cards, and to collaborate on group assignments.
 
 There is an official SDK for Node.js applications to access PDF Services API. This enables you to convert documents like Microsoft Word or Microsoft Excel to
-PDF. Also, you can perform more advanced operations like combining multiple reports, rearranging pages, and protecting PDFs. For more details, review [product documentation](https://www.adobe.io/apis/documentcloud/dcsdk/).
+PDF. Also, you can perform more advanced operations like combining multiple reports, rearranging pages, and protecting PDFs. For more details, review [product documentation](https://developer.adobe.com/document-services/homepage/).
 
 ## What you can learn
 
-In this hands-on tutorial, learn to create an online learning platform that [enables teachers and students to easily share resources](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html) in PDF. This tutorial uses a [learning portal](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers) created using the Node.js JavaScript runtime (Node.js) and PDF Services.
+In this hands-on tutorial, learn to create an online learning platform that [enables teachers and students to easily share resources](https://developer.adobe.com/document-services/use-cases/collaboration/student-teacher-collaboration) in PDF. This tutorial uses a [learning portal](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers) created using the Node.js JavaScript runtime (Node.js) and PDF Services.
 
 The learning portal has the following features:
 
@@ -61,7 +61,7 @@ To learn how the application uploads the files, please see the [project code](ht
 Students can convert single or multiple documents of any type to PDF, such as Microsoft Word, Excel, and PowerPoint, as well as other popular text and image file types. The learning portal uses PDF Services to perform the conversion of files to PDF.
 
 To create your own learning portal, you must first create your own credentials. [Sign up](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) to
-use PDF Services API free for six months and up to 1,000 document transactions. After that, [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) at just \$0.05 per document transaction as the class ramps up their assignments.
+use PDF Services API free for six months and up to 1,000 document transactions. After that, [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) at just \$0.05 per document transaction as the class ramps up their assignments.
 
 When a student selects a document from the dashboard, they see the following:
 
@@ -165,7 +165,7 @@ Students can use annotations to ask questions or share their comments about the 
 
 It is important for teachers and schools to see how students are using online platforms. This helps teachers support their students with resources that help them perform better on their assignments. PDF Embed API integrates with analytics that you can use to measure all the events taking place, such as when users are opening, reading, and closing documents. With PDF Services API, teachers can also disable print, download, and file modification to help maintain academic integrity.
 
-If you have an [Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics.html) license, you can use its [out-of-the-box integration](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=en#adobe-analytics). Otherwise, use callbacks to integrate your PDF Services with other analytics providers, such as [Google](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=en#google-analytics).
+If you have an [Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/) license, you can use its [out-of-the-box integration](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics). Otherwise, use callbacks to integrate your PDF Services with other analytics providers, such as [Google](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics).
 
 To enable the measurement of document events, you attach the event handlers using the `registerCallback` method with Adobe DC View instance. You can display basic metrics, such as opening a document or reading a page, on the console. You can also save the metrics in a log, or publish them in other analytics stores.
 
@@ -191,7 +191,7 @@ Here is a screen capture of web browser console:
 
 This screen capture shows that the student opened the assignment file, they read the first page — they either did not scroll to additional pages or the document only had one page — then they downloaded the file. You can collect these metrics to perform analyses and study the behavior of your students.
 
-Also, [Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html) is integrated with PDF Embed API, so if you have a subscription to the Adobe Analytics suite, you can publish your metrics in your subscription. To publish the metrics in Adobe Analytics, you only need to pass your suite ID to PDF Embed API constructor. (Note that you must use your PDF Embed API credentials, not your PDF Services API credentials).
+Also, [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html) is integrated with PDF Embed API, so if you have a subscription to the Adobe Analytics suite, you can publish your metrics in your subscription. To publish the metrics in Adobe Analytics, you only need to pass your suite ID to PDF Embed API constructor. (Note that you must use your PDF Embed API credentials, not your PDF Services API credentials).
 
 Here is sample code that shows how to pass the suite ID to PDF Embed API constructor:
 
@@ -205,8 +205,8 @@ var adobeDCView = new AdobeDC.View({
 
 ## Next steps
 
-This hands-on tutorial reviewed how to use PDF Services API and PDF Embed API to create a learning portal, facilitating effective [collaboration between students and teachers](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html). Using this portal, teachers can upload learning material in any format and convert it to PDF using PDF Services API. Students can then preview these PDFs using PDF Embed API.
+This hands-on tutorial reviewed how to use PDF Services API and PDF Embed API to create a learning portal, facilitating effective [collaboration between students and teachers](https://developer.adobe.com/document-services/use-cases/collaboration/student-teacher-collaboration). Using this portal, teachers can upload learning material in any format and convert it to PDF using PDF Services API. Students can then preview these PDFs using PDF Embed API.
 
 Now that you know how to annotate PDF reports, archive the annotations, and track the use of PDF reports, you can start implementing these solutions in your own projects.
 
-You can use [!DNL Adobe Acrobat Services] APIs to create user-friendly, interactive PDF experiences on your website. Enjoy using Adobe PDF Services API free for six months then just [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) (through AWS or a direct agreement) for only \$0.05 per document transaction. Use Adobe PDF Embed free with no time limit. Create a free account to [get started](https://www.adobe.com/go/dcsdks_credentials) today.
+You can use [!DNL Adobe Acrobat Services] APIs to create user-friendly, interactive PDF experiences on your website. Enjoy using Adobe PDF Services API free for six months then just [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) (through AWS or a direct agreement) for only \$0.05 per document transaction. Use Adobe PDF Embed free with no time limit. Create a free account to [get started](https://www.adobe.com/go/dcsdks_credentials) today.

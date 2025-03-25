@@ -15,12 +15,12 @@ exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
 
 Electronic documents are everywhere — in fact, there are probably [trillions of PDFs](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world) globally, and that number rises every day. By embedding a PDF viewer in your web pages, you enable users to view documents without redesigning your HTML and CSS or obstructing access to your website.
 
-Let's explore a popular scenario. A company posts [whitepapers on their website](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)
+Let's explore a popular scenario. A company posts [whitepapers on their website](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing)
 to provide context for their apps and services. The website's marketer wants to understand better how users interact with their PDF-based content and incorporate it with their webpage and brand. They have decided to publish the whitepapers as [gated content](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.), controlling who can download them.
 
 ## What you can learn
 
-In this hands-on tutorial, learn how to display embedded PDF documents inside web pages using [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html), which is free and easy to use. These examples use some JavaScript, Node.js, Express.js, HTML, and CSS. You can view the complete project code on [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+In this hands-on tutorial, learn how to display embedded PDF documents inside web pages using [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed), which is free and easy to use. These examples use some JavaScript, Node.js, Express.js, HTML, and CSS. You can view the complete project code on [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
 
 ## Relevant APIs and resources
 
@@ -120,7 +120,7 @@ Now, rerun npm start and open <http://localhost:3000> to view your collection of
 
 ![Screenshot of thumbnails for whitepapers](assets/ddp_4.png)
 
-In the next sections involve enhancing the website and using [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) to display the PDF documents the web page. PDF Embed API is free to use — you just need to obtain an API credential.
+In the next sections involve enhancing the website and using [PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed) to display the PDF documents the web page. PDF Embed API is free to use — you just need to obtain an API credential.
 
 ## Getting a PDF Embed API credential
 
@@ -541,16 +541,16 @@ Now, rerun the application and open your web browser's developer tools to see th
 
 ![Screenshot of code](assets/ddp_16.png)
 
-You can send this data to [Adobe Analytics](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=view) or other analytics tools.
+You can send this data to [Adobe Analytics](https://developer.adobe.com/document-services/docs/overview/pdf-embed-api) or other analytics tools.
 
 ## Next steps
 
 [!DNL Acrobat Services] APIs help developers easily solve digital publishing challenges using a PDF-centric workflow. You've seen how to create a sample Node web app to display a collection of whitepapers. Then, acquire a [free API credential](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) and built restricted access to the whitepapers, which can be displayed in one of four [embed modes](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
 
-Putting this workflow together helps the [hypothetical marketer](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) gather lead contact information in exchange for whitepaper downloads and view statistics on who is interacting with the PDFs. You can incorporate these features into your website to drive and monitor user engagement.
+Putting this workflow together helps the [hypothetical marketer](https://developer.adobe.com/document-services/use-cases/content-publishing/digital-content-publishing) gather lead contact information in exchange for whitepaper downloads and view statistics on who is interacting with the PDFs. You can incorporate these features into your website to drive and monitor user engagement.
 
 If you're an Angular or React developer, you might enjoy trying [additional samples](https://github.com/adobe/pdf-embed-api-samples) featuring how to integrate PDF Embed API with React and Angular projects.
 
-Adobe enables you to build your end-to-end customer experience with innovative solutions. Check out [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/viesdk) for free. To explore what else you can do, try Adobe PDF Services API with [pay-as-you-gopr](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[icing](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
+Adobe enables you to build your end-to-end customer experience with innovative solutions. Check out [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/) for free. To explore what else you can do, try Adobe PDF Services API with [pay-as-you-gopr](https://developer.adobe.com/document-services/pricing/main)[icing](https://developer.adobe.com/document-services/pricing/main).
 
 [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) with [!DNL Adobe Acrobat Services] APIs today.

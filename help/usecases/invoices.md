@@ -15,7 +15,7 @@ exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
 
 It's great when business is booming but productivity suffers when it comes time to prepare all those invoices. Manually generating invoices is time consuming, plus you run the risk of making an error, potentially losing money or angering a customer with an incorrect amount.
 
-Think of Danielle, for example, working in the [accounting department](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [of a medical supply company](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). It's the end of the month, so she's pulling information from several different systems, double-checking its accuracy, and formatting the invoices. After all that work, she's finally ready to convert the documents to PDFs (so anyone can view them without purchasing specific software) and send each customer their personalized invoice.
+Think of Danielle, for example, working in the [accounting department](https://developer.adobe.com/document-services/use-cases/financial/invoices) [of a medical supply company](https://developer.adobe.com/document-services/use-cases/financial/invoices). It's the end of the month, so she's pulling information from several different systems, double-checking its accuracy, and formatting the invoices. After all that work, she's finally ready to convert the documents to PDFs (so anyone can view them without purchasing specific software) and send each customer their personalized invoice.
 
 Even when the monthly invoicing is complete, Danielle just can't escape those invoices. Some customers have non-monthly billing cycles, so she's always creating an invoice for someone. Occasionally, a customer edits their invoice and underpays. Danielle then spends time troubleshooting this invoice mismatch. At this rate, she needs to hire an assistant to keep up with all the work!
 
@@ -31,9 +31,9 @@ The complete code for this project is [available on GitHub](https://github.com/a
 
 * [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [Adobe Document Generation API](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [Project code](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation)
 
@@ -101,7 +101,7 @@ This invoice sample contains customer information, the ordered products, and the
 
 Use Adobe PDF Services Node.js software development kit (SDK) to combine the Microsoft Word and JSON documents. Build a Node.js application to create the invoice using Document Generation API.
 
-PDF Services API includes Document Generation Service, so you can use the same credentials for both. Enjoy a [six-month free trial](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), then pay just $0.05 per document transaction.
+PDF Services API includes Document Generation Service, so you can use the same credentials for both. Enjoy a [six-month free trial](https://developer.adobe.com/document-services/pricing/main), then pay just $0.05 per document transaction.
 
 Here is the code to merge the PDF:
 
@@ -218,11 +218,11 @@ Once you're done with the invoice, you might want to automatically email it to t
 
 ## Next steps
 
-In this hands-on tutorial, you created a simple app to help Danielle in accounting with [invoicing](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Using PDF Services API and Document Generation SDK, you populated a Microsoft Word template with customer order information from a JSON document, creating a PDF invoice. Then, password-protected each document using password protection services by [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
+In this hands-on tutorial, you created a simple app to help Danielle in accounting with [invoicing](https://developer.adobe.com/document-services/use-cases/financial/invoices). Using PDF Services API and Document Generation SDK, you populated a Microsoft Word template with customer order information from a JSON document, creating a PDF invoice. Then, password-protected each document using password protection services by [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
 
 Since Danielle can generate invoices automatically and doesn't have to worry about customers editing their invoices, she won't need to hire an assistant to help with all the manual work. She can use her extra time to find cost savings in the accounts payable files.
 
-Now that you've see how easy it is, you can expand this simple app using other Adobe tools to embed invoices on your website. For example, so customers can view their invoices or balance at any time. [Adobe PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) is free to use. You can even move on to the human resources or sales department, helping automate their agreements and collect electronic signatures.
+Now that you've see how easy it is, you can expand this simple app using other Adobe tools to embed invoices on your website. For example, so customers can view their invoices or balance at any time. [Adobe PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed) is free to use. You can even move on to the human resources or sales department, helping automate their agreements and collect electronic signatures.
 
-To explore all the possibilities, and start building your own handy application, create a free [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) account to get started today. Enjoy a six-month free trial then [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)
+To explore all the possibilities, and start building your own handy application, create a free [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) account to get started today. Enjoy a six-month free trial then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main)
 at just $0.05 per document transaction as your business scales.

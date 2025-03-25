@@ -23,7 +23,7 @@ In this hands-on tutorial, learn how to implement a web-based HR form that saves
 
 * [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Adobe Sign API](https://www.adobe.io/apis/documentcloud/sign.html)
+* [Adobe Sign API](https://developer.adobe.com/adobesign-api/)
 
 * [Project code](https://github.com/dawidborycki/adobe-sign)
 
@@ -386,9 +386,9 @@ To obtain an authorization token, you must perform several steps:
 
 First, register a [developer account](https://acrobat.adobe.com/us/en/sign/developer-form.html).
 
-Create the CLIENT application in the [Adobe Sign portal](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
+Create the CLIENT application in the [Adobe Sign portal](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 
-Configure OAuth for the application as described [here](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) and [here](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp). Note your client identifier and client secret. Then, you can use `https://www.google.com` as the Redirect URI and the following scopes:
+Configure OAuth for the application as described [here](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) and [here](https://secure.eu1.adobesign.com/public/static/oauthDoc.jsp). Note your client identifier and client secret. Then, you can use `https://www.google.com` as the Redirect URI and the following scopes:
 
 * user_login: self
 
@@ -596,4 +596,4 @@ As you can see, by leveraging the quickstarts, you can implement a simple web fo
 
 Taking the example further, you can create forms recipients can sign remotely and securely. When you require multiple signatures, you can even automatically route forms to a series of people in a workflow. Your employee onboarding is improved and your HR department will love you.
 
-Check out [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) to add a multitude of PDF capabilities to your applications today.
+Check out [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) to add a multitude of PDF capabilities to your applications today.
