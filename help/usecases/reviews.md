@@ -130,7 +130,7 @@ const fileUpload = require( "express-fileupload" );
 app.use( fileUpload() );
 ```
 
-Now, add an `/upload `endpoint and save the uploaded file inside the drafts folder using the same file name. Then, call the function you wrote previously to create a PDF file of the same document if it is not already in PDF format. You can generate a file name for the new PDF file based on the name of the original uploaded document:
+Now, add an `/upload` endpoint and save the uploaded file inside the drafts folder using the same file name. Then, call the function you wrote previously to create a PDF file of the same document if it is not already in PDF format. You can generate a file name for the new PDF file based on the name of the original uploaded document:
 
 ```
 // Create a PDF file from an uploaded file

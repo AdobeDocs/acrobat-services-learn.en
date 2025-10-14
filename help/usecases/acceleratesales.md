@@ -124,7 +124,7 @@ Next, navigate to the Document Generation Tagger panel to place tags into the do
 
     ![Screenshot of inserting tag](assets/accsales_5.png)
 
-    This process places a tag called {{company.name}} because the tag is under the path in the JSON.
+    This process places a tag called `{{company.name}}` because the tag is under the path in the JSON.
 
     ```
     {
@@ -266,6 +266,7 @@ A tag is inserted into the document.
 ![Screenshot of signature tag in document](assets/accsales_15.png)
 
 Acrobat Sign provides several other types of fields that you can place, such as date fields.
+
 1.  In the *Field* type, select **[!UICONTROL Date]**.
 1.  Move the cursor above the Date location in the document.
 1.  Select **[!UICONTROL Insert Adobe Sign Text Tag]**.
