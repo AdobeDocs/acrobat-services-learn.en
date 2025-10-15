@@ -1,3 +1,3 @@
-# Document Services
+# ARCHIVED
 
-Home for DC SDK Document Services docs such as FAQs, tutorials, etc. 
+Migrated to GitHub Cloud: <https://github.com/Adobe-Enterprise-Docs/acrobat-services-learn.en> 
