@@ -13,3 +13,4 @@ exl-id: 59a0c912-9965-4bf9-8834-28d1dff91055
 Learn how to add text tags to Microsoft Word templates using the Adobe Document Generation Tagger for use with Adobe Document Generation API.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
+
