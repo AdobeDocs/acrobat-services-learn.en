@@ -14,3 +14,4 @@ Learn how to add text tags to Microsoft Word templates using the Adobe Document 
 
 >[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
 
+

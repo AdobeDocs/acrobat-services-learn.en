@@ -140,3 +140,4 @@ You started out with an inefficient, tedious process that needed automation. You
 Using Microsoft Forms, you got critical data from your clients that would go in their unique proposals. You created a sales proposal template in Microsoft Word to provide the static text that you didn't want to recreate each time. You then used [!DNL Acrobat Services] APIs to merge data from the form and the template to create a sales proposal PDF for your clients in a more efficient manner.
 
 This hands-on tutorial is only a glimpse of what is possible with these APIs. To discover more solutions, visit the [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) APIs page. Use all these tools are for free for six months. Then, pay just $0.05 per document transaction on the [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) plan, so you only pay as your team adds more prospects to your sales pipeline.
+

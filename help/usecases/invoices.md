@@ -226,3 +226,4 @@ Now that you've see how easy it is, you can expand this simple app using other A
 
 To explore all the possibilities, and start building your own handy application, create a free [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) account to get started today. Enjoy a six-month free trial then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main)
 at just $0.05 per document transaction as your business scales.
+

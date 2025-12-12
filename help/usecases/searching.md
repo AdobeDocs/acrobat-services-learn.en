@@ -426,3 +426,4 @@ Now that you have a strong understanding of how to use [!DNL Acrobat Services] A
 
 Ready to enable document sharing and review in your own app? Sign up for your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
 developer account. Enjoy a six-month free trial, then [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just \$0.05 per document transaction as your business grows.
+

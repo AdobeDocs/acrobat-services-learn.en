@@ -445,3 +445,4 @@ This hands-on tutorial showed how [!DNL Acrobat Services] APIs integrate a [docu
 You can use these techniques to enable collaboration in your app or explore [PDF Services Node SDK Samples](https://github.com/adobe/pdftools-node-sdk-samples) and [PDF Embed API Samples](https://github.com/adobe/pdf-embed-api-samples) on GitHub for inspiration on how else to use Adobe's APIs.
 
 Ready to enable document sharing and review in your own app? Sign up your [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) developer account. Access Adobe PDF Embed for free, and enjoy a six-month free trial of the other APIs. After your trial, you can [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) for just \$0.05 per document transaction as your business grows.
+
