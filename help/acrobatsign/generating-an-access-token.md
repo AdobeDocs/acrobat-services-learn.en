@@ -18,3 +18,4 @@ Learn how to generate an access token that can be used with the Acrobat Sign API
 >This tutorial is specifically designed for OEM partners that are building and embedding a signature process within their application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347350?hidetitle=true)
+
