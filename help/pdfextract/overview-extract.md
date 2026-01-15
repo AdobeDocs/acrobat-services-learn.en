@@ -11,7 +11,7 @@ exl-id: db340959-e7dc-4e46-939d-3b8c29749ebd
 ---
 # Adobe PDF Extract API tutorials
 
-Unlock the structure and content elements of any PDF with a web service powered by Adobe Sensei's machine learning.
+Unlock the structure and content elements of any PDF with a web service powered by Adobe AI.
 
 >[!NOTE]
 >
