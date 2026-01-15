@@ -18,4 +18,3 @@ Learn how to sign up for a Developer Account for Acrobat Sign, which is fully en
 >This tutorial is specifically designed for OEM partners that are building and embedding a signature process within their application.
 
 >[!VIDEO](https://video.tv.adobe.com/v/347347?hidetitle=true)
-

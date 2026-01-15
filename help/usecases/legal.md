@@ -423,4 +423,3 @@ The completed application makes it much easier to tag [legal contract templates]
 Organizations use [!DNL Adobe Acrobat Services] APIs for their completeness and ease of use. Best of all, you can enjoy a [six-month free trial then pay-as-you-go](https://developer.adobe.com/document-services/pricing/main). You only pay for what you use. Plus, PDF Embed API is always free.
 
 Ready to boost productivity by improving your document flow? [Get started](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) today.
-

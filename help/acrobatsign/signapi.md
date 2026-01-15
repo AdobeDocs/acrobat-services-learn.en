@@ -435,4 +435,3 @@ Acrobat Sign API is available through several tiers of [single and multiuser e-s
 Check out the [pay-as-you-go pricing](https://developer.adobe.com/document-services/pricing/main), for when your six-month free Adobe PDF Services API trial ends, and the free Adobe PDF Embed API.
 
 To add exciting features like automatic document creation and document signing to your app, get started with [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html).
-

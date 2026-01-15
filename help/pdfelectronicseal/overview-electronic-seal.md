@@ -52,4 +52,3 @@ The Adobe PDF Electronic Seal API applies an electronic seal to documents at sca
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-

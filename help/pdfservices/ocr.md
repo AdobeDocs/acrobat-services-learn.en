@@ -100,4 +100,3 @@ From here you can simply replace your input and output files located in the samp
 * [FAQ](https://community.adobe.com/t5/contentarchivals/contentarchivedpage/message-uid/10726197) for PDF Services API questions
 
 * [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
-

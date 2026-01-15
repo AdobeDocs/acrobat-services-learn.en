@@ -57,4 +57,3 @@ Unlock the structure and content elements of any PDF with a web service powered 
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-

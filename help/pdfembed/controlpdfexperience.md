@@ -321,4 +321,3 @@ Now you can view the demo.
 ## Additional resources
 
 Additional resources can be found [here](https://developer.adobe.com/document-services/docs/overview).
-

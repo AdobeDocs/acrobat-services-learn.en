@@ -121,4 +121,3 @@ To help you more, here is a list of additional resources:
 * Our live video content, [Paper Clips](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF), also contains videos demonstrating Power Automate usage.
 * The [Adobe Tech Blog](https://medium.com/adobetech/tagged/microsoft-power-automate) has many articles on working with Power Automate.
 * Finally, be sure to consult the core [PDF Services](https://developer.adobe.com/document-services/docs/overview/) documentation as well.
-

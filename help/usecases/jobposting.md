@@ -277,4 +277,3 @@ This hands-on tutorial walked through how to use Node.js with [!DNL Acrobat Serv
 * [PDF Services API](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 To start adding user-friendly document-handling features to your website, [sign up for your free trial](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Adobe PDF Embed API is always free to use and Adobe PDF Services API is free for six months, then it's just \$0.05 per document transaction so you can [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) as your business grows.
-

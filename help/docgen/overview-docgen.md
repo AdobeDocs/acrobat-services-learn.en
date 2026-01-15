@@ -207,4 +207,3 @@ Document Generation API accepts a document template (with template tags) along w
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
