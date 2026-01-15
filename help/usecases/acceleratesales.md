@@ -364,10 +364,11 @@ Interested in learning more? Have a look at some additional ways to use [!DNL Ad
 * Use the sample scripts in the /src folder to see how you can leverage PDF 
 * Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
 * Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using [!DNL Adobe Acrobat Services].
-=======
-*   Learn more from [documentation](https://developer.adobe.com/document-services/docs/overview/)
-*   See more tutorials on Adobe Experience League
-*   Use the sample scripts in the /src folder to see how you can leverage PDF 
-*   Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
-*   Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using [!DNL Adobe Acrobat Services]
 
+=======
+
+* Learn more from [documentation](https://developer.adobe.com/document-services/docs/overview/)
+* See more tutorials on Adobe Experience League
+* Use the sample scripts in the /src folder to see how you can leverage PDF 
+* Follow [Adobe Tech Blog](https://medium.com/adobetech/tagged/adobe-document-cloud) for latest tips and tricks
+* Subscribe to [Paper Clips (the monthly live stream)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) to learn about automating using [!DNL Adobe Acrobat Services]

@@ -102,4 +102,3 @@ To another format.
 * [FAQ](https://community.adobe.com/t5/contentarchivals/contentarchivedpage/message-uid/10726197) for PDF Services API questions
 
 * [Contact us](https://www.adobe.com/go/pdftoolsapi_requestform) for questions on licensing and pricing
-

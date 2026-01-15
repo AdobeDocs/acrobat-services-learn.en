@@ -210,4 +210,3 @@ This hands-on tutorial reviewed how to use PDF Services API and PDF Embed API to
 Now that you know how to annotate PDF reports, archive the annotations, and track the use of PDF reports, you can start implementing these solutions in your own projects.
 
 You can use [!DNL Adobe Acrobat Services] APIs to create user-friendly, interactive PDF experiences on your website. Enjoy using Adobe PDF Services API free for six months then just [pay-as-you-go](https://developer.adobe.com/document-services/pricing/main) (through AWS or a direct agreement) for only \$0.05 per document transaction. Use Adobe PDF Embed free with no time limit. Create a free account to [get started](https://www.adobe.com/go/dcsdks_credentials) today.
-

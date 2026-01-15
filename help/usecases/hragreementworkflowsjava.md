@@ -597,4 +597,3 @@ As you can see, by leveraging the quickstarts, you can implement a simple web fo
 Taking the example further, you can create forms recipients can sign remotely and securely. When you require multiple signatures, you can even automatically route forms to a series of people in a workflow. Your employee onboarding is improved and your HR department will love you.
 
 Check out [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) to add a multitude of PDF capabilities to your applications today.
-

@@ -12,4 +12,3 @@ exl-id: 15cb4016-6f92-401f-bda5-088ffd43588a
 Learn how to add tables and list tags to Microsoft Word templates using Adobe Document Generation Tagger to dynamically add table or list rows based on data using Adobe Document Generation API.
 
 >[!VIDEO](https://video.tv.adobe.com/v/332115?hidetitle=true)
-

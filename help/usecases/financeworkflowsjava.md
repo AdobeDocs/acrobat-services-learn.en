@@ -194,4 +194,3 @@ This hands-on tutorial explored the [[!DNL Adobe Acrobat Services]](https://deve
 Explore [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) and see what Adobe PDF Services can do for your business. To learn about more features available in the SDK, consult the [GitHub repository](https://github.com/adobe/pdftools-java-sdk-samples) for the samples, and explore how [PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed) can help you quickly show PDFs inside your applications.
 
 To easily combine and manipulate documents, creating helpful PDF reports for your financial clients, start by signing up for your free [Adobe developer account](https://developer.adobe.com/document-services/homepage/) today.
-

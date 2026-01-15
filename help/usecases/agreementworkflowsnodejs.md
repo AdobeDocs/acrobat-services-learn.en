@@ -514,5 +514,3 @@ As you can see from the quick starts and the provided code, it is easy to implem
 To discover the required scopes for a call, or to see how the call is built, you can build sample calls from the [Rest API documentation](https://secure.na4.adobesign.com/public/docs/restapi/v6). The [Quickstarts](https://github.com/adobe/pdftools-node-sdk-samples) also demonstrate other functionality and file formats the [!DNL Adobe Acrobat Services] APIs processes.
 
 You can add a multitude of PDF capabilities to your applications, enabling your users to quickly and easily view and sign their documents and much more. To start, check out [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) today.
-
-

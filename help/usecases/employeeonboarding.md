@@ -203,4 +203,3 @@ The template can be uploaded to the Acrobat Sign dashboard and then used for new
 Everything described in this article can be tested right now. The [!DNL Adobe Acrobat Services] API [free trial](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) currently gives you 1,000 free requests over a six-month period. Acrobat Sign's [free trial](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) lets you send watermarked agreements for testing purposes. 
 
 Have questions? The [support forum](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK) is monitored by Adobe developers and support folks every day. FInally, for more inspiration, be sure to catch the next [Paper Clips](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) episode. There are regular live meetings with news, demos, and talks with customers.
-

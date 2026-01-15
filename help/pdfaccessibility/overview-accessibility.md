@@ -52,4 +52,3 @@ This AI-powered API automatically tag tables, paragraphs, lists, headings and mo
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
