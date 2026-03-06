@@ -2,7 +2,7 @@
 cloud: Document Cloud
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/acrobat-services-learn.en
-index: yes
+index: true
 ---
 
 # Metadata for internal use
