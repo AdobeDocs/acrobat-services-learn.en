@@ -21,7 +21,8 @@ The Document Generation API creates PDF and Word documents from Word templates a
 ## Generating documents
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/docgen/automate-doc-gen
   {target = _self}

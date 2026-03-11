@@ -13,7 +13,8 @@ exl-id: 74198c86-505b-4321-923e-0079e3d767cd
 The Adobe PDF Electronic Seal API applies an electronic seal to documents at scale using a certificate issued by certain TSPs (Trust Service Providers) on [Adobe's Approved Trust List (AATL)](https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html). The electronic seal helps verify the identity and integrity of documents. This can be used to e-seal documents at scale and is included with PDF Services API.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/eseal/automatically-apply-electronic-seal
   {target = _self}

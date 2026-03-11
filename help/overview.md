@@ -23,7 +23,8 @@ exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
 The latter two APIs and their SDKs are bundled into [!DNL Adobe PDF Services API] as part of a paid offering. [!DNL PDF Embed API] is a free offering. These APIs automate the generation, manipulation, and transformation of document content via a set of modern cloud-based web services. They help you deliver simpler, faster, and branded experiences so that you control user interaction with your documents, streamline PDF workflows and promote usage and retention. These tutorials help you get up-to-speed delivering simpler, faster, branded experiences with the [!DNL Adobe Acrobat Services] APIs.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/overview-pdfservices
   {target = _self}
