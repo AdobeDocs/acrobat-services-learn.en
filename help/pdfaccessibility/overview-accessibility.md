@@ -13,7 +13,8 @@ exl-id: dfd018a7-8e1f-4c00-9e1f-6b7b8435fbfa
 This AI-powered API automatically tag tables, paragraphs, lists, headings and more to improve the reading experience of native or scanned PDFs with assistive technologies. It also identifies the reading order to ensure the logical flow of information with multiple columns or elements across pages. Apply this to document backlogs or new document workflows and move towards compliance with greater ease.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags
   {target = _self}

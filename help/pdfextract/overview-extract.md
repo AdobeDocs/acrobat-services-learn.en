@@ -18,7 +18,8 @@ Unlock the structure and content elements of any PDF with a web service powered 
 >The PDF Extract API is included in the PDF Services API.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
   {target = _self}
