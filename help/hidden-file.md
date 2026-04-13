@@ -1,8 +1,7 @@
 ---
 title: Hidden file
 description: Hidden file for testing purposes
-hide: yes
-hidefromtoc: yes
+hide: true
 ---
 # Hidden file
 
