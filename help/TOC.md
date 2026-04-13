@@ -72,5 +72,5 @@ auto-video-transcripts: true
   + [Managing financial document workflows in Java](/help/usecases/financeworkflowsjava.md)
   + [Handling invoices](/help/usecases/invoices.md)
   + [Digital document publishing](/help/usecases/ddppdfembedapi.md)
-+ [Hidden file for testing](/help/hidden-file.md)
++ {hide-from-toc} [Hidden file for testing](/help/hidden-file.md)
 
