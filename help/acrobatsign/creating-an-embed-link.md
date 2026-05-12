@@ -8,6 +8,16 @@ type: Tutorial
 jira: KT-11073
 thumbnail: KT-11073.jpg
 exl-id: 6fc50cc7-bb65-4d4b-9e4f-3b4a3ab8adab
+TQID: https://experienceleague.adobe.com/MqyuUhP9aYTmB-S-BIMemYzH-l0nHcvyoTnyCPAVUdM
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+    internal-label: Acrobat Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Creating an embed link
 

@@ -8,6 +8,18 @@ type: Tutorial
 jira: KT-8117
 thumbnail: KT-8117.jpg
 exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78
+TQID: https://experienceleague.adobe.com/WA-l3DkC5MtZNgUHMFArxJbs4a1MJO8GfM60ipRdQXA
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+    internal-label: Acrobat Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Adobe PDF Embed API tutorials
 
