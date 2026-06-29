@@ -272,15 +272,15 @@ In your OfferLetter-Template, click the new **Document Generation** button. A si
 
 ![Screenshot of letter and code](assets/offer_3.png)
 
-Click the **Generate Tags** button. You get a drop-down menu of tags to insert into the appropriate points in the document. Highlight the first X in the document and select **[!UICONTROL firstname]**. Click **[!UICONTROL Insert Text]** and "Dear X," is changed to "Dear ```{{`offer_letter`.firstname}}```,". This tag is the correct format for `documentMergeOperation`. Go ahead and add the remaining three tags at the appropriate Xs. Don't forget to save OfferLetter-template.docx. It should look like this:
+Click the **Generate Tags** button. You get a drop-down menu of tags to insert into the appropriate points in the document. Highlight the first X in the document and select **[!UICONTROL firstname]**. Click **[!UICONTROL Insert Text]** and "Dear X," is changed to "Dear ``{{`offer_letter`.firstname}}``,". This tag is the correct format for `documentMergeOperation`. Go ahead and add the remaining three tags at the appropriate Xs. Don't forget to save OfferLetter-template.docx. It should look like this:
 
-Dear ```{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}```,
+Dear ``{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}``,
 
-We are delighted to offer you a position for $ ```{{`offer_letter`.salary}}``` a year. Your starting date will be ```{{`offer_letter`.startdate}}```.
+We are delighted to offer you a position for $ ``{{`offer_letter`.salary}}`` a year. Your starting date will be ``{{`offer_letter`.startdate}}``.
 
 Welcome
 
-Now the Word template has markup that matches the JSON format. For example, ```{{`offer_letter`.`firstname`}}``` at the start of Word document is replaced by the value in the "firstname" section of the JSON data.
+Now the Word template has markup that matches the JSON format. For example, ``{{`offer_letter`.`firstname`}}`` at the start of Word document is replaced by the value in the "firstname" section of the JSON data.
 
 Back to your `generateLetter` function. To secure your REST call, make a new file titled pdftools-api-credentials.json in the project root. Paste in the following JSON data and adjust it with details from the Service Account (JWT) section of your [Developer Console](https://developer.adobe.com/console/).
  
