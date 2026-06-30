@@ -124,7 +124,7 @@ First, you set up the folder structure for the Node.js application. In this exam
 
 ### Directory structure
 
-Create a folder called AdobeLegalContractAPI and open it in an editor of your choice. Create a basic Node.js application with the ```npm init``` command using the folder structure below:
+Create a folder called AdobeLegalContractAPI and open it in an editor of your choice. Create a basic Node.js application with the `npm init` command using the folder structure below:
  
 ```
 ###Directory Structure
@@ -214,7 +214,7 @@ You require credentials to use [!DNL Acrobat Services] APIs (different from your
 
 Once the signup process is completed, a code sample automatically downloads to your PC to help you start. You can extract this code sample and follow along. Don't forget to copy the pdftools-api-credentials.json and private.key files from the extracted code sample to the Node.js project's root directory. The credentials are required before you can access [!DNL Acrobat Services] API endpoints. You can also download SDK samples with your personalized credentials so you don't have to update the key in the sample code.
 
-Now, install Adobe PDF Services Node SDK by running the ```npm install \--save @adobe/documentservices-pdftools-node-sdk``` command using the terminal in the root directory of your application. When successfully installed, you can use [!DNL Acrobat Services] APIs to manipulate documents in your application.
+Now, install Adobe PDF Services Node SDK by running the `npm install \--save @adobe/documentservices-pdftools-node-sdk` command using the terminal in the root directory of your application. When successfully installed, you can use [!DNL Acrobat Services] APIs to manipulate documents in your application.
 
 ## Creating a PDF document
 
