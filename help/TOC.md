@@ -2,8 +2,6 @@
 user-guide-title: Adobe Acrobat Services
 breadcrumb-title: Acrobat Services
 user-guide-description: Learn more about [!DNL Adobe Acrobat Services]
-solution: Acrobat Services
-feature-set: Acrobat Services
 feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API, PDF Accessibility Auto-Tag API, PDF Electronic Seal API, PDF Extract API
 role: Developer
 level: Beginner, Intermediate, Experienced

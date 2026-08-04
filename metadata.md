@@ -1,5 +1,11 @@
 ---
 cloud: Document Cloud
+solution: Acrobat Services
+feature-set: Acrobat Services
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+    internal-label: Acrobat Services
+usetq: true
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/acrobat-services-learn.en
 index: true
